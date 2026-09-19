@@ -1,0 +1,1 @@
+local s,d=arg[1],arg[2]; if not s or not d then print("Usage: file-copy-safe <source> <destination>") return end; if fs.exists(d) then print("Destination exists; nothing changed.") return end; fs.copy(s,d); print("Copied.")
