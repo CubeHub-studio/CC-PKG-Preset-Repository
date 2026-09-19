@@ -214,6 +214,174 @@
           }
         ]
       }
+    },
+    "calendar": {
+      "name": "calendar",
+      "description": "Prints a monthly calendar.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/calendar/"
+        }
+      },
+      "manifest": {
+        "name": "calendar",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Prints a monthly calendar.",
+        "files": [
+          {
+            "path": "/calendar.lua",
+            "source": "calendar.lua"
+          }
+        ]
+      }
+    },
+    "file-info": {
+      "name": "file-info",
+      "description": "Displays file metadata.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/file-info/"
+        }
+      },
+      "manifest": {
+        "name": "file-info",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Displays file metadata.",
+        "files": [
+          {
+            "path": "/file-info.lua",
+            "source": "file-info.lua"
+          }
+        ]
+      }
+    },
+    "tree": {
+      "name": "tree",
+      "description": "Prints a recursive filesystem tree.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/tree/"
+        }
+      },
+      "manifest": {
+        "name": "tree",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Prints a recursive filesystem tree.",
+        "files": [
+          {
+            "path": "/tree.lua",
+            "source": "tree.lua"
+          }
+        ]
+      }
+    },
+    "find": {
+      "name": "find",
+      "description": "Finds files by name.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/find/"
+        }
+      },
+      "manifest": {
+        "name": "find",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Finds files by name.",
+        "files": [
+          {
+            "path": "/find.lua",
+            "source": "find.lua"
+          }
+        ]
+      }
+    },
+    "du": {
+      "name": "du",
+      "description": "Calculates recursive file size.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/du/"
+        }
+      },
+      "manifest": {
+        "name": "du",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Calculates recursive file size.",
+        "files": [
+          {
+            "path": "/du.lua",
+            "source": "du.lua"
+          }
+        ]
+      }
+    },
+    "env-info": {
+      "name": "env-info",
+      "description": "Shows shell environment information.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/env-info/"
+        }
+      },
+      "manifest": {
+        "name": "env-info",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows shell environment information.",
+        "files": [
+          {
+            "path": "/env-info.lua",
+            "source": "env-info.lua"
+          }
+        ]
+      }
+    },
+    "process-list": {
+      "name": "process-list",
+      "description": "Lists active multishell tabs.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/process-list/"
+        }
+      },
+      "manifest": {
+        "name": "process-list",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Lists active multishell tabs.",
+        "files": [
+          {
+            "path": "/process-list.lua",
+            "source": "process-list.lua"
+          }
+        ]
+      }
+    },
+    "settings-list": {
+      "name": "settings-list",
+      "description": "Lists configured CraftOS settings.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/settings-list/"
+        }
+      },
+      "manifest": {
+        "name": "settings-list",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Lists configured CraftOS settings.",
+        "files": [
+          {
+            "path": "/settings-list.lua",
+            "source": "settings-list.lua"
+          }
+        ]
+      }
     }
   }
 }
