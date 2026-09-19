@@ -3973,6 +3973,174 @@
           }
         ]
       }
+    },
+    "os-info": {
+      "name": "os-info",
+      "description": "Shows operating environment details.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/os-info/"
+        }
+      },
+      "manifest": {
+        "name": "os-info",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows operating environment details.",
+        "files": [
+          {
+            "path": "/os-info.lua",
+            "source": "os-info.lua"
+          }
+        ]
+      }
+    },
+    "term-cursor": {
+      "name": "term-cursor",
+      "description": "Shows cursor position.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/term-cursor/"
+        }
+      },
+      "manifest": {
+        "name": "term-cursor",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows cursor position.",
+        "files": [
+          {
+            "path": "/term-cursor.lua",
+            "source": "term-cursor.lua"
+          }
+        ]
+      }
+    },
+    "term-cursor-reset": {
+      "name": "term-cursor-reset",
+      "description": "Moves cursor to the top-left.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/term-cursor-reset/"
+        }
+      },
+      "manifest": {
+        "name": "term-cursor-reset",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Moves cursor to the top-left.",
+        "files": [
+          {
+            "path": "/term-cursor-reset.lua",
+            "source": "term-cursor-reset.lua"
+          }
+        ]
+      }
+    },
+    "text-wrap": {
+      "name": "text-wrap",
+      "description": "Wraps text to terminal width.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/text-wrap/"
+        }
+      },
+      "manifest": {
+        "name": "text-wrap",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Wraps text to terminal width.",
+        "files": [
+          {
+            "path": "/text-wrap.lua",
+            "source": "text-wrap.lua"
+          }
+        ]
+      }
+    },
+    "table-sort": {
+      "name": "table-sort",
+      "description": "Sorts arguments alphabetically.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/table-sort/"
+        }
+      },
+      "manifest": {
+        "name": "table-sort",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Sorts arguments alphabetically.",
+        "files": [
+          {
+            "path": "/table-sort.lua",
+            "source": "table-sort.lua"
+          }
+        ]
+      }
+    },
+    "table-count": {
+      "name": "table-count",
+      "description": "Counts supplied arguments.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/table-count/"
+        }
+      },
+      "manifest": {
+        "name": "table-count",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Counts supplied arguments.",
+        "files": [
+          {
+            "path": "/table-count.lua",
+            "source": "table-count.lua"
+          }
+        ]
+      }
+    },
+    "math-pi": {
+      "name": "math-pi",
+      "description": "Prints pi and common constants.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/math-pi/"
+        }
+      },
+      "manifest": {
+        "name": "math-pi",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Prints pi and common constants.",
+        "files": [
+          {
+            "path": "/math-pi.lua",
+            "source": "math-pi.lua"
+          }
+        ]
+      }
+    },
+    "math-random": {
+      "name": "math-random",
+      "description": "Generates a random integer.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/math-random/"
+        }
+      },
+      "manifest": {
+        "name": "math-random",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Generates a random integer.",
+        "files": [
+          {
+            "path": "/math-random.lua",
+            "source": "math-random.lua"
+          }
+        ]
+      }
     }
   }
 }
