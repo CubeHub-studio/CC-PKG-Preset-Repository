@@ -1,0 +1,73 @@
+{
+  "name": "monitor-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for monitor tools.",
+  "files": [
+    {
+      "path": "/monitor-tools.lua",
+      "source": "monitor-tools.lua"
+    },
+    {
+      "path": "/monitor-info/monitor-info.lua",
+      "source": "monitor-info/monitor-info.lua"
+    },
+    {
+      "path": "/monitor-clear/monitor-clear.lua",
+      "source": "monitor-clear/monitor-clear.lua"
+    },
+    {
+      "path": "/monitor-clock/monitor-clock.lua",
+      "source": "monitor-clock/monitor-clock.lua"
+    },
+    {
+      "path": "/monitor-motd/monitor-motd.lua",
+      "source": "monitor-motd/monitor-motd.lua"
+    },
+    {
+      "path": "/monitor-color/monitor-color.lua",
+      "source": "monitor-color/monitor-color.lua"
+    },
+    {
+      "path": "/monitor-touch/monitor-touch.lua",
+      "source": "monitor-touch/monitor-touch.lua"
+    },
+    {
+      "path": "/monitor-size/monitor-size.lua",
+      "source": "monitor-size/monitor-size.lua"
+    },
+    {
+      "path": "/monitor-write/monitor-write.lua",
+      "source": "monitor-write/monitor-write.lua"
+    },
+    {
+      "path": "/monitor-log/monitor-log.lua",
+      "source": "monitor-log/monitor-log.lua"
+    },
+    {
+      "path": "/monitor-button/monitor-button.lua",
+      "source": "monitor-button/monitor-button.lua"
+    },
+    {
+      "path": "/monitor-system/monitor-system.lua",
+      "source": "monitor-system/monitor-system.lua"
+    },
+    {
+      "path": "/monitor-energy/monitor-energy.lua",
+      "source": "monitor-energy/monitor-energy.lua"
+    },
+    {
+      "path": "/monitor-text/monitor-text.lua",
+      "source": "monitor-text/monitor-text.lua"
+    },
+    {
+      "path": "/monitor-center-text/monitor-center-text.lua",
+      "source": "monitor-center-text/monitor-center-text.lua"
+    },
+    {
+      "path": "/monitor-test/monitor-test.lua",
+      "source": "monitor-test/monitor-test.lua"
+    }
+  ],
+  "dependencies": []
+}
