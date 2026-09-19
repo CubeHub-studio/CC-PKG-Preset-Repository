@@ -1,0 +1,1 @@
+print("Watching peripherals. Press Q."); while true do local e,s=os.pullEvent(); if e=="peripheral" then print("Attached: "..s) elseif e=="peripheral_detach" then print("Detached: "..s) elseif e=="key" and s==keys.q then break end end
