@@ -1,0 +1,13 @@
+{
+  "name": "vector-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked vector utilities.",
+  "files": [
+    {
+      "path": "/vector-tools.lua",
+      "source": "packages/vector-tools/vector-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
