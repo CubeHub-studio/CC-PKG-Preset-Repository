@@ -1,0 +1,1 @@
+print("CC:Tweaked does not expose a general system clipboard API."); print("Use Ctrl+V in a read() prompt to paste text.")
