@@ -1,0 +1,1 @@
+local a={...}; if a[1]=="label" and a[2] then os.setComputerLabel(table.concat(a," ",2)); print("Label set: "..os.getComputerLabel()) else print("ID: "..os.getComputerID()); print("Label: "..tostring(os.getComputerLabel() or "none")); print("CraftOS: "..os.version()); end
