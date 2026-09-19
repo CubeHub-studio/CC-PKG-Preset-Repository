@@ -6,7 +6,7 @@
   "files": [
     {
       "path": "/repeat-run/repeat-run.lua",
-      "source": "repeat-run/repeat-run.lua"
+      "source": "packages/utility-tools/repeat-run/repeat-run.lua"
     }
   ]
 }
