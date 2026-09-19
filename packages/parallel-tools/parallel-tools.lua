@@ -1,0 +1,1 @@
+local a={...}; if #a==0 then print("Usage: parallel-tools <program> [program...]"); return end; local f={}; for i,p in ipairs(a) do f[i]=function() shell.run(p) end end; parallel.waitForAll(table.unpack(f)); print("All tasks finished.")
