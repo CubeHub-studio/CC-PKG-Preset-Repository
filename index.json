@@ -2146,6 +2146,174 @@
           }
         ]
       }
+    },
+    "turtle-place": {
+      "name": "turtle-place",
+      "description": "Places selected block forward.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-place/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-place",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Places selected block forward.",
+        "files": [
+          {
+            "path": "/turtle-place.lua",
+            "source": "turtle-place.lua"
+          }
+        ]
+      }
+    },
+    "turtle-place-up": {
+      "name": "turtle-place-up",
+      "description": "Places selected block upward.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-place-up/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-place-up",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Places selected block upward.",
+        "files": [
+          {
+            "path": "/turtle-place-up.lua",
+            "source": "turtle-place-up.lua"
+          }
+        ]
+      }
+    },
+    "turtle-place-down": {
+      "name": "turtle-place-down",
+      "description": "Places selected block downward.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-place-down/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-place-down",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Places selected block downward.",
+        "files": [
+          {
+            "path": "/turtle-place-down.lua",
+            "source": "turtle-place-down.lua"
+          }
+        ]
+      }
+    },
+    "turtle-suck": {
+      "name": "turtle-suck",
+      "description": "Sucks items forward.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-suck/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-suck",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Sucks items forward.",
+        "files": [
+          {
+            "path": "/turtle-suck.lua",
+            "source": "turtle-suck.lua"
+          }
+        ]
+      }
+    },
+    "turtle-suck-up": {
+      "name": "turtle-suck-up",
+      "description": "Sucks items from above.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-suck-up/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-suck-up",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Sucks items from above.",
+        "files": [
+          {
+            "path": "/turtle-suck-up.lua",
+            "source": "turtle-suck-up.lua"
+          }
+        ]
+      }
+    },
+    "turtle-suck-down": {
+      "name": "turtle-suck-down",
+      "description": "Sucks items from below.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-suck-down/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-suck-down",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Sucks items from below.",
+        "files": [
+          {
+            "path": "/turtle-suck-down.lua",
+            "source": "turtle-suck-down.lua"
+          }
+        ]
+      }
+    },
+    "turtle-drop": {
+      "name": "turtle-drop",
+      "description": "Drops items forward.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-drop/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-drop",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Drops items forward.",
+        "files": [
+          {
+            "path": "/turtle-drop.lua",
+            "source": "turtle-drop.lua"
+          }
+        ]
+      }
+    },
+    "turtle-drop-up": {
+      "name": "turtle-drop-up",
+      "description": "Drops items upward.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-drop-up/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-drop-up",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Drops items upward.",
+        "files": [
+          {
+            "path": "/turtle-drop-up.lua",
+            "source": "turtle-drop-up.lua"
+          }
+        ]
+      }
     }
   }
 }
