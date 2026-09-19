@@ -1,0 +1,1 @@
+if not turtle then print("Not a turtle.") return end; local s=arg[1] or "forward"; local f={forward=turtle.detect,left=turtle.detect,right=turtle.detect,up=turtle.detectUp,down=turtle.detectDown}; if s=="forward" then print(turtle.detect()) elseif s=="up" then print(turtle.detectUp()) elseif s=="down" then print(turtle.detectDown()) else print("Use forward, up, or down.") end
