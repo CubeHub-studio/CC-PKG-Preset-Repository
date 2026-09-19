@@ -6,23 +6,23 @@
   "files": [
     {
       "path": "/text-tools.lua",
-      "source": "text-tools.lua"
+      "source": "packages/text-tools/text-tools.lua"
     },
     {
       "path": "/url-encode/url-encode.lua",
-      "source": "url-encode/url-encode.lua"
+      "source": "packages/text-tools/url-encode/url-encode.lua"
     },
     {
       "path": "/url-decode/url-decode.lua",
-      "source": "url-decode/url-decode.lua"
+      "source": "packages/text-tools/url-decode/url-decode.lua"
     },
     {
       "path": "/text-wrap/text-wrap.lua",
-      "source": "text-wrap/text-wrap.lua"
+      "source": "packages/text-tools/text-wrap/text-wrap.lua"
     },
     {
       "path": "/url-status/url-status.lua",
-      "source": "url-status/url-status.lua"
+      "source": "packages/text-tools/url-status/url-status.lua"
     }
   ]
 }
