@@ -1,0 +1,1 @@
+for _,s in ipairs(peripheral.getNames()) do if peripheral.getType(s)=="computer" then local p=peripheral.wrap(s); print(s.." id="..p.getID().." label="..tostring(p.getLabel()).." on="..tostring(p.isOn())) end end
