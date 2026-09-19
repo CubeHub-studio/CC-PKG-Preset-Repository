@@ -1,0 +1,1 @@
+local msg=table.concat(arg," "); if msg=="" then msg="CC-PKG" end; for _,s in ipairs(peripheral.getNames()) do if peripheral.getType(s)=="monitor" then local m=peripheral.wrap(s); m.clear(); m.setCursorPos(1,1); m.write(msg) end end
