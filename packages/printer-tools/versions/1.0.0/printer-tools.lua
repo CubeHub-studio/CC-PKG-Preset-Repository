@@ -1,0 +1,1 @@
+for _,s in ipairs(peripheral.getNames()) do if peripheral.getType(s)=="printer" then local ink=peripheral.call(s,"getInkLevel") local paper=peripheral.call(s,"getPaperLevel") print(s.." ink="..ink.." paper="..paper) end end
