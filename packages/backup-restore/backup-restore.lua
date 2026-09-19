@@ -1,0 +1,1 @@
+local s,d=arg[1],arg[2]; if not s or not d then print("Usage: backup-restore <backup> <destination>") return end; if not fs.exists(s) then print("Backup not found.") return end; fs.copy(s,d); print("Restored.")
