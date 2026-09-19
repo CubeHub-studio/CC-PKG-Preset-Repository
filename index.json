@@ -3154,6 +3154,174 @@
           }
         ]
       }
+    },
+    "term-clear": {
+      "name": "term-clear",
+      "description": "Clears the terminal.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/term-clear/"
+        }
+      },
+      "manifest": {
+        "name": "term-clear",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Clears the terminal.",
+        "files": [
+          {
+            "path": "/term-clear.lua",
+            "source": "term-clear.lua"
+          }
+        ]
+      }
+    },
+    "term-reset": {
+      "name": "term-reset",
+      "description": "Resets terminal colors.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/term-reset/"
+        }
+      },
+      "manifest": {
+        "name": "term-reset",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Resets terminal colors.",
+        "files": [
+          {
+            "path": "/term-reset.lua",
+            "source": "term-reset.lua"
+          }
+        ]
+      }
+    },
+    "term-color": {
+      "name": "term-color",
+      "description": "Reports terminal color support.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/term-color/"
+        }
+      },
+      "manifest": {
+        "name": "term-color",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Reports terminal color support.",
+        "files": [
+          {
+            "path": "/term-color.lua",
+            "source": "term-color.lua"
+          }
+        ]
+      }
+    },
+    "term-size-set": {
+      "name": "term-size-set",
+      "description": "Changes terminal text scale.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/term-size-set/"
+        }
+      },
+      "manifest": {
+        "name": "term-size-set",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Changes terminal text scale.",
+        "files": [
+          {
+            "path": "/term-size-set.lua",
+            "source": "term-size-set.lua"
+          }
+        ]
+      }
+    },
+    "term-center": {
+      "name": "term-center",
+      "description": "Centers a message.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/term-center/"
+        }
+      },
+      "manifest": {
+        "name": "term-center",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Centers a message.",
+        "files": [
+          {
+            "path": "/term-center.lua",
+            "source": "term-center.lua"
+          }
+        ]
+      }
+    },
+    "progress": {
+      "name": "progress",
+      "description": "Displays a simple progress bar.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/progress/"
+        }
+      },
+      "manifest": {
+        "name": "progress",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Displays a simple progress bar.",
+        "files": [
+          {
+            "path": "/progress.lua",
+            "source": "progress.lua"
+          }
+        ]
+      }
+    },
+    "spinner": {
+      "name": "spinner",
+      "description": "Displays a terminal spinner.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/spinner/"
+        }
+      },
+      "manifest": {
+        "name": "spinner",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Displays a terminal spinner.",
+        "files": [
+          {
+            "path": "/spinner.lua",
+            "source": "spinner.lua"
+          }
+        ]
+      }
+    },
+    "menu-demo": {
+      "name": "menu-demo",
+      "description": "Shows a keyboard menu.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/menu-demo/"
+        }
+      },
+      "manifest": {
+        "name": "menu-demo",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows a keyboard menu.",
+        "files": [
+          {
+            "path": "/menu-demo.lua",
+            "source": "menu-demo.lua"
+          }
+        ]
+      }
     }
   }
 }
