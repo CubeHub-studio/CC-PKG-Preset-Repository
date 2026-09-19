@@ -1,0 +1,1 @@
+local p=arg[1] or "settings.txt"; local f=fs.open(p,"w"); for _,k in ipairs(settings.getNames()) do f.writeLine(k.."="..textutils.serialize(settings.get(k))) end; f.close(); print("Exported to "..p)
