@@ -1,0 +1,1 @@
+local t=arg[1]; if not t then print("Usage: find <term>") return end; local function walk(p) for _,n in ipairs(fs.list(p)) do local q=fs.combine(p,n); if n:lower():find(t:lower(),1,true) then print(q) end; if fs.isDir(q) then walk(q) end end end walk("/")
