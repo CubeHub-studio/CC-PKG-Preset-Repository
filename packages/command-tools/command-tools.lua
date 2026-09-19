@@ -1,0 +1,1 @@
+local a={...}; local c=peripheral.find("command"); if not c then print("No command peripheral found.") return end; local cmd=table.concat(a," "); if cmd=="" then print("Command: "..c.getCommand()); return end; c.setCommand(cmd); local ok,e=c.runCommand(); print(ok and "Command executed." or ("Command failed: "..tostring(e)))
