@@ -1,0 +1,3 @@
+local m=peripheral.find("monitor"); if not m then print("No monitor."); return end
+m.setTextScale(.5)
+while true do m.clear(); m.setCursorPos(1,1); m.write("CC-PKG System"); m.setCursorPos(1,3); m.write("Computer: "..os.getComputerID()); m.setCursorPos(1,4); m.write("Label: "..tostring(os.getComputerLabel() or "(none)")); m.setCursorPos(1,5); m.write("Uptime: "..math.floor(os.clock()).."s"); m.setCursorPos(1,6); m.write("Peripherals: "..#peripheral.getNames()); os.sleep(2) end

@@ -4729,6 +4729,195 @@
           }
         ]
       }
+    },
+    "inventory-balance": {
+      "name": "inventory-balance",
+      "description": "Practical CC:Tweaked inventory balance utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/inventory-balance/"
+        }
+      },
+      "manifest": {
+        "name": "inventory-balance",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked inventory balance utility.",
+        "files": [
+          {
+            "path": "/inventory-balance.lua",
+            "source": "inventory-balance.lua"
+          }
+        ]
+      }
+    },
+    "inventory-monitor": {
+      "name": "inventory-monitor",
+      "description": "Practical CC:Tweaked inventory monitor utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/inventory-monitor/"
+        }
+      },
+      "manifest": {
+        "name": "inventory-monitor",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked inventory monitor utility.",
+        "files": [
+          {
+            "path": "/inventory-monitor.lua",
+            "source": "inventory-monitor.lua"
+          }
+        ]
+      }
+    },
+    "inventory-duplicates": {
+      "name": "inventory-duplicates",
+      "description": "Practical CC:Tweaked inventory duplicates utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/inventory-duplicates/"
+        }
+      },
+      "manifest": {
+        "name": "inventory-duplicates",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked inventory duplicates utility.",
+        "files": [
+          {
+            "path": "/inventory-duplicates.lua",
+            "source": "inventory-duplicates.lua"
+          }
+        ]
+      }
+    },
+    "energy-alert": {
+      "name": "energy-alert",
+      "description": "Practical CC:Tweaked energy alert utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/energy-alert/"
+        }
+      },
+      "manifest": {
+        "name": "energy-alert",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked energy alert utility.",
+        "files": [
+          {
+            "path": "/energy-alert.lua",
+            "source": "energy-alert.lua"
+          }
+        ]
+      }
+    },
+    "energy-report": {
+      "name": "energy-report",
+      "description": "Practical CC:Tweaked energy report utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/energy-report/"
+        }
+      },
+      "manifest": {
+        "name": "energy-report",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked energy report utility.",
+        "files": [
+          {
+            "path": "/energy-report.lua",
+            "source": "energy-report.lua"
+          }
+        ]
+      }
+    },
+    "fluid-report": {
+      "name": "fluid-report",
+      "description": "Practical CC:Tweaked fluid report utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/fluid-report/"
+        }
+      },
+      "manifest": {
+        "name": "fluid-report",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked fluid report utility.",
+        "files": [
+          {
+            "path": "/fluid-report.lua",
+            "source": "fluid-report.lua"
+          }
+        ]
+      }
+    },
+    "peripheral-call": {
+      "name": "peripheral-call",
+      "description": "Practical CC:Tweaked peripheral call utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/peripheral-call/"
+        }
+      },
+      "manifest": {
+        "name": "peripheral-call",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked peripheral call utility.",
+        "files": [
+          {
+            "path": "/peripheral-call.lua",
+            "source": "peripheral-call.lua"
+          }
+        ]
+      }
+    },
+    "monitor-system": {
+      "name": "monitor-system",
+      "description": "Practical CC:Tweaked monitor system utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-system/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-system",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked monitor system utility.",
+        "files": [
+          {
+            "path": "/monitor-system.lua",
+            "source": "monitor-system.lua"
+          }
+        ]
+      }
+    },
+    "monitor-energy": {
+      "name": "monitor-energy",
+      "description": "Practical CC:Tweaked monitor energy utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-energy/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-energy",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked monitor energy utility.",
+        "files": [
+          {
+            "path": "/monitor-energy.lua",
+            "source": "monitor-energy.lua"
+          }
+        ]
+      }
     }
   }
 }
