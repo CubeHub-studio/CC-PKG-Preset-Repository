@@ -1,0 +1,12 @@
+{
+  "name": "printer-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Lists attached printers and reports their status.",
+  "files": [
+    {
+      "path": "/printer-tools.lua",
+      "source": "printer-tools.lua"
+    }
+  ]
+}
