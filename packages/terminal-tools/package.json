@@ -1,0 +1,56 @@
+{
+  "name": "terminal-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for terminal tools.",
+  "files": [
+    {
+      "path": "/motd/motd.lua",
+      "source": "motd/motd.lua"
+    },
+    {
+      "path": "/color-test/color-test.lua",
+      "source": "color-test/color-test.lua"
+    },
+    {
+      "path": "/term-size/term-size.lua",
+      "source": "term-size/term-size.lua"
+    },
+    {
+      "path": "/term-clear/term-clear.lua",
+      "source": "term-clear/term-clear.lua"
+    },
+    {
+      "path": "/term-reset/term-reset.lua",
+      "source": "term-reset/term-reset.lua"
+    },
+    {
+      "path": "/term-color/term-color.lua",
+      "source": "term-color/term-color.lua"
+    },
+    {
+      "path": "/term-size-set/term-size-set.lua",
+      "source": "term-size-set/term-size-set.lua"
+    },
+    {
+      "path": "/term-center/term-center.lua",
+      "source": "term-center/term-center.lua"
+    },
+    {
+      "path": "/term-cursor/term-cursor.lua",
+      "source": "term-cursor/term-cursor.lua"
+    },
+    {
+      "path": "/term-box/term-box.lua",
+      "source": "term-box/term-box.lua"
+    },
+    {
+      "path": "/terminal-banner/terminal-banner.lua",
+      "source": "terminal-banner/terminal-banner.lua"
+    },
+    {
+      "path": "/term-info/term-info.lua",
+      "source": "term-info/term-info.lua"
+    }
+  ]
+}

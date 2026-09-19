@@ -1,9 +1,32 @@
 {
   "name": "printer-tools",
-  "description": "Lists attached printers and reports their status.",
-  "versions": {
-    "1.0.0": {
-      "path": "packages/printer-tools/versions/1.0.0/"
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for printer tools.",
+  "files": [
+    {
+      "path": "/printer-test/printer-test.lua",
+      "source": "printer-test/printer-test.lua"
+    },
+    {
+      "path": "/printer-info/printer-info.lua",
+      "source": "printer-info/printer-info.lua"
+    },
+    {
+      "path": "/printer-page/printer-page.lua",
+      "source": "printer-page/printer-page.lua"
+    },
+    {
+      "path": "/printer-end/printer-end.lua",
+      "source": "printer-end/printer-end.lua"
+    },
+    {
+      "path": "/printer-title/printer-title.lua",
+      "source": "printer-title/printer-title.lua"
+    },
+    {
+      "path": "/printer-status/printer-status.lua",
+      "source": "printer-status/printer-status.lua"
     }
-  }
+  ]
 }

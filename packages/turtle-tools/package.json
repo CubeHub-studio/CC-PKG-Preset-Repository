@@ -1,0 +1,36 @@
+{
+  "name": "turtle-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for turtle tools.",
+  "files": [
+    {
+      "path": "/turtle-tools.lua",
+      "source": "turtle-tools.lua"
+    },
+    {
+      "path": "/turtle-route/turtle-route.lua",
+      "source": "turtle-route/turtle-route.lua"
+    },
+    {
+      "path": "/turtle-refuel-manager/turtle-refuel-manager.lua",
+      "source": "turtle-refuel-manager/turtle-refuel-manager.lua"
+    },
+    {
+      "path": "/turtle-inventory-report/turtle-inventory-report.lua",
+      "source": "turtle-inventory-report/turtle-inventory-report.lua"
+    },
+    {
+      "path": "/turtle-trash/turtle-trash.lua",
+      "source": "turtle-trash/turtle-trash.lua"
+    },
+    {
+      "path": "/turtle-farm-row/turtle-farm-row.lua",
+      "source": "turtle-farm-row/turtle-farm-row.lua"
+    },
+    {
+      "path": "/turtle-tunnel/turtle-tunnel.lua",
+      "source": "turtle-tunnel/turtle-tunnel.lua"
+    }
+  ]
+}

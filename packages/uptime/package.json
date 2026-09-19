@@ -1,9 +1,0 @@
-{
-  "name": "uptime",
-  "description": "Shows computer uptime and current epoch time.",
-  "versions": {
-    "1.0.0": {
-      "path": "packages/uptime/versions/1.0.0/"
-    }
-  }
-}

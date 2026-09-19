@@ -1,0 +1,16 @@
+{
+  "name": "log-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for log tools.",
+  "files": [
+    {
+      "path": "/log-follow/log-follow.lua",
+      "source": "log-follow/log-follow.lua"
+    },
+    {
+      "path": "/log-view/log-view.lua",
+      "source": "log-view/log-view.lua"
+    }
+  ]
+}

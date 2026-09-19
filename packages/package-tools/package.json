@@ -1,0 +1,20 @@
+{
+  "name": "package-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for package tools.",
+  "files": [
+    {
+      "path": "/package-manifest-check/package-manifest-check.lua",
+      "source": "package-manifest-check/package-manifest-check.lua"
+    },
+    {
+      "path": "/package-file-check/package-file-check.lua",
+      "source": "package-file-check/package-file-check.lua"
+    },
+    {
+      "path": "/package-size/package-size.lua",
+      "source": "package-size/package-size.lua"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "network-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for network tools.",
+  "files": [
+    {
+      "path": "/net-tools/net-tools.lua",
+      "source": "net-tools/net-tools.lua"
+    },
+    {
+      "path": "/net-scan/net-scan.lua",
+      "source": "net-scan/net-scan.lua"
+    },
+    {
+      "path": "/gps-locate/gps-locate.lua",
+      "source": "gps-locate/gps-locate.lua"
+    },
+    {
+      "path": "/modem-info/modem-info.lua",
+      "source": "modem-info/modem-info.lua"
+    },
+    {
+      "path": "/gps-distance/gps-distance.lua",
+      "source": "gps-distance/gps-distance.lua"
+    },
+    {
+      "path": "/gps-distance-3d/gps-distance-3d.lua",
+      "source": "gps-distance-3d/gps-distance-3d.lua"
+    },
+    {
+      "path": "/modem-channels/modem-channels.lua",
+      "source": "modem-channels/modem-channels.lua"
+    },
+    {
+      "path": "/modem-scan/modem-scan.lua",
+      "source": "modem-scan/modem-scan.lua"
+    },
+    {
+      "path": "/gps-watch/gps-watch.lua",
+      "source": "gps-watch/gps-watch.lua"
+    },
+    {
+      "path": "/gps-log/gps-log.lua",
+      "source": "gps-log/gps-log.lua"
+    }
+  ]
+}

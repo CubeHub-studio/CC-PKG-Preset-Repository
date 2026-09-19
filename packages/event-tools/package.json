@@ -1,0 +1,20 @@
+{
+  "name": "event-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for event tools.",
+  "files": [
+    {
+      "path": "/event-monitor/event-monitor.lua",
+      "source": "event-monitor/event-monitor.lua"
+    },
+    {
+      "path": "/event-trace/event-trace.lua",
+      "source": "event-trace/event-trace.lua"
+    },
+    {
+      "path": "/event-watch/event-watch.lua",
+      "source": "event-watch/event-watch.lua"
+    }
+  ]
+}

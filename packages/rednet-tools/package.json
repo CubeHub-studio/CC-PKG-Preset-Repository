@@ -1,0 +1,100 @@
+{
+  "name": "rednet-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for rednet tools.",
+  "files": [
+    {
+      "path": "/rednet-chat/rednet-chat.lua",
+      "source": "rednet-chat/rednet-chat.lua"
+    },
+    {
+      "path": "/broadcast/broadcast.lua",
+      "source": "broadcast/broadcast.lua"
+    },
+    {
+      "path": "/rednet-id/rednet-id.lua",
+      "source": "rednet-id/rednet-id.lua"
+    },
+    {
+      "path": "/rednet-open/rednet-open.lua",
+      "source": "rednet-open/rednet-open.lua"
+    },
+    {
+      "path": "/rednet-close/rednet-close.lua",
+      "source": "rednet-close/rednet-close.lua"
+    },
+    {
+      "path": "/rednet-host/rednet-host.lua",
+      "source": "rednet-host/rednet-host.lua"
+    },
+    {
+      "path": "/rednet-unhost/rednet-unhost.lua",
+      "source": "rednet-unhost/rednet-unhost.lua"
+    },
+    {
+      "path": "/rednet-receive/rednet-receive.lua",
+      "source": "rednet-receive/rednet-receive.lua"
+    },
+    {
+      "path": "/rednet-lookup/rednet-lookup.lua",
+      "source": "rednet-lookup/rednet-lookup.lua"
+    },
+    {
+      "path": "/rednet-ping/rednet-ping.lua",
+      "source": "rednet-ping/rednet-ping.lua"
+    },
+    {
+      "path": "/rednet-discovery/rednet-discovery.lua",
+      "source": "rednet-discovery/rednet-discovery.lua"
+    },
+    {
+      "path": "/rednet-listen/rednet-listen.lua",
+      "source": "rednet-listen/rednet-listen.lua"
+    },
+    {
+      "path": "/rednet-broadcast-json/rednet-broadcast-json.lua",
+      "source": "rednet-broadcast-json/rednet-broadcast-json.lua"
+    },
+    {
+      "path": "/rednet-broadcast/rednet-broadcast.lua",
+      "source": "rednet-broadcast/rednet-broadcast.lua"
+    },
+    {
+      "path": "/rednet-receive-once/rednet-receive-once.lua",
+      "source": "rednet-receive-once/rednet-receive-once.lua"
+    },
+    {
+      "path": "/rednet-host-list/rednet-host-list.lua",
+      "source": "rednet-host-list/rednet-host-list.lua"
+    },
+    {
+      "path": "/rednet-server/rednet-server.lua",
+      "source": "rednet-server/rednet-server.lua"
+    },
+    {
+      "path": "/rednet-client/rednet-client.lua",
+      "source": "rednet-client/rednet-client.lua"
+    },
+    {
+      "path": "/rednet-rpc/rednet-rpc.lua",
+      "source": "rednet-rpc/rednet-rpc.lua"
+    },
+    {
+      "path": "/rednet-registry/rednet-registry.lua",
+      "source": "rednet-registry/rednet-registry.lua"
+    },
+    {
+      "path": "/rednet-discover/rednet-discover.lua",
+      "source": "rednet-discover/rednet-discover.lua"
+    },
+    {
+      "path": "/rednet-ping-all/rednet-ping-all.lua",
+      "source": "rednet-ping-all/rednet-ping-all.lua"
+    },
+    {
+      "path": "/rednet-log/rednet-log.lua",
+      "source": "rednet-log/rednet-log.lua"
+    }
+  ]
+}

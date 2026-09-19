@@ -1,0 +1,16 @@
+{
+  "name": "help-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for help tools.",
+  "files": [
+    {
+      "path": "/help-search/help-search.lua",
+      "source": "help-search/help-search.lua"
+    },
+    {
+      "path": "/help-view/help-view.lua",
+      "source": "help-view/help-view.lua"
+    }
+  ]
+}

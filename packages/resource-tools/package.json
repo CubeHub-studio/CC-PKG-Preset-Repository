@@ -1,0 +1,48 @@
+{
+  "name": "resource-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for resource tools.",
+  "files": [
+    {
+      "path": "/energy-info/energy-info.lua",
+      "source": "energy-info/energy-info.lua"
+    },
+    {
+      "path": "/fluid-info/fluid-info.lua",
+      "source": "fluid-info/fluid-info.lua"
+    },
+    {
+      "path": "/energy-total/energy-total.lua",
+      "source": "energy-total/energy-total.lua"
+    },
+    {
+      "path": "/fluid-total/fluid-total.lua",
+      "source": "fluid-total/fluid-total.lua"
+    },
+    {
+      "path": "/energy-monitor/energy-monitor.lua",
+      "source": "energy-monitor/energy-monitor.lua"
+    },
+    {
+      "path": "/energy-dashboard/energy-dashboard.lua",
+      "source": "energy-dashboard/energy-dashboard.lua"
+    },
+    {
+      "path": "/fluid-dashboard/fluid-dashboard.lua",
+      "source": "fluid-dashboard/fluid-dashboard.lua"
+    },
+    {
+      "path": "/energy-alert/energy-alert.lua",
+      "source": "energy-alert/energy-alert.lua"
+    },
+    {
+      "path": "/energy-report/energy-report.lua",
+      "source": "energy-report/energy-report.lua"
+    },
+    {
+      "path": "/fluid-report/fluid-report.lua",
+      "source": "fluid-report/fluid-report.lua"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "utility-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for utility tools.",
+  "files": [
+    {
+      "path": "/repeat-run/repeat-run.lua",
+      "source": "repeat-run/repeat-run.lua"
+    }
+  ]
+}

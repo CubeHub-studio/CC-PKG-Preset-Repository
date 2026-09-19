@@ -1,0 +1,28 @@
+{
+  "name": "math-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for math tools.",
+  "files": [
+    {
+      "path": "/calculator/calculator.lua",
+      "source": "calculator/calculator.lua"
+    },
+    {
+      "path": "/random/random.lua",
+      "source": "random/random.lua"
+    },
+    {
+      "path": "/vector-demo/vector-demo.lua",
+      "source": "vector-demo/vector-demo.lua"
+    },
+    {
+      "path": "/vector-distance/vector-distance.lua",
+      "source": "vector-distance/vector-distance.lua"
+    },
+    {
+      "path": "/vector-direction/vector-direction.lua",
+      "source": "vector-direction/vector-direction.lua"
+    }
+  ]
+}

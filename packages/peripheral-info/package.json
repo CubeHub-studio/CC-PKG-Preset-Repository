@@ -1,9 +1,0 @@
-{
-  "name": "peripheral-info",
-  "description": "Lists attached peripherals and their types.",
-  "versions": {
-    "1.0.0": {
-      "path": "packages/peripheral-info/versions/1.0.0/"
-    }
-  }
-}

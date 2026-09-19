@@ -1,0 +1,52 @@
+{
+  "name": "settings-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for settings tools.",
+  "files": [
+    {
+      "path": "/settings-list/settings-list.lua",
+      "source": "settings-list/settings-list.lua"
+    },
+    {
+      "path": "/settings-get/settings-get.lua",
+      "source": "settings-get/settings-get.lua"
+    },
+    {
+      "path": "/settings-set/settings-set.lua",
+      "source": "settings-set/settings-set.lua"
+    },
+    {
+      "path": "/settings-reset/settings-reset.lua",
+      "source": "settings-reset/settings-reset.lua"
+    },
+    {
+      "path": "/settings-export/settings-export.lua",
+      "source": "settings-export/settings-export.lua"
+    },
+    {
+      "path": "/settings-info/settings-info.lua",
+      "source": "settings-info/settings-info.lua"
+    },
+    {
+      "path": "/settings-delete/settings-delete.lua",
+      "source": "settings-delete/settings-delete.lua"
+    },
+    {
+      "path": "/config-store/config-store.lua",
+      "source": "config-store/config-store.lua"
+    },
+    {
+      "path": "/settings-watch/settings-watch.lua",
+      "source": "settings-watch/settings-watch.lua"
+    },
+    {
+      "path": "/settings-report/settings-report.lua",
+      "source": "settings-report/settings-report.lua"
+    },
+    {
+      "path": "/settings-reset-all/settings-reset-all.lua",
+      "source": "settings-reset-all/settings-reset-all.lua"
+    }
+  ]
+}

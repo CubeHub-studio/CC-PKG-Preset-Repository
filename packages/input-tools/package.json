@@ -1,0 +1,20 @@
+{
+  "name": "input-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for input tools.",
+  "files": [
+    {
+      "path": "/mouse-test/mouse-test.lua",
+      "source": "mouse-test/mouse-test.lua"
+    },
+    {
+      "path": "/keyboard-test/keyboard-test.lua",
+      "source": "keyboard-test/keyboard-test.lua"
+    },
+    {
+      "path": "/keyboard-layout/keyboard-layout.lua",
+      "source": "keyboard-layout/keyboard-layout.lua"
+    }
+  ]
+}

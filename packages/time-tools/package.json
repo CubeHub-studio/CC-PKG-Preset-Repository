@@ -1,0 +1,44 @@
+{
+  "name": "time-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for time tools.",
+  "files": [
+    {
+      "path": "/clock/clock.lua",
+      "source": "clock/clock.lua"
+    },
+    {
+      "path": "/timer/timer.lua",
+      "source": "timer/timer.lua"
+    },
+    {
+      "path": "/stopwatch/stopwatch.lua",
+      "source": "stopwatch/stopwatch.lua"
+    },
+    {
+      "path": "/calendar/calendar.lua",
+      "source": "calendar/calendar.lua"
+    },
+    {
+      "path": "/time/time.lua",
+      "source": "time/time.lua"
+    },
+    {
+      "path": "/date/date.lua",
+      "source": "date/date.lua"
+    },
+    {
+      "path": "/epoch-ms/epoch-ms.lua",
+      "source": "epoch-ms/epoch-ms.lua"
+    },
+    {
+      "path": "/uptime/uptime.lua",
+      "source": "uptime/uptime.lua"
+    },
+    {
+      "path": "/timer-run/timer-run.lua",
+      "source": "timer-run/timer-run.lua"
+    }
+  ]
+}

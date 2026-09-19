@@ -1,0 +1,60 @@
+{
+  "name": "data-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for data tools.",
+  "files": [
+    {
+      "path": "/uuid/uuid.lua",
+      "source": "uuid/uuid.lua"
+    },
+    {
+      "path": "/json-format/json-format.lua",
+      "source": "json-format/json-format.lua"
+    },
+    {
+      "path": "/json-parse/json-parse.lua",
+      "source": "json-parse/json-parse.lua"
+    },
+    {
+      "path": "/pretty/pretty.lua",
+      "source": "pretty/pretty.lua"
+    },
+    {
+      "path": "/base64/base64.lua",
+      "source": "base64/base64.lua"
+    },
+    {
+      "path": "/serialize/serialize.lua",
+      "source": "serialize/serialize.lua"
+    },
+    {
+      "path": "/unserialize/unserialize.lua",
+      "source": "unserialize/unserialize.lua"
+    },
+    {
+      "path": "/table-sort/table-sort.lua",
+      "source": "table-sort/table-sort.lua"
+    },
+    {
+      "path": "/json-file/json-file.lua",
+      "source": "json-file/json-file.lua"
+    },
+    {
+      "path": "/json-pretty-file/json-pretty-file.lua",
+      "source": "json-pretty-file/json-pretty-file.lua"
+    },
+    {
+      "path": "/json-merge/json-merge.lua",
+      "source": "json-merge/json-merge.lua"
+    },
+    {
+      "path": "/json-query/json-query.lua",
+      "source": "json-query/json-query.lua"
+    },
+    {
+      "path": "/table-view/table-view.lua",
+      "source": "table-view/table-view.lua"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "developer-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for developer tools.",
+  "files": [
+    {
+      "path": "/api-list/api-list.lua",
+      "source": "api-list/api-list.lua"
+    },
+    {
+      "path": "/lua-format/lua-format.lua",
+      "source": "lua-format/lua-format.lua"
+    }
+  ]
+}

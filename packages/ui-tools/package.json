@@ -1,0 +1,24 @@
+{
+  "name": "ui-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for ui tools.",
+  "files": [
+    {
+      "path": "/window-demo/window-demo.lua",
+      "source": "window-demo/window-demo.lua"
+    },
+    {
+      "path": "/progress/progress.lua",
+      "source": "progress/progress.lua"
+    },
+    {
+      "path": "/spinner/spinner.lua",
+      "source": "spinner/spinner.lua"
+    },
+    {
+      "path": "/menu-demo/menu-demo.lua",
+      "source": "menu-demo/menu-demo.lua"
+    }
+  ]
+}

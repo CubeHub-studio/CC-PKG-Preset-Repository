@@ -1,0 +1,48 @@
+{
+  "name": "process-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for process tools.",
+  "files": [
+    {
+      "path": "/process-list/process-list.lua",
+      "source": "process-list/process-list.lua"
+    },
+    {
+      "path": "/program-list/program-list.lua",
+      "source": "program-list/program-list.lua"
+    },
+    {
+      "path": "/parallel-demo/parallel-demo.lua",
+      "source": "parallel-demo/parallel-demo.lua"
+    },
+    {
+      "path": "/shell-dir/shell-dir.lua",
+      "source": "shell-dir/shell-dir.lua"
+    },
+    {
+      "path": "/shell-path/shell-path.lua",
+      "source": "shell-path/shell-path.lua"
+    },
+    {
+      "path": "/program-name/program-name.lua",
+      "source": "program-name/program-name.lua"
+    },
+    {
+      "path": "/program-args/program-args.lua",
+      "source": "program-args/program-args.lua"
+    },
+    {
+      "path": "/program-check/program-check.lua",
+      "source": "program-check/program-check.lua"
+    },
+    {
+      "path": "/parallel-run/parallel-run.lua",
+      "source": "parallel-run/parallel-run.lua"
+    },
+    {
+      "path": "/multishell-list/multishell-list.lua",
+      "source": "multishell-list/multishell-list.lua"
+    }
+  ]
+}

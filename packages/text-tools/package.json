@@ -1,0 +1,28 @@
+{
+  "name": "text-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Consolidated CC:Tweaked tools for text tools.",
+  "files": [
+    {
+      "path": "/text-tools.lua",
+      "source": "text-tools.lua"
+    },
+    {
+      "path": "/url-encode/url-encode.lua",
+      "source": "url-encode/url-encode.lua"
+    },
+    {
+      "path": "/url-decode/url-decode.lua",
+      "source": "url-decode/url-decode.lua"
+    },
+    {
+      "path": "/text-wrap/text-wrap.lua",
+      "source": "text-wrap/text-wrap.lua"
+    },
+    {
+      "path": "/url-status/url-status.lua",
+      "source": "url-status/url-status.lua"
+    }
+  ]
+}
