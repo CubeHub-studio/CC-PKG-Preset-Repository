@@ -1,0 +1,1 @@
+if not multishell then print("Multishell unavailable.") return end; print("Tabs: "..multishell.getCount()); for i=1,multishell.getCount() do print(i..": "..tostring(multishell.getTitle(i))) end
