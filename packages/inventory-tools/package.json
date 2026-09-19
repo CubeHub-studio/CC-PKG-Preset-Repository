@@ -6,75 +6,75 @@
   "files": [
     {
       "path": "/inventory-list/inventory-list.lua",
-      "source": "inventory-list/inventory-list.lua"
+      "source": "packages/inventory-tools/inventory-list/inventory-list.lua"
     },
     {
       "path": "/inventory-find/inventory-find.lua",
-      "source": "inventory-find/inventory-find.lua"
+      "source": "packages/inventory-tools/inventory-find/inventory-find.lua"
     },
     {
       "path": "/inventory-count/inventory-count.lua",
-      "source": "inventory-count/inventory-count.lua"
+      "source": "packages/inventory-tools/inventory-count/inventory-count.lua"
     },
     {
       "path": "/inventory-slots/inventory-slots.lua",
-      "source": "inventory-slots/inventory-slots.lua"
+      "source": "packages/inventory-tools/inventory-slots/inventory-slots.lua"
     },
     {
       "path": "/inventory-detail/inventory-detail.lua",
-      "source": "inventory-detail/inventory-detail.lua"
+      "source": "packages/inventory-tools/inventory-detail/inventory-detail.lua"
     },
     {
       "path": "/inventory-watch/inventory-watch.lua",
-      "source": "inventory-watch/inventory-watch.lua"
+      "source": "packages/inventory-tools/inventory-watch/inventory-watch.lua"
     },
     {
       "path": "/inventory-move/inventory-move.lua",
-      "source": "inventory-move/inventory-move.lua"
+      "source": "packages/inventory-tools/inventory-move/inventory-move.lua"
     },
     {
       "path": "/inventory-pull/inventory-pull.lua",
-      "source": "inventory-pull/inventory-pull.lua"
+      "source": "packages/inventory-tools/inventory-pull/inventory-pull.lua"
     },
     {
       "path": "/inventory-summary/inventory-summary.lua",
-      "source": "inventory-summary/inventory-summary.lua"
+      "source": "packages/inventory-tools/inventory-summary/inventory-summary.lua"
     },
     {
       "path": "/inventory-capacity/inventory-capacity.lua",
-      "source": "inventory-capacity/inventory-capacity.lua"
+      "source": "packages/inventory-tools/inventory-capacity/inventory-capacity.lua"
     },
     {
       "path": "/inventory-search/inventory-search.lua",
-      "source": "inventory-search/inventory-search.lua"
+      "source": "packages/inventory-tools/inventory-search/inventory-search.lua"
     },
     {
       "path": "/inventory-report/inventory-report.lua",
-      "source": "inventory-report/inventory-report.lua"
+      "source": "packages/inventory-tools/inventory-report/inventory-report.lua"
     },
     {
       "path": "/inventory-transfer/inventory-transfer.lua",
-      "source": "inventory-transfer/inventory-transfer.lua"
+      "source": "packages/inventory-tools/inventory-transfer/inventory-transfer.lua"
     },
     {
       "path": "/inventory-sort/inventory-sort.lua",
-      "source": "inventory-sort/inventory-sort.lua"
+      "source": "packages/inventory-tools/inventory-sort/inventory-sort.lua"
     },
     {
       "path": "/inventory-empty/inventory-empty.lua",
-      "source": "inventory-empty/inventory-empty.lua"
+      "source": "packages/inventory-tools/inventory-empty/inventory-empty.lua"
     },
     {
       "path": "/inventory-balance/inventory-balance.lua",
-      "source": "inventory-balance/inventory-balance.lua"
+      "source": "packages/inventory-tools/inventory-balance/inventory-balance.lua"
     },
     {
       "path": "/inventory-monitor/inventory-monitor.lua",
-      "source": "inventory-monitor/inventory-monitor.lua"
+      "source": "packages/inventory-tools/inventory-monitor/inventory-monitor.lua"
     },
     {
       "path": "/inventory-duplicates/inventory-duplicates.lua",
-      "source": "inventory-duplicates/inventory-duplicates.lua"
+      "source": "packages/inventory-tools/inventory-duplicates/inventory-duplicates.lua"
     }
   ]
 }
