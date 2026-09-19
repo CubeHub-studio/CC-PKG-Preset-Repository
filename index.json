@@ -511,7 +511,7 @@
     },
     "monitor-clear": {
       "name": "monitor-clear",
-      "description": "Clears every attached monitor.",
+      "description": "Clears all monitors.",
       "versions": {
         "1.0.0": {
           "path": "packages/monitor-clear/"
@@ -521,7 +521,7 @@
         "name": "monitor-clear",
         "version": "1.0.0",
         "author": "CC-PKG Preset Repository",
-        "description": "Clears every attached monitor.",
+        "description": "Clears all monitors.",
         "files": [
           {
             "path": "/monitor-clear.lua",
@@ -3319,6 +3319,153 @@
           {
             "path": "/menu-demo.lua",
             "source": "menu-demo.lua"
+          }
+        ]
+      }
+    },
+    "monitor-write": {
+      "name": "monitor-write",
+      "description": "Writes a message to monitors.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-write/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-write",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Writes a message to monitors.",
+        "files": [
+          {
+            "path": "/monitor-write.lua",
+            "source": "monitor-write.lua"
+          }
+        ]
+      }
+    },
+    "monitor-scale": {
+      "name": "monitor-scale",
+      "description": "Sets monitor text scales.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-scale/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-scale",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Sets monitor text scales.",
+        "files": [
+          {
+            "path": "/monitor-scale.lua",
+            "source": "monitor-scale.lua"
+          }
+        ]
+      }
+    },
+    "monitor-center": {
+      "name": "monitor-center",
+      "description": "Centers a message.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-center/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-center",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Centers a message.",
+        "files": [
+          {
+            "path": "/monitor-center.lua",
+            "source": "monitor-center.lua"
+          }
+        ]
+      }
+    },
+    "monitor-border": {
+      "name": "monitor-border",
+      "description": "Draws monitor borders.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-border/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-border",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Draws monitor borders.",
+        "files": [
+          {
+            "path": "/monitor-border.lua",
+            "source": "monitor-border.lua"
+          }
+        ]
+      }
+    },
+    "monitor-status": {
+      "name": "monitor-status",
+      "description": "Shows status on monitors.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-status/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-status",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows status on monitors.",
+        "files": [
+          {
+            "path": "/monitor-status.lua",
+            "source": "monitor-status.lua"
+          }
+        ]
+      }
+    },
+    "monitor-paint": {
+      "name": "monitor-paint",
+      "description": "Fills monitors with a color.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-paint/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-paint",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Fills monitors with a color.",
+        "files": [
+          {
+            "path": "/monitor-paint.lua",
+            "source": "monitor-paint.lua"
+          }
+        ]
+      }
+    },
+    "monitor-grid": {
+      "name": "monitor-grid",
+      "description": "Draws a monitor grid.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-grid/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-grid",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Draws a monitor grid.",
+        "files": [
+          {
+            "path": "/monitor-grid.lua",
+            "source": "monitor-grid.lua"
           }
         ]
       }
