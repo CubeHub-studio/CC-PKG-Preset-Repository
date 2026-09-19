@@ -1,0 +1,1 @@
+print("CC Diagnostic Report"); print("CraftOS: "..os.version()); print("Computer ID: "..os.getComputerID()); print("Label: "..tostring(os.getComputerLabel() or "none")); local w,h=term.getSize(); print("Terminal: "..w.."x"..h); print("Peripherals:"); for _,n in ipairs(peripheral.getNames()) do print("  "..n.." = "..tostring(peripheral.getType(n))) end
