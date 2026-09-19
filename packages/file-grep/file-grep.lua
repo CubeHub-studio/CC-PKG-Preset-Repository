@@ -1,0 +1,1 @@
+local p,q=arg[1],arg[2]; if not p or not q then print("Usage: file-grep <file> <text>") return end; local h=fs.open(p,"r"); if not h then print("Cannot open file.") return end; local n=0; while true do local l=h.readLine(); if not l then break end; n=n+1; if l:find(q,1,true) then print(n..":"..l) end end; h.close()
