@@ -1,0 +1,1 @@
+if not turtle then print("Crafting tools require a turtle.") return end; local ok,e=turtle.craft(tonumber(({...})[1]) or 64); print(ok and "Crafting complete." or ("Crafting failed: "..tostring(e)))
