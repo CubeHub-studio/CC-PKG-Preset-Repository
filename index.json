@@ -718,6 +718,174 @@
           }
         ]
       }
+    },
+    "redstone-output": {
+      "name": "redstone-output",
+      "description": "Sets a redstone output.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/redstone-output/"
+        }
+      },
+      "manifest": {
+        "name": "redstone-output",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Sets a redstone output.",
+        "files": [
+          {
+            "path": "/redstone-output.lua",
+            "source": "redstone-output.lua"
+          }
+        ]
+      }
+    },
+    "redstone-pulse": {
+      "name": "redstone-pulse",
+      "description": "Pulses a redstone side.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/redstone-pulse/"
+        }
+      },
+      "manifest": {
+        "name": "redstone-pulse",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Pulses a redstone side.",
+        "files": [
+          {
+            "path": "/redstone-pulse.lua",
+            "source": "redstone-pulse.lua"
+          }
+        ]
+      }
+    },
+    "redstone-level": {
+      "name": "redstone-level",
+      "description": "Sets analog redstone output.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/redstone-level/"
+        }
+      },
+      "manifest": {
+        "name": "redstone-level",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Sets analog redstone output.",
+        "files": [
+          {
+            "path": "/redstone-level.lua",
+            "source": "redstone-level.lua"
+          }
+        ]
+      }
+    },
+    "redstone-watch": {
+      "name": "redstone-watch",
+      "description": "Watches redstone changes.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/redstone-watch/"
+        }
+      },
+      "manifest": {
+        "name": "redstone-watch",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Watches redstone changes.",
+        "files": [
+          {
+            "path": "/redstone-watch.lua",
+            "source": "redstone-watch.lua"
+          }
+        ]
+      }
+    },
+    "event-monitor": {
+      "name": "event-monitor",
+      "description": "Prints incoming CC:Tweaked events.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/event-monitor/"
+        }
+      },
+      "manifest": {
+        "name": "event-monitor",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Prints incoming CC:Tweaked events.",
+        "files": [
+          {
+            "path": "/event-monitor.lua",
+            "source": "event-monitor.lua"
+          }
+        ]
+      }
+    },
+    "mouse-test": {
+      "name": "mouse-test",
+      "description": "Displays mouse click events.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/mouse-test/"
+        }
+      },
+      "manifest": {
+        "name": "mouse-test",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Displays mouse click events.",
+        "files": [
+          {
+            "path": "/mouse-test.lua",
+            "source": "mouse-test.lua"
+          }
+        ]
+      }
+    },
+    "keyboard-test": {
+      "name": "keyboard-test",
+      "description": "Displays keyboard events.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/keyboard-test/"
+        }
+      },
+      "manifest": {
+        "name": "keyboard-test",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Displays keyboard events.",
+        "files": [
+          {
+            "path": "/keyboard-test.lua",
+            "source": "keyboard-test.lua"
+          }
+        ]
+      }
+    },
+    "term-size": {
+      "name": "term-size",
+      "description": "Shows terminal dimensions.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/term-size/"
+        }
+      },
+      "manifest": {
+        "name": "term-size",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows terminal dimensions.",
+        "files": [
+          {
+            "path": "/term-size.lua",
+            "source": "term-size.lua"
+          }
+        ]
+      }
     }
   }
 }
