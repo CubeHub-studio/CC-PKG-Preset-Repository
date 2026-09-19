@@ -2818,6 +2818,174 @@
           }
         ]
       }
+    },
+    "http-get": {
+      "name": "http-get",
+      "description": "Downloads and prints a small HTTP response.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/http-get/"
+        }
+      },
+      "manifest": {
+        "name": "http-get",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Downloads and prints a small HTTP response.",
+        "files": [
+          {
+            "path": "/http-get.lua",
+            "source": "http-get.lua"
+          }
+        ]
+      }
+    },
+    "http-head": {
+      "name": "http-head",
+      "description": "Checks HTTP URL access.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/http-head/"
+        }
+      },
+      "manifest": {
+        "name": "http-head",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Checks HTTP URL access.",
+        "files": [
+          {
+            "path": "/http-head.lua",
+            "source": "http-head.lua"
+          }
+        ]
+      }
+    },
+    "http-enabled": {
+      "name": "http-enabled",
+      "description": "Reports whether HTTP is enabled.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/http-enabled/"
+        }
+      },
+      "manifest": {
+        "name": "http-enabled",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Reports whether HTTP is enabled.",
+        "files": [
+          {
+            "path": "/http-enabled.lua",
+            "source": "http-enabled.lua"
+          }
+        ]
+      }
+    },
+    "websocket-check": {
+      "name": "websocket-check",
+      "description": "Checks whether a WebSocket URL can connect.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/websocket-check/"
+        }
+      },
+      "manifest": {
+        "name": "websocket-check",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Checks whether a WebSocket URL can connect.",
+        "files": [
+          {
+            "path": "/websocket-check.lua",
+            "source": "websocket-check.lua"
+          }
+        ]
+      }
+    },
+    "url-encode": {
+      "name": "url-encode",
+      "description": "URL-encodes a string.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/url-encode/"
+        }
+      },
+      "manifest": {
+        "name": "url-encode",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "URL-encodes a string.",
+        "files": [
+          {
+            "path": "/url-encode.lua",
+            "source": "url-encode.lua"
+          }
+        ]
+      }
+    },
+    "url-decode": {
+      "name": "url-decode",
+      "description": "URL-decodes a string.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/url-decode/"
+        }
+      },
+      "manifest": {
+        "name": "url-decode",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "URL-decodes a string.",
+        "files": [
+          {
+            "path": "/url-decode.lua",
+            "source": "url-decode.lua"
+          }
+        ]
+      }
+    },
+    "serialize": {
+      "name": "serialize",
+      "description": "Serializes arguments as Lua.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/serialize/"
+        }
+      },
+      "manifest": {
+        "name": "serialize",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Serializes arguments as Lua.",
+        "files": [
+          {
+            "path": "/serialize.lua",
+            "source": "serialize.lua"
+          }
+        ]
+      }
+    },
+    "unserialize": {
+      "name": "unserialize",
+      "description": "Unserializes a Lua table string.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/unserialize/"
+        }
+      },
+      "manifest": {
+        "name": "unserialize",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Unserializes a Lua table string.",
+        "files": [
+          {
+            "path": "/unserialize.lua",
+            "source": "unserialize.lua"
+          }
+        ]
+      }
     }
   }
 }
