@@ -1,0 +1,1 @@
+local k=arg[1]; if not k then print("Usage: settings-delete <name>") return end; settings.unset(k); settings.save(); print("Unset "..k)
