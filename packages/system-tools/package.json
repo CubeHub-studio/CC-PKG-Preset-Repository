@@ -6,67 +6,67 @@
   "files": [
     {
       "path": "/system-info/system-info.lua",
-      "source": "system-info/system-info.lua"
+      "source": "packages/system-tools/system-info/system-info.lua"
     },
     {
       "path": "/lua-info/lua-info.lua",
-      "source": "lua-info/lua-info.lua"
+      "source": "packages/system-tools/lua-info/lua-info.lua"
     },
     {
       "path": "/env-info/env-info.lua",
-      "source": "env-info/env-info.lua"
+      "source": "packages/system-tools/env-info/env-info.lua"
     },
     {
       "path": "/reboot/reboot.lua",
-      "source": "reboot/reboot.lua"
+      "source": "packages/system-tools/reboot/reboot.lua"
     },
     {
       "path": "/shutdown/shutdown.lua",
-      "source": "shutdown/shutdown.lua"
+      "source": "packages/system-tools/shutdown/shutdown.lua"
     },
     {
       "path": "/label/label.lua",
-      "source": "label/label.lua"
+      "source": "packages/system-tools/label/label.lua"
     },
     {
       "path": "/id/id.lua",
-      "source": "id/id.lua"
+      "source": "packages/system-tools/id/id.lua"
     },
     {
       "path": "/startup-info/startup-info.lua",
-      "source": "startup-info/startup-info.lua"
+      "source": "packages/system-tools/startup-info/startup-info.lua"
     },
     {
       "path": "/ram-info/ram-info.lua",
-      "source": "ram-info/ram-info.lua"
+      "source": "packages/system-tools/ram-info/ram-info.lua"
     },
     {
       "path": "/gc/gc.lua",
-      "source": "gc/gc.lua"
+      "source": "packages/system-tools/gc/gc.lua"
     },
     {
       "path": "/os-info/os-info.lua",
-      "source": "os-info/os-info.lua"
+      "source": "packages/system-tools/os-info/os-info.lua"
     },
     {
       "path": "/env-report/env-report.lua",
-      "source": "env-report/env-report.lua"
+      "source": "packages/system-tools/env-report/env-report.lua"
     },
     {
       "path": "/startup-report/startup-report.lua",
-      "source": "startup-report/startup-report.lua"
+      "source": "packages/system-tools/startup-report/startup-report.lua"
     },
     {
       "path": "/rom-list/rom-list.lua",
-      "source": "rom-list/rom-list.lua"
+      "source": "packages/system-tools/rom-list/rom-list.lua"
     },
     {
       "path": "/health-check/health-check.lua",
-      "source": "health-check/health-check.lua"
+      "source": "packages/system-tools/health-check/health-check.lua"
     },
     {
       "path": "/safe-command/safe-command.lua",
-      "source": "safe-command/safe-command.lua"
+      "source": "packages/system-tools/safe-command/safe-command.lua"
     }
   ]
 }
