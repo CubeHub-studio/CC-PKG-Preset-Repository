@@ -1,0 +1,1 @@
+local s=arg[1]; if not s or not peripheral.hasType(s,"inventory") then print("Usage: inventory-count <peripheral>") return end; local total=0; for _,v in pairs(peripheral.call(s,"list")) do total=total+v.count end; print(total)
