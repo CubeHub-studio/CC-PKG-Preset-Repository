@@ -1,0 +1,1 @@
+local a={...}; local w,h=term.getSize(); local x,y=tonumber(a[1]) or 1,tonumber(a[2]) or 1; local ww,hh=tonumber(a[3]) or math.max(1,w-x+1),tonumber(a[4]) or math.max(1,h-y+1); local win=window.create(term.current(),x,y,ww,hh,true); win.clear(); win.setCursorPos(1,1); win.write("Window tools"); print("Window created: "..ww.."x"..hh)
