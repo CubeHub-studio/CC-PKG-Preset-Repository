@@ -1,0 +1,13 @@
+{
+  "name": "csv-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked csv utilities.",
+  "files": [
+    {
+      "path": "/csv-tools.lua",
+      "source": "packages/csv-tools/csv-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
