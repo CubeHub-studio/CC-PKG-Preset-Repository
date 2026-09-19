@@ -1,0 +1,1 @@
+local p=arg[1]; if not p or not fs.exists(p) then print("Not found.") return end print("Path: "..p); print("Directory: "..tostring(fs.isDir(p))); print("Read-only: "..tostring(fs.isReadOnly(p))); if not fs.isDir(p) then print("Size: "..fs.getSize(p)) end
