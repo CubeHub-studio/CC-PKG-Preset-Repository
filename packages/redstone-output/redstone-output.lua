@@ -1,0 +1,1 @@
+local side=arg[1]; local state=arg[2]=="on" or arg[2]=="true"; if not side then print("Usage: redstone-output <side> <on|off>") return end; redstone.setOutput(side,state); print(side.."="..tostring(state))
