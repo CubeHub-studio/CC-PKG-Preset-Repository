@@ -6,31 +6,31 @@
   "files": [
     {
       "path": "/turtle-tools.lua",
-      "source": "turtle-tools.lua"
+      "source": "packages/turtle-tools/turtle-tools.lua"
     },
     {
       "path": "/turtle-route/turtle-route.lua",
-      "source": "turtle-route/turtle-route.lua"
+      "source": "packages/turtle-tools/turtle-route/turtle-route.lua"
     },
     {
       "path": "/turtle-refuel-manager/turtle-refuel-manager.lua",
-      "source": "turtle-refuel-manager/turtle-refuel-manager.lua"
+      "source": "packages/turtle-tools/turtle-refuel-manager/turtle-refuel-manager.lua"
     },
     {
       "path": "/turtle-inventory-report/turtle-inventory-report.lua",
-      "source": "turtle-inventory-report/turtle-inventory-report.lua"
+      "source": "packages/turtle-tools/turtle-inventory-report/turtle-inventory-report.lua"
     },
     {
       "path": "/turtle-trash/turtle-trash.lua",
-      "source": "turtle-trash/turtle-trash.lua"
+      "source": "packages/turtle-tools/turtle-trash/turtle-trash.lua"
     },
     {
       "path": "/turtle-farm-row/turtle-farm-row.lua",
-      "source": "turtle-farm-row/turtle-farm-row.lua"
+      "source": "packages/turtle-tools/turtle-farm-row/turtle-farm-row.lua"
     },
     {
       "path": "/turtle-tunnel/turtle-tunnel.lua",
-      "source": "turtle-tunnel/turtle-tunnel.lua"
+      "source": "packages/turtle-tools/turtle-tunnel/turtle-tunnel.lua"
     }
   ]
 }
