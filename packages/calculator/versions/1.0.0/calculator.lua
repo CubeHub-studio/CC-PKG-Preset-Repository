@@ -1,0 +1,1 @@
+print("CC Calculator");print("Enter arithmetic or q to quit.");while true do write("> ");local s=read();if s=="q" or s=="quit" then break end;local f,e=load("return "..s,nil,"t",{});if not f then print("Error: "..tostring(e)) else local ok,v=pcall(f);print(ok and tostring(v) or "Error: "..tostring(v)) end end
