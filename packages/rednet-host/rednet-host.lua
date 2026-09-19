@@ -1,0 +1,1 @@
+local p=arg[1]; local h=arg[2] or ""; if not p then print("Usage: rednet-host <protocol> [hostname]") return end; local s=peripheral.find("modem"); if not s then print("No modem.") return end; rednet.open(peripheral.getName(s)); print(tostring(rednet.host(p,h)))
