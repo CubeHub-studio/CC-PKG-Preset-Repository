@@ -1390,6 +1390,174 @@
           }
         ]
       }
+    },
+    "drive-info": {
+      "name": "drive-info",
+      "description": "Reports disk drive details.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/drive-info/"
+        }
+      },
+      "manifest": {
+        "name": "drive-info",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Reports disk drive details.",
+        "files": [
+          {
+            "path": "/drive-info.lua",
+            "source": "drive-info.lua"
+          }
+        ]
+      }
+    },
+    "drive-eject": {
+      "name": "drive-eject",
+      "description": "Ejects disks from all drives.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/drive-eject/"
+        }
+      },
+      "manifest": {
+        "name": "drive-eject",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Ejects disks from all drives.",
+        "files": [
+          {
+            "path": "/drive-eject.lua",
+            "source": "drive-eject.lua"
+          }
+        ]
+      }
+    },
+    "printer-info": {
+      "name": "printer-info",
+      "description": "Reports attached printer state.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/printer-info/"
+        }
+      },
+      "manifest": {
+        "name": "printer-info",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Reports attached printer state.",
+        "files": [
+          {
+            "path": "/printer-info.lua",
+            "source": "printer-info.lua"
+          }
+        ]
+      }
+    },
+    "computer-list": {
+      "name": "computer-list",
+      "description": "Lists connected computer peripherals.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/computer-list/"
+        }
+      },
+      "manifest": {
+        "name": "computer-list",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Lists connected computer peripherals.",
+        "files": [
+          {
+            "path": "/computer-list.lua",
+            "source": "computer-list.lua"
+          }
+        ]
+      }
+    },
+    "computer-status": {
+      "name": "computer-status",
+      "description": "Shows status of connected computers.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/computer-status/"
+        }
+      },
+      "manifest": {
+        "name": "computer-status",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows status of connected computers.",
+        "files": [
+          {
+            "path": "/computer-status.lua",
+            "source": "computer-status.lua"
+          }
+        ]
+      }
+    },
+    "computer-label": {
+      "name": "computer-label",
+      "description": "Sets a connected computer label.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/computer-label/"
+        }
+      },
+      "manifest": {
+        "name": "computer-label",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Sets a connected computer label.",
+        "files": [
+          {
+            "path": "/computer-label.lua",
+            "source": "computer-label.lua"
+          }
+        ]
+      }
+    },
+    "computer-reboot": {
+      "name": "computer-reboot",
+      "description": "Reboots a connected computer.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/computer-reboot/"
+        }
+      },
+      "manifest": {
+        "name": "computer-reboot",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Reboots a connected computer.",
+        "files": [
+          {
+            "path": "/computer-reboot.lua",
+            "source": "computer-reboot.lua"
+          }
+        ]
+      }
+    },
+    "computer-shutdown": {
+      "name": "computer-shutdown",
+      "description": "Shuts down a connected computer.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/computer-shutdown/"
+        }
+      },
+      "manifest": {
+        "name": "computer-shutdown",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shuts down a connected computer.",
+        "files": [
+          {
+            "path": "/computer-shutdown.lua",
+            "source": "computer-shutdown.lua"
+          }
+        ]
+      }
     }
   }
 }
