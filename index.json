@@ -3805,6 +3805,174 @@
           }
         ]
       }
+    },
+    "printer-page": {
+      "name": "printer-page",
+      "description": "Starts a printer page.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/printer-page/"
+        }
+      },
+      "manifest": {
+        "name": "printer-page",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Starts a printer page.",
+        "files": [
+          {
+            "path": "/printer-page.lua",
+            "source": "printer-page.lua"
+          }
+        ]
+      }
+    },
+    "printer-end": {
+      "name": "printer-end",
+      "description": "Ends current printer pages.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/printer-end/"
+        }
+      },
+      "manifest": {
+        "name": "printer-end",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Ends current printer pages.",
+        "files": [
+          {
+            "path": "/printer-end.lua",
+            "source": "printer-end.lua"
+          }
+        ]
+      }
+    },
+    "printer-title": {
+      "name": "printer-title",
+      "description": "Sets a printer page title.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/printer-title/"
+        }
+      },
+      "manifest": {
+        "name": "printer-title",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Sets a printer page title.",
+        "files": [
+          {
+            "path": "/printer-title.lua",
+            "source": "printer-title.lua"
+          }
+        ]
+      }
+    },
+    "drive-status": {
+      "name": "drive-status",
+      "description": "Shows all drive status.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/drive-status/"
+        }
+      },
+      "manifest": {
+        "name": "drive-status",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows all drive status.",
+        "files": [
+          {
+            "path": "/drive-status.lua",
+            "source": "drive-status.lua"
+          }
+        ]
+      }
+    },
+    "drive-data": {
+      "name": "drive-data",
+      "description": "Shows disk data availability.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/drive-data/"
+        }
+      },
+      "manifest": {
+        "name": "drive-data",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows disk data availability.",
+        "files": [
+          {
+            "path": "/drive-data.lua",
+            "source": "drive-data.lua"
+          }
+        ]
+      }
+    },
+    "drive-mount": {
+      "name": "drive-mount",
+      "description": "Shows mounted disk path.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/drive-mount/"
+        }
+      },
+      "manifest": {
+        "name": "drive-mount",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows mounted disk path.",
+        "files": [
+          {
+            "path": "/drive-mount.lua",
+            "source": "drive-mount.lua"
+          }
+        ]
+      }
+    },
+    "clock-ticks": {
+      "name": "clock-ticks",
+      "description": "Shows os.clock value.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/clock-ticks/"
+        }
+      },
+      "manifest": {
+        "name": "clock-ticks",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows os.clock value.",
+        "files": [
+          {
+            "path": "/clock-ticks.lua",
+            "source": "clock-ticks.lua"
+          }
+        ]
+      }
+    },
+    "epoch-ms": {
+      "name": "epoch-ms",
+      "description": "Shows UTC epoch milliseconds.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/epoch-ms/"
+        }
+      },
+      "manifest": {
+        "name": "epoch-ms",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows UTC epoch milliseconds.",
+        "files": [
+          {
+            "path": "/epoch-ms.lua",
+            "source": "epoch-ms.lua"
+          }
+        ]
+      }
     }
   }
 }
