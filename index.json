@@ -2314,6 +2314,174 @@
           }
         ]
       }
+    },
+    "turtle-drop-down": {
+      "name": "turtle-drop-down",
+      "description": "Drops items downward.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-drop-down/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-drop-down",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Drops items downward.",
+        "files": [
+          {
+            "path": "/turtle-drop-down.lua",
+            "source": "turtle-drop-down.lua"
+          }
+        ]
+      }
+    },
+    "turtle-detect": {
+      "name": "turtle-detect",
+      "description": "Detects a block forward.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-detect/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-detect",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Detects a block forward.",
+        "files": [
+          {
+            "path": "/turtle-detect.lua",
+            "source": "turtle-detect.lua"
+          }
+        ]
+      }
+    },
+    "turtle-detect-up": {
+      "name": "turtle-detect-up",
+      "description": "Detects a block above.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-detect-up/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-detect-up",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Detects a block above.",
+        "files": [
+          {
+            "path": "/turtle-detect-up.lua",
+            "source": "turtle-detect-up.lua"
+          }
+        ]
+      }
+    },
+    "turtle-detect-down": {
+      "name": "turtle-detect-down",
+      "description": "Detects a block below.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-detect-down/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-detect-down",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Detects a block below.",
+        "files": [
+          {
+            "path": "/turtle-detect-down.lua",
+            "source": "turtle-detect-down.lua"
+          }
+        ]
+      }
+    },
+    "turtle-detect-side": {
+      "name": "turtle-detect-side",
+      "description": "Checks a turtle side.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-detect-side/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-detect-side",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Checks a turtle side.",
+        "files": [
+          {
+            "path": "/turtle-detect-side.lua",
+            "source": "turtle-detect-side.lua"
+          }
+        ]
+      }
+    },
+    "turtle-dig-test": {
+      "name": "turtle-dig-test",
+      "description": "Inspects the forward block.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-dig-test/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-dig-test",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Inspects the forward block.",
+        "files": [
+          {
+            "path": "/turtle-dig-test.lua",
+            "source": "turtle-dig-test.lua"
+          }
+        ]
+      }
+    },
+    "turtle-craft": {
+      "name": "turtle-craft",
+      "description": "Attempts turtle crafting.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-craft/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-craft",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Attempts turtle crafting.",
+        "files": [
+          {
+            "path": "/turtle-craft.lua",
+            "source": "turtle-craft.lua"
+          }
+        ]
+      }
+    },
+    "turtle-place-sign": {
+      "name": "turtle-place-sign",
+      "description": "Tests forward placement.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-place-sign/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-place-sign",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Tests forward placement.",
+        "files": [
+          {
+            "path": "/turtle-place-sign.lua",
+            "source": "turtle-place-sign.lua"
+          }
+        ]
+      }
     }
   }
 }
