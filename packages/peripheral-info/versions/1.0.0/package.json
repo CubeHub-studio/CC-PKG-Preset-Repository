@@ -1,0 +1,12 @@
+{
+  "name": "peripheral-info",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Lists attached peripherals and their types.",
+  "files": [
+    {
+      "path": "/peripheral-info.lua",
+      "source": "peripheral-info.lua"
+    }
+  ]
+}
