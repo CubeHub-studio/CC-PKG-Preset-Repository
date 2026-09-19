@@ -1,0 +1,1 @@
+if not turtle then print("Fuel tools require a turtle.") return end; print("Fuel: "..turtle.getFuelLevel()); print("Limit: "..turtle.getFuelLimit()); local a={...}; if a[1] then local ok,e=turtle.refuel(tonumber(a[1]) or 1); print(ok and "Refueled." or ("Refuel failed: "..tostring(e))) end
