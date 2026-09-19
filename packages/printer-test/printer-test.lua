@@ -1,0 +1,1 @@
+for _,s in ipairs(peripheral.getNames()) do if peripheral.getType(s)=="printer" then local p=peripheral.wrap(s); if p.newPage() then p.setPageTitle("CC-PKG Test"); p.write("CC-PKG Printer Test"); p.setCursorPos(1,3); p.write("Computer "..os.getComputerID()); p.endPage(); print("Printed on "..s) else print(s..": unable to start page") end end end
