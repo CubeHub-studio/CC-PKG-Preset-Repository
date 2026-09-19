@@ -1,0 +1,1 @@
+print("CC Monitor Tools");for _,n in ipairs(peripheral.getNames()) do if peripheral.getType(n)=="monitor" then local m=peripheral.wrap(n);local w,h=m.getSize();print(n.." "..w.."x"..h.." scale="..m.getTextScale()) end end
