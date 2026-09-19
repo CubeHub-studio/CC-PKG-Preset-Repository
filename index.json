@@ -3637,6 +3637,174 @@
           }
         ]
       }
+    },
+    "inventory-count": {
+      "name": "inventory-count",
+      "description": "Counts items in one inventory.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/inventory-count/"
+        }
+      },
+      "manifest": {
+        "name": "inventory-count",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Counts items in one inventory.",
+        "files": [
+          {
+            "path": "/inventory-count.lua",
+            "source": "inventory-count.lua"
+          }
+        ]
+      }
+    },
+    "inventory-slots": {
+      "name": "inventory-slots",
+      "description": "Shows used slots in an inventory.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/inventory-slots/"
+        }
+      },
+      "manifest": {
+        "name": "inventory-slots",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows used slots in an inventory.",
+        "files": [
+          {
+            "path": "/inventory-slots.lua",
+            "source": "inventory-slots.lua"
+          }
+        ]
+      }
+    },
+    "inventory-detail": {
+      "name": "inventory-detail",
+      "description": "Shows one inventory slot.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/inventory-detail/"
+        }
+      },
+      "manifest": {
+        "name": "inventory-detail",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows one inventory slot.",
+        "files": [
+          {
+            "path": "/inventory-detail.lua",
+            "source": "inventory-detail.lua"
+          }
+        ]
+      }
+    },
+    "energy-total": {
+      "name": "energy-total",
+      "description": "Totals attached energy storage.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/energy-total/"
+        }
+      },
+      "manifest": {
+        "name": "energy-total",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Totals attached energy storage.",
+        "files": [
+          {
+            "path": "/energy-total.lua",
+            "source": "energy-total.lua"
+          }
+        ]
+      }
+    },
+    "fluid-total": {
+      "name": "fluid-total",
+      "description": "Counts attached fluid tanks.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/fluid-total/"
+        }
+      },
+      "manifest": {
+        "name": "fluid-total",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Counts attached fluid tanks.",
+        "files": [
+          {
+            "path": "/fluid-total.lua",
+            "source": "fluid-total.lua"
+          }
+        ]
+      }
+    },
+    "peripheral-types": {
+      "name": "peripheral-types",
+      "description": "Lists unique peripheral types.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/peripheral-types/"
+        }
+      },
+      "manifest": {
+        "name": "peripheral-types",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Lists unique peripheral types.",
+        "files": [
+          {
+            "path": "/peripheral-types.lua",
+            "source": "peripheral-types.lua"
+          }
+        ]
+      }
+    },
+    "peripheral-count": {
+      "name": "peripheral-count",
+      "description": "Counts attached peripherals.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/peripheral-count/"
+        }
+      },
+      "manifest": {
+        "name": "peripheral-count",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Counts attached peripherals.",
+        "files": [
+          {
+            "path": "/peripheral-count.lua",
+            "source": "peripheral-count.lua"
+          }
+        ]
+      }
+    },
+    "peripheral-scan": {
+      "name": "peripheral-scan",
+      "description": "Prints peripheral names and types.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/peripheral-scan/"
+        }
+      },
+      "manifest": {
+        "name": "peripheral-scan",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Prints peripheral names and types.",
+        "files": [
+          {
+            "path": "/peripheral-scan.lua",
+            "source": "peripheral-scan.lua"
+          }
+        ]
+      }
     }
   }
 }
