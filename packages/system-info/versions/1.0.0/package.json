@@ -1,0 +1,13 @@
+{
+  "name": "system-info",
+  "version": "1.0.0",
+  "description": "Compact CC:Tweaked system and hardware information utility.",
+  "author": "CubeHub Studio",
+  "license": "MIT",
+  "files": [
+    {
+      "path": "programs/system-info",
+      "source": "system-info.lua"
+    }
+  ]
+}
