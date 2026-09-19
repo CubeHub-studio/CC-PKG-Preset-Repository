@@ -1,0 +1,1 @@
+for _,n in ipairs(peripheral.getNames()) do if peripheral.hasType(n,"drive") then local d=peripheral.wrap(n); print(n.." mount="..tostring(d.getMountPath()).." disk="..tostring(d.hasDisk())) end end
