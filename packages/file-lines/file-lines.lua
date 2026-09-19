@@ -1,0 +1,1 @@
+local p=arg[1]; if not p then print("Usage: file-lines <file>") return end; local h=fs.open(p,"r"); if not h then print("Cannot open file.") return end; local n=0; while h.readLine() do n=n+1 end; h.close(); print(n)
