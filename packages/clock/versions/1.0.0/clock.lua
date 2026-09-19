@@ -1,0 +1,1 @@
+while true do term.clear();term.setCursorPos(1,1);print("CC Clock");print("--------");print(os.date("%A, %B %d %Y"));print(os.date("%H:%M:%S"));print("");print("Press Q to exit.");local e,k=os.pullEvent("key");if k==keys.q then break end end
