@@ -1,0 +1,1 @@
+local a,b,c,d,e,f=tonumber(arg[1]),tonumber(arg[2]),tonumber(arg[3]),tonumber(arg[4]),tonumber(arg[5]),tonumber(arg[6]); if not a or not b or not c or not d or not e or not f then print("Usage: gps-distance-3d x1 y1 z1 x2 y2 z2") return end; print(math.sqrt((d-a)^2+(e-b)^2+(f-c)^2))
