@@ -1,0 +1,1 @@
+local note=arg[1] or "block.note_block.pling"; local oct=tonumber(arg[2]) or 1; for _,s in ipairs(peripheral.getNames()) do if peripheral.getType(s)=="speaker" then peripheral.call(s,"playNote",note,1,oct) end end
