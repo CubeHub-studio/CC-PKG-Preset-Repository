@@ -1,0 +1,13 @@
+{
+  "name": "diagnostic-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked diagnostic utilities.",
+  "files": [
+    {
+      "path": "/diagnostic-tools.lua",
+      "source": "packages/diagnostic-tools/diagnostic-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
