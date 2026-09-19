@@ -4099,6 +4099,216 @@
           }
         ]
       }
+    },
+    "fs-search": {
+      "name": "fs-search",
+      "description": "Practical CC:Tweaked fs search utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/fs-search/"
+        }
+      },
+      "manifest": {
+        "name": "fs-search",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked fs search utility.",
+        "files": [
+          {
+            "path": "/fs-search.lua",
+            "source": "fs-search.lua"
+          }
+        ]
+      }
+    },
+    "fs-copy-tree": {
+      "name": "fs-copy-tree",
+      "description": "Practical CC:Tweaked fs copy tree utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/fs-copy-tree/"
+        }
+      },
+      "manifest": {
+        "name": "fs-copy-tree",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked fs copy tree utility.",
+        "files": [
+          {
+            "path": "/fs-copy-tree.lua",
+            "source": "fs-copy-tree.lua"
+          }
+        ]
+      }
+    },
+    "fs-sync": {
+      "name": "fs-sync",
+      "description": "Practical CC:Tweaked fs sync utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/fs-sync/"
+        }
+      },
+      "manifest": {
+        "name": "fs-sync",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked fs sync utility.",
+        "files": [
+          {
+            "path": "/fs-sync.lua",
+            "source": "fs-sync.lua"
+          }
+        ]
+      }
+    },
+    "empty-dirs": {
+      "name": "empty-dirs",
+      "description": "Practical CC:Tweaked empty dirs utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/empty-dirs/"
+        }
+      },
+      "manifest": {
+        "name": "empty-dirs",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked empty dirs utility.",
+        "files": [
+          {
+            "path": "/empty-dirs.lua",
+            "source": "empty-dirs.lua"
+          }
+        ]
+      }
+    },
+    "log-follow": {
+      "name": "log-follow",
+      "description": "Practical CC:Tweaked log follow utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/log-follow/"
+        }
+      },
+      "manifest": {
+        "name": "log-follow",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked log follow utility.",
+        "files": [
+          {
+            "path": "/log-follow.lua",
+            "source": "log-follow.lua"
+          }
+        ]
+      }
+    },
+    "log-view": {
+      "name": "log-view",
+      "description": "Practical CC:Tweaked log view utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/log-view/"
+        }
+      },
+      "manifest": {
+        "name": "log-view",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked log view utility.",
+        "files": [
+          {
+            "path": "/log-view.lua",
+            "source": "log-view.lua"
+          }
+        ]
+      }
+    },
+    "json-file": {
+      "name": "json-file",
+      "description": "Practical CC:Tweaked json file utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/json-file/"
+        }
+      },
+      "manifest": {
+        "name": "json-file",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked json file utility.",
+        "files": [
+          {
+            "path": "/json-file.lua",
+            "source": "json-file.lua"
+          }
+        ]
+      }
+    },
+    "config-store": {
+      "name": "config-store",
+      "description": "Practical CC:Tweaked config store utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/config-store/"
+        }
+      },
+      "manifest": {
+        "name": "config-store",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked config store utility.",
+        "files": [
+          {
+            "path": "/config-store.lua",
+            "source": "config-store.lua"
+          }
+        ]
+      }
+    },
+    "file-stats": {
+      "name": "file-stats",
+      "description": "Practical CC:Tweaked file stats utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/file-stats/"
+        }
+      },
+      "manifest": {
+        "name": "file-stats",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked file stats utility.",
+        "files": [
+          {
+            "path": "/file-stats.lua",
+            "source": "file-stats.lua"
+          }
+        ]
+      }
+    },
+    "dir-report": {
+      "name": "dir-report",
+      "description": "Practical CC:Tweaked dir report utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/dir-report/"
+        }
+      },
+      "manifest": {
+        "name": "dir-report",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked dir report utility.",
+        "files": [
+          {
+            "path": "/dir-report.lua",
+            "source": "dir-report.lua"
+          }
+        ]
+      }
     }
   }
 }
