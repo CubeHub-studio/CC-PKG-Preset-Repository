@@ -1,0 +1,1 @@
+local a={...}; local p=a[1]; if not p or not fs.exists(p) then print("Usage: json-tools <file>"); return end; local h=fs.open(p,"r"); local s=h.readAll(); h.close(); local ok,v=pcall(textutils.unserialiseJSON,s); if not ok then print("Invalid JSON: "..tostring(v)); return end; print(textutils.serializeJSON(v))
