@@ -1,0 +1,13 @@
+{
+  "name": "backup-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked backup utilities.",
+  "files": [
+    {
+      "path": "/backup-tools.lua",
+      "source": "packages/backup-tools/backup-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
