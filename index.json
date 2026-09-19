@@ -4561,6 +4561,363 @@
           "path": "packages/turtle-compare/"
         }
       }
+    },
+    "inventory-move": {
+      "name": "inventory-move",
+      "description": "Moves items between connected inventories.",
+      "manifest": {
+        "name": "inventory-move",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Moves items between connected inventories.",
+        "files": [
+          {
+            "path": "/inventory-move.lua",
+            "source": "inventory-move.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/inventory-move/"
+        }
+      }
+    },
+    "inventory-pull": {
+      "name": "inventory-pull",
+      "description": "Pulls items between connected inventories.",
+      "manifest": {
+        "name": "inventory-pull",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Pulls items between connected inventories.",
+        "files": [
+          {
+            "path": "/inventory-pull.lua",
+            "source": "inventory-pull.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/inventory-pull/"
+        }
+      }
+    },
+    "inventory-summary": {
+      "name": "inventory-summary",
+      "description": "Summarizes slots and item counts in an inventory.",
+      "manifest": {
+        "name": "inventory-summary",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Summarizes slots and item counts in an inventory.",
+        "files": [
+          {
+            "path": "/inventory-summary.lua",
+            "source": "inventory-summary.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/inventory-summary/"
+        }
+      }
+    },
+    "inventory-capacity": {
+      "name": "inventory-capacity",
+      "description": "Shows used and free inventory slots.",
+      "manifest": {
+        "name": "inventory-capacity",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows used and free inventory slots.",
+        "files": [
+          {
+            "path": "/inventory-capacity.lua",
+            "source": "inventory-capacity.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/inventory-capacity/"
+        }
+      }
+    },
+    "peripheral-info": {
+      "name": "peripheral-info",
+      "description": "Shows a peripheral's attached types.",
+      "manifest": {
+        "name": "peripheral-info",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows a peripheral's attached types.",
+        "files": [
+          {
+            "path": "/peripheral-info.lua",
+            "source": "peripheral-info.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/peripheral-info/"
+        }
+      }
+    },
+    "peripheral-methods": {
+      "name": "peripheral-methods",
+      "description": "Lists methods exposed by a peripheral.",
+      "manifest": {
+        "name": "peripheral-methods",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Lists methods exposed by a peripheral.",
+        "files": [
+          {
+            "path": "/peripheral-methods.lua",
+            "source": "peripheral-methods.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/peripheral-methods/"
+        }
+      }
+    },
+    "peripheral-find": {
+      "name": "peripheral-find",
+      "description": "Finds peripherals by type.",
+      "manifest": {
+        "name": "peripheral-find",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Finds peripherals by type.",
+        "files": [
+          {
+            "path": "/peripheral-find.lua",
+            "source": "peripheral-find.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/peripheral-find/"
+        }
+      }
+    },
+    "rednet-broadcast": {
+      "name": "rednet-broadcast",
+      "description": "Broadcasts a Rednet message.",
+      "manifest": {
+        "name": "rednet-broadcast",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Broadcasts a Rednet message.",
+        "files": [
+          {
+            "path": "/rednet-broadcast.lua",
+            "source": "rednet-broadcast.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-broadcast/"
+        }
+      }
+    },
+    "rednet-receive-once": {
+      "name": "rednet-receive-once",
+      "description": "Waits for and displays one Rednet message.",
+      "manifest": {
+        "name": "rednet-receive-once",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Waits for and displays one Rednet message.",
+        "files": [
+          {
+            "path": "/rednet-receive-once.lua",
+            "source": "rednet-receive-once.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-receive-once/"
+        }
+      }
+    },
+    "rednet-host-list": {
+      "name": "rednet-host-list",
+      "description": "Looks up a CC-PKG Rednet host.",
+      "manifest": {
+        "name": "rednet-host-list",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Looks up a CC-PKG Rednet host.",
+        "files": [
+          {
+            "path": "/rednet-host-list.lua",
+            "source": "rednet-host-list.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-host-list/"
+        }
+      }
+    },
+    "gps-distance-3d": {
+      "name": "gps-distance-3d",
+      "description": "Calculates three-dimensional coordinate distance.",
+      "manifest": {
+        "name": "gps-distance-3d",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Calculates three-dimensional coordinate distance.",
+        "files": [
+          {
+            "path": "/gps-distance-3d.lua",
+            "source": "gps-distance-3d.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/gps-distance-3d/"
+        }
+      }
+    },
+    "http-save": {
+      "name": "http-save",
+      "description": "Downloads a URL to a local file with status validation.",
+      "manifest": {
+        "name": "http-save",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Downloads a URL to a local file with status validation.",
+        "files": [
+          {
+            "path": "/http-save.lua",
+            "source": "http-save.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/http-save/"
+        }
+      }
+    },
+    "settings-export": {
+      "name": "settings-export",
+      "description": "Exports CraftOS settings to a text file.",
+      "manifest": {
+        "name": "settings-export",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Exports CraftOS settings to a text file.",
+        "files": [
+          {
+            "path": "/settings-export.lua",
+            "source": "settings-export.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/settings-export/"
+        }
+      }
+    },
+    "settings-info": {
+      "name": "settings-info",
+      "description": "Shows details for one CraftOS setting.",
+      "manifest": {
+        "name": "settings-info",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows details for one CraftOS setting.",
+        "files": [
+          {
+            "path": "/settings-info.lua",
+            "source": "settings-info.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/settings-info/"
+        }
+      }
+    },
+    "settings-delete": {
+      "name": "settings-delete",
+      "description": "Unsets and saves a CraftOS setting.",
+      "manifest": {
+        "name": "settings-delete",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Unsets and saves a CraftOS setting.",
+        "files": [
+          {
+            "path": "/settings-delete.lua",
+            "source": "settings-delete.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/settings-delete/"
+        }
+      }
+    },
+    "term-box": {
+      "name": "term-box",
+      "description": "Draws a simple terminal text box.",
+      "manifest": {
+        "name": "term-box",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Draws a simple terminal text box.",
+        "files": [
+          {
+            "path": "/term-box.lua",
+            "source": "term-box.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/term-box/"
+        }
+      }
+    },
+    "terminal-banner": {
+      "name": "terminal-banner",
+      "description": "Displays a centered terminal banner.",
+      "manifest": {
+        "name": "terminal-banner",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Displays a centered terminal banner.",
+        "files": [
+          {
+            "path": "/terminal-banner.lua",
+            "source": "terminal-banner.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/terminal-banner/"
+        }
+      }
     }
   }
 }
