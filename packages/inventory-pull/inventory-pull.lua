@@ -1,0 +1,1 @@
+local d,s,n=arg[1],arg[2],tonumber(arg[3]); if not d or not s or not n then print("Usage: inventory-pull <destination> <source> <slot> [limit]") return end; print("Pulled "..peripheral.call(d,"pullItems",s,n,tonumber(arg[4])).." items.")
