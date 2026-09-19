@@ -1,0 +1,13 @@
+{
+  "name": "shell-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked shell utilities.",
+  "files": [
+    {
+      "path": "/shell-tools.lua",
+      "source": "packages/shell-tools/shell-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
