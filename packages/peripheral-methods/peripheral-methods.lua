@@ -1,0 +1,1 @@
+local n=arg[1]; if not n or not peripheral.isPresent(n) then print("Usage: peripheral-methods <name>") return end; for _,m in ipairs(peripheral.getMethods(n)) do print(m) end
