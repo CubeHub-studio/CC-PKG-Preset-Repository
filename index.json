@@ -4918,6 +4918,237 @@
           }
         ]
       }
+    },
+    "turtle-route": {
+      "name": "turtle-route",
+      "description": "Practical CC:Tweaked turtle route utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-route/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-route",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked turtle route utility.",
+        "files": [
+          {
+            "path": "/turtle-route.lua",
+            "source": "turtle-route.lua"
+          }
+        ]
+      }
+    },
+    "turtle-refuel-manager": {
+      "name": "turtle-refuel-manager",
+      "description": "Practical CC:Tweaked turtle refuel manager utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-refuel-manager/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-refuel-manager",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked turtle refuel manager utility.",
+        "files": [
+          {
+            "path": "/turtle-refuel-manager.lua",
+            "source": "turtle-refuel-manager.lua"
+          }
+        ]
+      }
+    },
+    "turtle-inventory-report": {
+      "name": "turtle-inventory-report",
+      "description": "Practical CC:Tweaked turtle inventory report utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-inventory-report/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-inventory-report",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked turtle inventory report utility.",
+        "files": [
+          {
+            "path": "/turtle-inventory-report.lua",
+            "source": "turtle-inventory-report.lua"
+          }
+        ]
+      }
+    },
+    "turtle-trash": {
+      "name": "turtle-trash",
+      "description": "Practical CC:Tweaked turtle trash utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-trash/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-trash",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked turtle trash utility.",
+        "files": [
+          {
+            "path": "/turtle-trash.lua",
+            "source": "turtle-trash.lua"
+          }
+        ]
+      }
+    },
+    "turtle-farm-row": {
+      "name": "turtle-farm-row",
+      "description": "Practical CC:Tweaked turtle farm row utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-farm-row/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-farm-row",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked turtle farm row utility.",
+        "files": [
+          {
+            "path": "/turtle-farm-row.lua",
+            "source": "turtle-farm-row.lua"
+          }
+        ]
+      }
+    },
+    "turtle-tunnel": {
+      "name": "turtle-tunnel",
+      "description": "Practical CC:Tweaked turtle tunnel utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-tunnel/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-tunnel",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked turtle tunnel utility.",
+        "files": [
+          {
+            "path": "/turtle-tunnel.lua",
+            "source": "turtle-tunnel.lua"
+          }
+        ]
+      }
+    },
+    "fs-watch": {
+      "name": "fs-watch",
+      "description": "Practical CC:Tweaked fs watch utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/fs-watch/"
+        }
+      },
+      "manifest": {
+        "name": "fs-watch",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked fs watch utility.",
+        "files": [
+          {
+            "path": "/fs-watch.lua",
+            "source": "fs-watch.lua"
+          }
+        ]
+      }
+    },
+    "file-replace": {
+      "name": "file-replace",
+      "description": "Practical CC:Tweaked file replace utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/file-replace/"
+        }
+      },
+      "manifest": {
+        "name": "file-replace",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked file replace utility.",
+        "files": [
+          {
+            "path": "/file-replace.lua",
+            "source": "file-replace.lua"
+          }
+        ]
+      }
+    },
+    "file-split": {
+      "name": "file-split",
+      "description": "Practical CC:Tweaked file split utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/file-split/"
+        }
+      },
+      "manifest": {
+        "name": "file-split",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked file split utility.",
+        "files": [
+          {
+            "path": "/file-split.lua",
+            "source": "file-split.lua"
+          }
+        ]
+      }
+    },
+    "file-join": {
+      "name": "file-join",
+      "description": "Practical CC:Tweaked file join utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/file-join/"
+        }
+      },
+      "manifest": {
+        "name": "file-join",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked file join utility.",
+        "files": [
+          {
+            "path": "/file-join.lua",
+            "source": "file-join.lua"
+          }
+        ]
+      }
+    },
+    "checksum": {
+      "name": "checksum",
+      "description": "Practical CC:Tweaked checksum utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/checksum/"
+        }
+      },
+      "manifest": {
+        "name": "checksum",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked checksum utility.",
+        "files": [
+          {
+            "path": "/checksum.lua",
+            "source": "checksum.lua"
+          }
+        ]
+      }
     }
   }
 }
