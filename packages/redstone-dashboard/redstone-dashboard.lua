@@ -1,0 +1,1 @@
+local sides={"top","bottom","left","right","front","back"}; while true do term.clear(); term.setCursorPos(1,1); print("Redstone Dashboard"); for _,s in ipairs(sides) do print(("%-7s in:%3d out:%3d"):format(s,redstone.getAnalogInput(s),redstone.getAnalogOutput(s))) end; os.sleep(1) end

@@ -5569,6 +5569,216 @@
           }
         ]
       }
+    },
+    "redstone-dashboard": {
+      "name": "redstone-dashboard",
+      "description": "Practical CC:Tweaked redstone dashboard utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/redstone-dashboard/"
+        }
+      },
+      "manifest": {
+        "name": "redstone-dashboard",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked redstone dashboard utility.",
+        "files": [
+          {
+            "path": "/redstone-dashboard.lua",
+            "source": "redstone-dashboard.lua"
+          }
+        ]
+      }
+    },
+    "redstone-watch-all": {
+      "name": "redstone-watch-all",
+      "description": "Practical CC:Tweaked redstone watch all utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/redstone-watch-all/"
+        }
+      },
+      "manifest": {
+        "name": "redstone-watch-all",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked redstone watch all utility.",
+        "files": [
+          {
+            "path": "/redstone-watch-all.lua",
+            "source": "redstone-watch-all.lua"
+          }
+        ]
+      }
+    },
+    "redstone-test": {
+      "name": "redstone-test",
+      "description": "Practical CC:Tweaked redstone test utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/redstone-test/"
+        }
+      },
+      "manifest": {
+        "name": "redstone-test",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked redstone test utility.",
+        "files": [
+          {
+            "path": "/redstone-test.lua",
+            "source": "redstone-test.lua"
+          }
+        ]
+      }
+    },
+    "monitor-text": {
+      "name": "monitor-text",
+      "description": "Practical CC:Tweaked monitor text utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-text/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-text",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked monitor text utility.",
+        "files": [
+          {
+            "path": "/monitor-text.lua",
+            "source": "monitor-text.lua"
+          }
+        ]
+      }
+    },
+    "monitor-center-text": {
+      "name": "monitor-center-text",
+      "description": "Practical CC:Tweaked monitor center text utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-center-text/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-center-text",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked monitor center text utility.",
+        "files": [
+          {
+            "path": "/monitor-center-text.lua",
+            "source": "monitor-center-text.lua"
+          }
+        ]
+      }
+    },
+    "monitor-test": {
+      "name": "monitor-test",
+      "description": "Practical CC:Tweaked monitor test utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-test/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-test",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked monitor test utility.",
+        "files": [
+          {
+            "path": "/monitor-test.lua",
+            "source": "monitor-test.lua"
+          }
+        ]
+      }
+    },
+    "speaker-test-all": {
+      "name": "speaker-test-all",
+      "description": "Practical CC:Tweaked speaker test all utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/speaker-test-all/"
+        }
+      },
+      "manifest": {
+        "name": "speaker-test-all",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked speaker test all utility.",
+        "files": [
+          {
+            "path": "/speaker-test-all.lua",
+            "source": "speaker-test-all.lua"
+          }
+        ]
+      }
+    },
+    "printer-status": {
+      "name": "printer-status",
+      "description": "Practical CC:Tweaked printer status utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/printer-status/"
+        }
+      },
+      "manifest": {
+        "name": "printer-status",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked printer status utility.",
+        "files": [
+          {
+            "path": "/printer-status.lua",
+            "source": "printer-status.lua"
+          }
+        ]
+      }
+    },
+    "drive-report": {
+      "name": "drive-report",
+      "description": "Practical CC:Tweaked drive report utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/drive-report/"
+        }
+      },
+      "manifest": {
+        "name": "drive-report",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked drive report utility.",
+        "files": [
+          {
+            "path": "/drive-report.lua",
+            "source": "drive-report.lua"
+          }
+        ]
+      }
+    },
+    "computer-report": {
+      "name": "computer-report",
+      "description": "Practical CC:Tweaked computer report utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/computer-report/"
+        }
+      },
+      "manifest": {
+        "name": "computer-report",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked computer report utility.",
+        "files": [
+          {
+            "path": "/computer-report.lua",
+            "source": "computer-report.lua"
+          }
+        ]
+      }
     }
   }
 }

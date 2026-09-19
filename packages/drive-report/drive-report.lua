@@ -1,0 +1,1 @@
+local found=0; for _,n in ipairs(peripheral.getNames()) do if peripheral.hasType(n,"drive") then found=found+1; local p=peripheral.wrap(n); print(n.." disk:"..tostring(p.hasData()).." label:"..tostring(p.getDiskLabel())) end end; print("Drives: "..found)

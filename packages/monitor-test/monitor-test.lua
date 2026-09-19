@@ -1,0 +1,2 @@
+local m=peripheral.find("monitor"); if not m then print("No monitor."); return end
+m.clear(); local w,h=m.getSize(); m.setCursorPos(1,1); m.write("Monitor test"); m.setCursorPos(1,3); m.write(("Size: %dx%d"):format(w,h)); for y=5,h do m.setCursorPos(1,y); m.write(("%02d "..string.rep(".",math.max(0,w-3))):format(y)) end

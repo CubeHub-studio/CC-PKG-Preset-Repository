@@ -1,0 +1,1 @@
+local found=0; for _,n in ipairs(peripheral.getNames()) do if peripheral.hasType(n,"printer") then found=found+1; local p=peripheral.wrap(n); print(n.." ink:"..tostring(p.getInkLevel()).." paper:"..tostring(p.getPaperLevel()).." page:"..tostring(p.getPageActive())) end end; print("Printers: "..found)

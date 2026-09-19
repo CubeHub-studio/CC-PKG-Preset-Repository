@@ -1,0 +1,2 @@
+local speakers={peripheral.find("speaker")}; if #speakers==0 then print("No speakers."); return end
+for i,s in ipairs(speakers) do print("Speaker "..i); s.playNote("pling",1,12) end; print("Played test note on "..#speakers.." speaker(s).")

@@ -1,0 +1,2 @@
+local name,text=arg[1],table.concat(arg," ",2); if not name or text=="" then print("Usage: monitor-text <monitor> <text>"); return end
+local m=peripheral.wrap(name); if not m or not peripheral.hasType(name,"monitor") then print("Not a monitor."); return end; m.clear(); m.setCursorPos(1,1); m.write(text)

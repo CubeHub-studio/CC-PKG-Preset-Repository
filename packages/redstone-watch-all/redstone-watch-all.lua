@@ -1,0 +1,2 @@
+local last={}; for _,s in ipairs({"top","bottom","left","right","front","back"}) do last[s]=redstone.getAnalogInput(s) end
+local seconds=tonumber(arg[1]) or 60; local untilTime=os.clock()+seconds; while os.clock()<untilTime do for s,v in pairs(last) do local n=redstone.getAnalogInput(s); if n~=v then print(s..": "..v.." -> "..n); last[s]=n end end; os.sleep(.1) end

@@ -1,0 +1,2 @@
+local rows={}; for _,n in ipairs(peripheral.getNames()) do if peripheral.hasType(n,"computer") then local p=peripheral.wrap(n); rows[#rows+1]={n,p.getID(),p.getLabel(),p.isOn()} end end
+for _,r in ipairs(rows) do print(("%-20s id:%d on:%s label:%s"):format(r[1],r[2],tostring(r[4]),tostring(r[3] or "(none)"))) end; print("Computers: "..#rows)

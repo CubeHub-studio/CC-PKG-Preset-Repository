@@ -1,0 +1,2 @@
+local side=arg[1] or "front"; local level=tonumber(arg[2]) or 15; local duration=tonumber(arg[3]) or 2; if level<0 or level>15 then print("Level 0-15."); return end
+redstone.setAnalogOutput(side,level); print("Set "..side.." to "..level.." for "..duration.."s"); os.sleep(duration); redstone.setAnalogOutput(side,0); print("Reset "..side)
