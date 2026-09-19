@@ -1,0 +1,1 @@
+print("Memory estimate: "..tostring(collectgarbage("count")).." KB"); print("Computer ID: "..tostring(os.getComputerID())); print("Label: "..tostring(os.getComputerLabel() or "none"))
