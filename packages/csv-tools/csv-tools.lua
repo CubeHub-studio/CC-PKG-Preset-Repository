@@ -1,0 +1,1 @@
+local a={...}; local p=a[1]; if not p or not fs.exists(p) then print("Usage: csv-tools <file>"); return end; local h=fs.open(p,"r"); local n=0; for line in h.readLine do n=n+1; print(n..": "..line) end; h.close(); print("Rows: "..n)
