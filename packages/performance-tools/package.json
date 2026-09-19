@@ -1,0 +1,13 @@
+{
+  "name": "performance-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked performance utilities.",
+  "files": [
+    {
+      "path": "/performance-tools.lua",
+      "source": "packages/performance-tools/performance-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
