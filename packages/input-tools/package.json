@@ -6,15 +6,15 @@
   "files": [
     {
       "path": "/mouse-test/mouse-test.lua",
-      "source": "mouse-test/mouse-test.lua"
+      "source": "packages/input-tools/mouse-test/mouse-test.lua"
     },
     {
       "path": "/keyboard-test/keyboard-test.lua",
-      "source": "keyboard-test/keyboard-test.lua"
+      "source": "packages/input-tools/keyboard-test/keyboard-test.lua"
     },
     {
       "path": "/keyboard-layout/keyboard-layout.lua",
-      "source": "keyboard-layout/keyboard-layout.lua"
+      "source": "packages/input-tools/keyboard-layout/keyboard-layout.lua"
     }
   ]
 }
