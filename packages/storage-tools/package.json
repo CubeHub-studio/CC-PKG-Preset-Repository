@@ -6,47 +6,47 @@
   "files": [
     {
       "path": "/disk-label/disk-label.lua",
-      "source": "disk-label/disk-label.lua"
+      "source": "packages/storage-tools/disk-label/disk-label.lua"
     },
     {
       "path": "/disk-id/disk-id.lua",
-      "source": "disk-id/disk-id.lua"
+      "source": "packages/storage-tools/disk-id/disk-id.lua"
     },
     {
       "path": "/drive-info/drive-info.lua",
-      "source": "drive-info/drive-info.lua"
+      "source": "packages/storage-tools/drive-info/drive-info.lua"
     },
     {
       "path": "/drive-eject/drive-eject.lua",
-      "source": "drive-eject/drive-eject.lua"
+      "source": "packages/storage-tools/drive-eject/drive-eject.lua"
     },
     {
       "path": "/drive-status/drive-status.lua",
-      "source": "drive-status/drive-status.lua"
+      "source": "packages/storage-tools/drive-status/drive-status.lua"
     },
     {
       "path": "/drive-data/drive-data.lua",
-      "source": "drive-data/drive-data.lua"
+      "source": "packages/storage-tools/drive-data/drive-data.lua"
     },
     {
       "path": "/drive-mount/drive-mount.lua",
-      "source": "drive-mount/drive-mount.lua"
+      "source": "packages/storage-tools/drive-mount/drive-mount.lua"
     },
     {
       "path": "/disk-usage/disk-usage.lua",
-      "source": "disk-usage/disk-usage.lua"
+      "source": "packages/storage-tools/disk-usage/disk-usage.lua"
     },
     {
       "path": "/drive-report/drive-report.lua",
-      "source": "drive-report/drive-report.lua"
+      "source": "packages/storage-tools/drive-report/drive-report.lua"
     },
     {
       "path": "/disk-space/disk-space.lua",
-      "source": "disk-space/disk-space.lua"
+      "source": "packages/storage-tools/disk-space/disk-space.lua"
     },
     {
       "path": "/disk-info/disk-info.lua",
-      "source": "disk-info/disk-info.lua"
+      "source": "packages/storage-tools/disk-info/disk-info.lua"
     }
   ]
 }
