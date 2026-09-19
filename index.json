@@ -4141,6 +4141,426 @@
           "path": "packages/rednet-ping/"
         }
       }
+    },
+    "disk-usage": {
+      "name": "disk-usage",
+      "description": "Shows recursive size and file count for a path.",
+      "manifest": {
+        "name": "disk-usage",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows recursive size and file count for a path.",
+        "files": [
+          {
+            "path": "/disk-usage.lua",
+            "source": "disk-usage.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/disk-usage/"
+        }
+      }
+    },
+    "file-copy-safe": {
+      "name": "file-copy-safe",
+      "description": "Copies a file after checking source and destination safety.",
+      "manifest": {
+        "name": "file-copy-safe",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Copies a file after checking source and destination safety.",
+        "files": [
+          {
+            "path": "/file-copy-safe.lua",
+            "source": "file-copy-safe.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/file-copy-safe/"
+        }
+      }
+    },
+    "file-append": {
+      "name": "file-append",
+      "description": "Appends text to a file, creating it when needed.",
+      "manifest": {
+        "name": "file-append",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Appends text to a file, creating it when needed.",
+        "files": [
+          {
+            "path": "/file-append.lua",
+            "source": "file-append.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/file-append/"
+        }
+      }
+    },
+    "file-rename": {
+      "name": "file-rename",
+      "description": "Renames a file or directory with validation.",
+      "manifest": {
+        "name": "file-rename",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Renames a file or directory with validation.",
+        "files": [
+          {
+            "path": "/file-rename.lua",
+            "source": "file-rename.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/file-rename/"
+        }
+      }
+    },
+    "path-info": {
+      "name": "path-info",
+      "description": "Shows path name, directory, and extension information.",
+      "manifest": {
+        "name": "path-info",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows path name, directory, and extension information.",
+        "files": [
+          {
+            "path": "/path-info.lua",
+            "source": "path-info.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/path-info/"
+        }
+      }
+    },
+    "dir-size": {
+      "name": "dir-size",
+      "description": "Calculates directory size with file count.",
+      "manifest": {
+        "name": "dir-size",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Calculates directory size with file count.",
+        "files": [
+          {
+            "path": "/dir-size.lua",
+            "source": "dir-size.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/dir-size/"
+        }
+      }
+    },
+    "backup-file": {
+      "name": "backup-file",
+      "description": "Creates a timestamped backup of a file.",
+      "manifest": {
+        "name": "backup-file",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Creates a timestamped backup of a file.",
+        "files": [
+          {
+            "path": "/backup-file.lua",
+            "source": "backup-file.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/backup-file/"
+        }
+      }
+    },
+    "rednet-discovery": {
+      "name": "rednet-discovery",
+      "description": "Discovers Rednet hosts by protocol.",
+      "manifest": {
+        "name": "rednet-discovery",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Discovers Rednet hosts by protocol.",
+        "files": [
+          {
+            "path": "/rednet-discovery.lua",
+            "source": "rednet-discovery.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-discovery/"
+        }
+      }
+    },
+    "rednet-listen": {
+      "name": "rednet-listen",
+      "description": "Listens for Rednet messages on a protocol.",
+      "manifest": {
+        "name": "rednet-listen",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Listens for Rednet messages on a protocol.",
+        "files": [
+          {
+            "path": "/rednet-listen.lua",
+            "source": "rednet-listen.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-listen/"
+        }
+      }
+    },
+    "rednet-broadcast-json": {
+      "name": "rednet-broadcast-json",
+      "description": "Broadcasts a message over Rednet.",
+      "manifest": {
+        "name": "rednet-broadcast-json",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Broadcasts a message over Rednet.",
+        "files": [
+          {
+            "path": "/rednet-broadcast-json.lua",
+            "source": "rednet-broadcast-json.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-broadcast-json/"
+        }
+      }
+    },
+    "gps-distance": {
+      "name": "gps-distance",
+      "description": "Calculates distance between two X/Z coordinates.",
+      "manifest": {
+        "name": "gps-distance",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Calculates distance between two X/Z coordinates.",
+        "files": [
+          {
+            "path": "/gps-distance.lua",
+            "source": "gps-distance.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/gps-distance/"
+        }
+      }
+    },
+    "http-json": {
+      "name": "http-json",
+      "description": "Fetches and parses JSON from a URL.",
+      "manifest": {
+        "name": "http-json",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Fetches and parses JSON from a URL.",
+        "files": [
+          {
+            "path": "/http-json.lua",
+            "source": "http-json.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/http-json/"
+        }
+      }
+    },
+    "monitor-log": {
+      "name": "monitor-log",
+      "description": "Writes timestamped messages to connected monitors.",
+      "manifest": {
+        "name": "monitor-log",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Writes timestamped messages to connected monitors.",
+        "files": [
+          {
+            "path": "/monitor-log.lua",
+            "source": "monitor-log.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-log/"
+        }
+      }
+    },
+    "monitor-button": {
+      "name": "monitor-button",
+      "description": "Displays a touch button on monitors and reports clicks.",
+      "manifest": {
+        "name": "monitor-button",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Displays a touch button on monitors and reports clicks.",
+        "files": [
+          {
+            "path": "/monitor-button.lua",
+            "source": "monitor-button.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-button/"
+        }
+      }
+    },
+    "energy-monitor": {
+      "name": "energy-monitor",
+      "description": "Live monitor of attached energy storage.",
+      "manifest": {
+        "name": "energy-monitor",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Live monitor of attached energy storage.",
+        "files": [
+          {
+            "path": "/energy-monitor.lua",
+            "source": "energy-monitor.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/energy-monitor/"
+        }
+      }
+    },
+    "inventory-watch": {
+      "name": "inventory-watch",
+      "description": "Reports changes in an attached inventory.",
+      "manifest": {
+        "name": "inventory-watch",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Reports changes in an attached inventory.",
+        "files": [
+          {
+            "path": "/inventory-watch.lua",
+            "source": "inventory-watch.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/inventory-watch/"
+        }
+      }
+    },
+    "turtle-inspect-all": {
+      "name": "turtle-inspect-all",
+      "description": "Inspects the turtle's front, up, and down sides.",
+      "manifest": {
+        "name": "turtle-inspect-all",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Inspects the turtle's front, up, and down sides.",
+        "files": [
+          {
+            "path": "/turtle-inspect-all.lua",
+            "source": "turtle-inspect-all.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-inspect-all/"
+        }
+      }
+    },
+    "turtle-turn-around": {
+      "name": "turtle-turn-around",
+      "description": "Turns a turtle 180 degrees.",
+      "manifest": {
+        "name": "turtle-turn-around",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Turns a turtle 180 degrees.",
+        "files": [
+          {
+            "path": "/turtle-turn-around.lua",
+            "source": "turtle-turn-around.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-turn-around/"
+        }
+      }
+    },
+    "turtle-empty-slot": {
+      "name": "turtle-empty-slot",
+      "description": "Finds the first empty turtle inventory slot.",
+      "manifest": {
+        "name": "turtle-empty-slot",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Finds the first empty turtle inventory slot.",
+        "files": [
+          {
+            "path": "/turtle-empty-slot.lua",
+            "source": "turtle-empty-slot.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-empty-slot/"
+        }
+      }
+    },
+    "turtle-compare": {
+      "name": "turtle-compare",
+      "description": "Compares a turtle slot with an adjacent block.",
+      "manifest": {
+        "name": "turtle-compare",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Compares a turtle slot with an adjacent block.",
+        "files": [
+          {
+            "path": "/turtle-compare.lua",
+            "source": "turtle-compare.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-compare/"
+        }
+      }
     }
   }
 }
