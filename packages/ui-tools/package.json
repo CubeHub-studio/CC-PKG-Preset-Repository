@@ -6,19 +6,19 @@
   "files": [
     {
       "path": "/window-demo/window-demo.lua",
-      "source": "window-demo/window-demo.lua"
+      "source": "packages/ui-tools/window-demo/window-demo.lua"
     },
     {
       "path": "/progress/progress.lua",
-      "source": "progress/progress.lua"
+      "source": "packages/ui-tools/progress/progress.lua"
     },
     {
       "path": "/spinner/spinner.lua",
-      "source": "spinner/spinner.lua"
+      "source": "packages/ui-tools/spinner/spinner.lua"
     },
     {
       "path": "/menu-demo/menu-demo.lua",
-      "source": "menu-demo/menu-demo.lua"
+      "source": "packages/ui-tools/menu-demo/menu-demo.lua"
     }
   ]
 }
