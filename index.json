@@ -7,80 +7,15 @@
       "description": "Consolidated CC:Tweaked tools for system tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/system-tools/"
+          "manifest": "packages/system-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "system-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for system tools.",
-        "files": [
-          {
-            "path": "/system-info/system-info.lua",
-            "source": "system-info/system-info.lua"
-          },
-          {
-            "path": "/lua-info/lua-info.lua",
-            "source": "lua-info/lua-info.lua"
-          },
-          {
-            "path": "/env-info/env-info.lua",
-            "source": "env-info/env-info.lua"
-          },
-          {
-            "path": "/reboot/reboot.lua",
-            "source": "reboot/reboot.lua"
-          },
-          {
-            "path": "/shutdown/shutdown.lua",
-            "source": "shutdown/shutdown.lua"
-          },
-          {
-            "path": "/label/label.lua",
-            "source": "label/label.lua"
-          },
-          {
-            "path": "/id/id.lua",
-            "source": "id/id.lua"
-          },
-          {
-            "path": "/startup-info/startup-info.lua",
-            "source": "startup-info/startup-info.lua"
-          },
-          {
-            "path": "/ram-info/ram-info.lua",
-            "source": "ram-info/ram-info.lua"
-          },
-          {
-            "path": "/gc/gc.lua",
-            "source": "gc/gc.lua"
-          },
-          {
-            "path": "/os-info/os-info.lua",
-            "source": "os-info/os-info.lua"
-          },
-          {
-            "path": "/env-report/env-report.lua",
-            "source": "env-report/env-report.lua"
-          },
-          {
-            "path": "/startup-report/startup-report.lua",
-            "source": "startup-report/startup-report.lua"
-          },
-          {
-            "path": "/rom-list/rom-list.lua",
-            "source": "rom-list/rom-list.lua"
-          },
-          {
-            "path": "/health-check/health-check.lua",
-            "source": "health-check/health-check.lua"
-          },
-          {
-            "path": "/safe-command/safe-command.lua",
-            "source": "safe-command/safe-command.lua"
-          }
-        ]
       }
     },
     "time-tools": {
@@ -88,52 +23,15 @@
       "description": "Consolidated CC:Tweaked tools for time tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/time-tools/"
+          "manifest": "packages/time-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "time-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for time tools.",
-        "files": [
-          {
-            "path": "/clock/clock.lua",
-            "source": "clock/clock.lua"
-          },
-          {
-            "path": "/timer/timer.lua",
-            "source": "timer/timer.lua"
-          },
-          {
-            "path": "/stopwatch/stopwatch.lua",
-            "source": "stopwatch/stopwatch.lua"
-          },
-          {
-            "path": "/calendar/calendar.lua",
-            "source": "calendar/calendar.lua"
-          },
-          {
-            "path": "/time/time.lua",
-            "source": "time/time.lua"
-          },
-          {
-            "path": "/date/date.lua",
-            "source": "date/date.lua"
-          },
-          {
-            "path": "/epoch-ms/epoch-ms.lua",
-            "source": "epoch-ms/epoch-ms.lua"
-          },
-          {
-            "path": "/uptime/uptime.lua",
-            "source": "uptime/uptime.lua"
-          },
-          {
-            "path": "/timer-run/timer-run.lua",
-            "source": "timer-run/timer-run.lua"
-          }
-        ]
       }
     },
     "terminal-tools": {
@@ -141,64 +39,15 @@
       "description": "Consolidated CC:Tweaked tools for terminal tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/terminal-tools/"
+          "manifest": "packages/terminal-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "terminal-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for terminal tools.",
-        "files": [
-          {
-            "path": "/motd/motd.lua",
-            "source": "motd/motd.lua"
-          },
-          {
-            "path": "/color-test/color-test.lua",
-            "source": "color-test/color-test.lua"
-          },
-          {
-            "path": "/term-size/term-size.lua",
-            "source": "term-size/term-size.lua"
-          },
-          {
-            "path": "/term-clear/term-clear.lua",
-            "source": "term-clear/term-clear.lua"
-          },
-          {
-            "path": "/term-reset/term-reset.lua",
-            "source": "term-reset/term-reset.lua"
-          },
-          {
-            "path": "/term-color/term-color.lua",
-            "source": "term-color/term-color.lua"
-          },
-          {
-            "path": "/term-size-set/term-size-set.lua",
-            "source": "term-size-set/term-size-set.lua"
-          },
-          {
-            "path": "/term-center/term-center.lua",
-            "source": "term-center/term-center.lua"
-          },
-          {
-            "path": "/term-cursor/term-cursor.lua",
-            "source": "term-cursor/term-cursor.lua"
-          },
-          {
-            "path": "/term-box/term-box.lua",
-            "source": "term-box/term-box.lua"
-          },
-          {
-            "path": "/terminal-banner/terminal-banner.lua",
-            "source": "terminal-banner/terminal-banner.lua"
-          },
-          {
-            "path": "/term-info/term-info.lua",
-            "source": "term-info/term-info.lua"
-          }
-        ]
       }
     },
     "network-tools": {
@@ -206,56 +55,15 @@
       "description": "Consolidated CC:Tweaked tools for network tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/network-tools/"
+          "manifest": "packages/network-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "network-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for network tools.",
-        "files": [
-          {
-            "path": "/net-tools/net-tools.lua",
-            "source": "net-tools/net-tools.lua"
-          },
-          {
-            "path": "/net-scan/net-scan.lua",
-            "source": "net-scan/net-scan.lua"
-          },
-          {
-            "path": "/gps-locate/gps-locate.lua",
-            "source": "gps-locate/gps-locate.lua"
-          },
-          {
-            "path": "/modem-info/modem-info.lua",
-            "source": "modem-info/modem-info.lua"
-          },
-          {
-            "path": "/gps-distance/gps-distance.lua",
-            "source": "gps-distance/gps-distance.lua"
-          },
-          {
-            "path": "/gps-distance-3d/gps-distance-3d.lua",
-            "source": "gps-distance-3d/gps-distance-3d.lua"
-          },
-          {
-            "path": "/modem-channels/modem-channels.lua",
-            "source": "modem-channels/modem-channels.lua"
-          },
-          {
-            "path": "/modem-scan/modem-scan.lua",
-            "source": "modem-scan/modem-scan.lua"
-          },
-          {
-            "path": "/gps-watch/gps-watch.lua",
-            "source": "gps-watch/gps-watch.lua"
-          },
-          {
-            "path": "/gps-log/gps-log.lua",
-            "source": "gps-log/gps-log.lua"
-          }
-        ]
       }
     },
     "monitor-tools": {
@@ -263,80 +71,15 @@
       "description": "Consolidated CC:Tweaked tools for monitor tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/monitor-tools/"
+          "manifest": "packages/monitor-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "monitor-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for monitor tools.",
-        "files": [
-          {
-            "path": "/monitor-tools.lua",
-            "source": "monitor-tools.lua"
-          },
-          {
-            "path": "/monitor-info/monitor-info.lua",
-            "source": "monitor-info/monitor-info.lua"
-          },
-          {
-            "path": "/monitor-clear/monitor-clear.lua",
-            "source": "monitor-clear/monitor-clear.lua"
-          },
-          {
-            "path": "/monitor-clock/monitor-clock.lua",
-            "source": "monitor-clock/monitor-clock.lua"
-          },
-          {
-            "path": "/monitor-motd/monitor-motd.lua",
-            "source": "monitor-motd/monitor-motd.lua"
-          },
-          {
-            "path": "/monitor-color/monitor-color.lua",
-            "source": "monitor-color/monitor-color.lua"
-          },
-          {
-            "path": "/monitor-touch/monitor-touch.lua",
-            "source": "monitor-touch/monitor-touch.lua"
-          },
-          {
-            "path": "/monitor-size/monitor-size.lua",
-            "source": "monitor-size/monitor-size.lua"
-          },
-          {
-            "path": "/monitor-write/monitor-write.lua",
-            "source": "monitor-write/monitor-write.lua"
-          },
-          {
-            "path": "/monitor-log/monitor-log.lua",
-            "source": "monitor-log/monitor-log.lua"
-          },
-          {
-            "path": "/monitor-button/monitor-button.lua",
-            "source": "monitor-button/monitor-button.lua"
-          },
-          {
-            "path": "/monitor-system/monitor-system.lua",
-            "source": "monitor-system/monitor-system.lua"
-          },
-          {
-            "path": "/monitor-energy/monitor-energy.lua",
-            "source": "monitor-energy/monitor-energy.lua"
-          },
-          {
-            "path": "/monitor-text/monitor-text.lua",
-            "source": "monitor-text/monitor-text.lua"
-          },
-          {
-            "path": "/monitor-center-text/monitor-center-text.lua",
-            "source": "monitor-center-text/monitor-center-text.lua"
-          },
-          {
-            "path": "/monitor-test/monitor-test.lua",
-            "source": "monitor-test/monitor-test.lua"
-          }
-        ]
       }
     },
     "redstone-tools": {
@@ -344,64 +87,15 @@
       "description": "Consolidated CC:Tweaked tools for redstone tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/redstone-tools/"
+          "manifest": "packages/redstone-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "redstone-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for redstone tools.",
-        "files": [
-          {
-            "path": "/redstone-monitor/redstone-monitor.lua",
-            "source": "redstone-monitor/redstone-monitor.lua"
-          },
-          {
-            "path": "/redstone-output/redstone-output.lua",
-            "source": "redstone-output/redstone-output.lua"
-          },
-          {
-            "path": "/redstone-pulse/redstone-pulse.lua",
-            "source": "redstone-pulse/redstone-pulse.lua"
-          },
-          {
-            "path": "/redstone-level/redstone-level.lua",
-            "source": "redstone-level/redstone-level.lua"
-          },
-          {
-            "path": "/redstone-watch/redstone-watch.lua",
-            "source": "redstone-watch/redstone-watch.lua"
-          },
-          {
-            "path": "/redstone-all-off/redstone-all-off.lua",
-            "source": "redstone-all-off/redstone-all-off.lua"
-          },
-          {
-            "path": "/redstone-all-on/redstone-all-on.lua",
-            "source": "redstone-all-on/redstone-all-on.lua"
-          },
-          {
-            "path": "/redstone-input/redstone-input.lua",
-            "source": "redstone-input/redstone-input.lua"
-          },
-          {
-            "path": "/redstone-output-get/redstone-output-get.lua",
-            "source": "redstone-output-get/redstone-output-get.lua"
-          },
-          {
-            "path": "/redstone-dashboard/redstone-dashboard.lua",
-            "source": "redstone-dashboard/redstone-dashboard.lua"
-          },
-          {
-            "path": "/redstone-watch-all/redstone-watch-all.lua",
-            "source": "redstone-watch-all/redstone-watch-all.lua"
-          },
-          {
-            "path": "/redstone-test/redstone-test.lua",
-            "source": "redstone-test/redstone-test.lua"
-          }
-        ]
       }
     },
     "math-tools": {
@@ -409,36 +103,15 @@
       "description": "Consolidated CC:Tweaked tools for math tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/math-tools/"
+          "manifest": "packages/math-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "math-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for math tools.",
-        "files": [
-          {
-            "path": "/calculator/calculator.lua",
-            "source": "calculator/calculator.lua"
-          },
-          {
-            "path": "/random/random.lua",
-            "source": "random/random.lua"
-          },
-          {
-            "path": "/vector-demo/vector-demo.lua",
-            "source": "vector-demo/vector-demo.lua"
-          },
-          {
-            "path": "/vector-distance/vector-distance.lua",
-            "source": "vector-distance/vector-distance.lua"
-          },
-          {
-            "path": "/vector-direction/vector-direction.lua",
-            "source": "vector-direction/vector-direction.lua"
-          }
-        ]
       }
     },
     "developer-tools": {
@@ -446,24 +119,15 @@
       "description": "Consolidated CC:Tweaked tools for developer tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/developer-tools/"
+          "manifest": "packages/developer-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "developer-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for developer tools.",
-        "files": [
-          {
-            "path": "/api-list/api-list.lua",
-            "source": "api-list/api-list.lua"
-          },
-          {
-            "path": "/lua-format/lua-format.lua",
-            "source": "lua-format/lua-format.lua"
-          }
-        ]
       }
     },
     "text-tools": {
@@ -471,36 +135,15 @@
       "description": "Consolidated CC:Tweaked tools for text tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/text-tools/"
+          "manifest": "packages/text-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "text-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for text tools.",
-        "files": [
-          {
-            "path": "/text-tools.lua",
-            "source": "text-tools.lua"
-          },
-          {
-            "path": "/url-encode/url-encode.lua",
-            "source": "url-encode/url-encode.lua"
-          },
-          {
-            "path": "/url-decode/url-decode.lua",
-            "source": "url-decode/url-decode.lua"
-          },
-          {
-            "path": "/text-wrap/text-wrap.lua",
-            "source": "text-wrap/text-wrap.lua"
-          },
-          {
-            "path": "/url-status/url-status.lua",
-            "source": "url-status/url-status.lua"
-          }
-        ]
       }
     },
     "filesystem-tools": {
@@ -508,192 +151,15 @@
       "description": "Consolidated CC:Tweaked tools for filesystem tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/filesystem-tools/"
+          "manifest": "packages/filesystem-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "filesystem-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for filesystem tools.",
-        "files": [
-          {
-            "path": "/file-info/file-info.lua",
-            "source": "file-info/file-info.lua"
-          },
-          {
-            "path": "/tree/tree.lua",
-            "source": "tree/tree.lua"
-          },
-          {
-            "path": "/find/find.lua",
-            "source": "find/find.lua"
-          },
-          {
-            "path": "/du/du.lua",
-            "source": "du/du.lua"
-          },
-          {
-            "path": "/path-list/path-list.lua",
-            "source": "path-list/path-list.lua"
-          },
-          {
-            "path": "/fs-copy/fs-copy.lua",
-            "source": "fs-copy/fs-copy.lua"
-          },
-          {
-            "path": "/fs-move/fs-move.lua",
-            "source": "fs-move/fs-move.lua"
-          },
-          {
-            "path": "/fs-delete/fs-delete.lua",
-            "source": "fs-delete/fs-delete.lua"
-          },
-          {
-            "path": "/fs-mkdir/fs-mkdir.lua",
-            "source": "fs-mkdir/fs-mkdir.lua"
-          },
-          {
-            "path": "/fs-exists/fs-exists.lua",
-            "source": "fs-exists/fs-exists.lua"
-          },
-          {
-            "path": "/fs-isdir/fs-isdir.lua",
-            "source": "fs-isdir/fs-isdir.lua"
-          },
-          {
-            "path": "/fs-size/fs-size.lua",
-            "source": "fs-size/fs-size.lua"
-          },
-          {
-            "path": "/fs-readonly/fs-readonly.lua",
-            "source": "fs-readonly/fs-readonly.lua"
-          },
-          {
-            "path": "/file-tail/file-tail.lua",
-            "source": "file-tail/file-tail.lua"
-          },
-          {
-            "path": "/file-head/file-head.lua",
-            "source": "file-head/file-head.lua"
-          },
-          {
-            "path": "/file-grep/file-grep.lua",
-            "source": "file-grep/file-grep.lua"
-          },
-          {
-            "path": "/file-copy-safe/file-copy-safe.lua",
-            "source": "file-copy-safe/file-copy-safe.lua"
-          },
-          {
-            "path": "/file-append/file-append.lua",
-            "source": "file-append/file-append.lua"
-          },
-          {
-            "path": "/file-rename/file-rename.lua",
-            "source": "file-rename/file-rename.lua"
-          },
-          {
-            "path": "/path-info/path-info.lua",
-            "source": "path-info/path-info.lua"
-          },
-          {
-            "path": "/dir-size/dir-size.lua",
-            "source": "dir-size/dir-size.lua"
-          },
-          {
-            "path": "/backup-file/backup-file.lua",
-            "source": "backup-file/backup-file.lua"
-          },
-          {
-            "path": "/fs-search/fs-search.lua",
-            "source": "fs-search/fs-search.lua"
-          },
-          {
-            "path": "/fs-copy-tree/fs-copy-tree.lua",
-            "source": "fs-copy-tree/fs-copy-tree.lua"
-          },
-          {
-            "path": "/fs-sync/fs-sync.lua",
-            "source": "fs-sync/fs-sync.lua"
-          },
-          {
-            "path": "/empty-dirs/empty-dirs.lua",
-            "source": "empty-dirs/empty-dirs.lua"
-          },
-          {
-            "path": "/file-stats/file-stats.lua",
-            "source": "file-stats/file-stats.lua"
-          },
-          {
-            "path": "/dir-report/dir-report.lua",
-            "source": "dir-report/dir-report.lua"
-          },
-          {
-            "path": "/fs-watch/fs-watch.lua",
-            "source": "fs-watch/fs-watch.lua"
-          },
-          {
-            "path": "/file-replace/file-replace.lua",
-            "source": "file-replace/file-replace.lua"
-          },
-          {
-            "path": "/file-split/file-split.lua",
-            "source": "file-split/file-split.lua"
-          },
-          {
-            "path": "/file-join/file-join.lua",
-            "source": "file-join/file-join.lua"
-          },
-          {
-            "path": "/checksum/checksum.lua",
-            "source": "checksum/checksum.lua"
-          },
-          {
-            "path": "/file-number/file-number.lua",
-            "source": "file-number/file-number.lua"
-          },
-          {
-            "path": "/file-diff/file-diff.lua",
-            "source": "file-diff/file-diff.lua"
-          },
-          {
-            "path": "/dir-count/dir-count.lua",
-            "source": "dir-count/dir-count.lua"
-          },
-          {
-            "path": "/fs-protect/fs-protect.lua",
-            "source": "fs-protect/fs-protect.lua"
-          },
-          {
-            "path": "/backup-tree/backup-tree.lua",
-            "source": "backup-tree/backup-tree.lua"
-          },
-          {
-            "path": "/backup-list/backup-list.lua",
-            "source": "backup-list/backup-list.lua"
-          },
-          {
-            "path": "/backup-create/backup-create.lua",
-            "source": "backup-create/backup-create.lua"
-          },
-          {
-            "path": "/backup-restore/backup-restore.lua",
-            "source": "backup-restore/backup-restore.lua"
-          },
-          {
-            "path": "/file-cat/file-cat.lua",
-            "source": "file-cat/file-cat.lua"
-          },
-          {
-            "path": "/file-lines/file-lines.lua",
-            "source": "file-lines/file-lines.lua"
-          },
-          {
-            "path": "/file-touch/file-touch.lua",
-            "source": "file-touch/file-touch.lua"
-          }
-        ]
       }
     },
     "process-tools": {
@@ -701,56 +167,15 @@
       "description": "Consolidated CC:Tweaked tools for process tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/process-tools/"
+          "manifest": "packages/process-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "process-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for process tools.",
-        "files": [
-          {
-            "path": "/process-list/process-list.lua",
-            "source": "process-list/process-list.lua"
-          },
-          {
-            "path": "/program-list/program-list.lua",
-            "source": "program-list/program-list.lua"
-          },
-          {
-            "path": "/parallel-demo/parallel-demo.lua",
-            "source": "parallel-demo/parallel-demo.lua"
-          },
-          {
-            "path": "/shell-dir/shell-dir.lua",
-            "source": "shell-dir/shell-dir.lua"
-          },
-          {
-            "path": "/shell-path/shell-path.lua",
-            "source": "shell-path/shell-path.lua"
-          },
-          {
-            "path": "/program-name/program-name.lua",
-            "source": "program-name/program-name.lua"
-          },
-          {
-            "path": "/program-args/program-args.lua",
-            "source": "program-args/program-args.lua"
-          },
-          {
-            "path": "/program-check/program-check.lua",
-            "source": "program-check/program-check.lua"
-          },
-          {
-            "path": "/parallel-run/parallel-run.lua",
-            "source": "parallel-run/parallel-run.lua"
-          },
-          {
-            "path": "/multishell-list/multishell-list.lua",
-            "source": "multishell-list/multishell-list.lua"
-          }
-        ]
       }
     },
     "settings-tools": {
@@ -758,60 +183,15 @@
       "description": "Consolidated CC:Tweaked tools for settings tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/settings-tools/"
+          "manifest": "packages/settings-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "settings-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for settings tools.",
-        "files": [
-          {
-            "path": "/settings-list/settings-list.lua",
-            "source": "settings-list/settings-list.lua"
-          },
-          {
-            "path": "/settings-get/settings-get.lua",
-            "source": "settings-get/settings-get.lua"
-          },
-          {
-            "path": "/settings-set/settings-set.lua",
-            "source": "settings-set/settings-set.lua"
-          },
-          {
-            "path": "/settings-reset/settings-reset.lua",
-            "source": "settings-reset/settings-reset.lua"
-          },
-          {
-            "path": "/settings-export/settings-export.lua",
-            "source": "settings-export/settings-export.lua"
-          },
-          {
-            "path": "/settings-info/settings-info.lua",
-            "source": "settings-info/settings-info.lua"
-          },
-          {
-            "path": "/settings-delete/settings-delete.lua",
-            "source": "settings-delete/settings-delete.lua"
-          },
-          {
-            "path": "/config-store/config-store.lua",
-            "source": "config-store/config-store.lua"
-          },
-          {
-            "path": "/settings-watch/settings-watch.lua",
-            "source": "settings-watch/settings-watch.lua"
-          },
-          {
-            "path": "/settings-report/settings-report.lua",
-            "source": "settings-report/settings-report.lua"
-          },
-          {
-            "path": "/settings-reset-all/settings-reset-all.lua",
-            "source": "settings-reset-all/settings-reset-all.lua"
-          }
-        ]
       }
     },
     "rednet-tools": {
@@ -819,108 +199,15 @@
       "description": "Consolidated CC:Tweaked tools for rednet tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/rednet-tools/"
+          "manifest": "packages/rednet-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "rednet-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for rednet tools.",
-        "files": [
-          {
-            "path": "/rednet-chat/rednet-chat.lua",
-            "source": "rednet-chat/rednet-chat.lua"
-          },
-          {
-            "path": "/broadcast/broadcast.lua",
-            "source": "broadcast/broadcast.lua"
-          },
-          {
-            "path": "/rednet-id/rednet-id.lua",
-            "source": "rednet-id/rednet-id.lua"
-          },
-          {
-            "path": "/rednet-open/rednet-open.lua",
-            "source": "rednet-open/rednet-open.lua"
-          },
-          {
-            "path": "/rednet-close/rednet-close.lua",
-            "source": "rednet-close/rednet-close.lua"
-          },
-          {
-            "path": "/rednet-host/rednet-host.lua",
-            "source": "rednet-host/rednet-host.lua"
-          },
-          {
-            "path": "/rednet-unhost/rednet-unhost.lua",
-            "source": "rednet-unhost/rednet-unhost.lua"
-          },
-          {
-            "path": "/rednet-receive/rednet-receive.lua",
-            "source": "rednet-receive/rednet-receive.lua"
-          },
-          {
-            "path": "/rednet-lookup/rednet-lookup.lua",
-            "source": "rednet-lookup/rednet-lookup.lua"
-          },
-          {
-            "path": "/rednet-ping/rednet-ping.lua",
-            "source": "rednet-ping/rednet-ping.lua"
-          },
-          {
-            "path": "/rednet-discovery/rednet-discovery.lua",
-            "source": "rednet-discovery/rednet-discovery.lua"
-          },
-          {
-            "path": "/rednet-listen/rednet-listen.lua",
-            "source": "rednet-listen/rednet-listen.lua"
-          },
-          {
-            "path": "/rednet-broadcast-json/rednet-broadcast-json.lua",
-            "source": "rednet-broadcast-json/rednet-broadcast-json.lua"
-          },
-          {
-            "path": "/rednet-broadcast/rednet-broadcast.lua",
-            "source": "rednet-broadcast/rednet-broadcast.lua"
-          },
-          {
-            "path": "/rednet-receive-once/rednet-receive-once.lua",
-            "source": "rednet-receive-once/rednet-receive-once.lua"
-          },
-          {
-            "path": "/rednet-host-list/rednet-host-list.lua",
-            "source": "rednet-host-list/rednet-host-list.lua"
-          },
-          {
-            "path": "/rednet-server/rednet-server.lua",
-            "source": "rednet-server/rednet-server.lua"
-          },
-          {
-            "path": "/rednet-client/rednet-client.lua",
-            "source": "rednet-client/rednet-client.lua"
-          },
-          {
-            "path": "/rednet-rpc/rednet-rpc.lua",
-            "source": "rednet-rpc/rednet-rpc.lua"
-          },
-          {
-            "path": "/rednet-registry/rednet-registry.lua",
-            "source": "rednet-registry/rednet-registry.lua"
-          },
-          {
-            "path": "/rednet-discover/rednet-discover.lua",
-            "source": "rednet-discover/rednet-discover.lua"
-          },
-          {
-            "path": "/rednet-ping-all/rednet-ping-all.lua",
-            "source": "rednet-ping-all/rednet-ping-all.lua"
-          },
-          {
-            "path": "/rednet-log/rednet-log.lua",
-            "source": "rednet-log/rednet-log.lua"
-          }
-        ]
       }
     },
     "web-tools": {
@@ -928,76 +215,15 @@
       "description": "Consolidated CC:Tweaked tools for web tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/web-tools/"
+          "manifest": "packages/web-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "web-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for web tools.",
-        "files": [
-          {
-            "path": "/http-check/http-check.lua",
-            "source": "http-check/http-check.lua"
-          },
-          {
-            "path": "/http-get/http-get.lua",
-            "source": "http-get/http-get.lua"
-          },
-          {
-            "path": "/http-head/http-head.lua",
-            "source": "http-head/http-head.lua"
-          },
-          {
-            "path": "/http-enabled/http-enabled.lua",
-            "source": "http-enabled/http-enabled.lua"
-          },
-          {
-            "path": "/websocket-check/websocket-check.lua",
-            "source": "websocket-check/websocket-check.lua"
-          },
-          {
-            "path": "/http-json/http-json.lua",
-            "source": "http-json/http-json.lua"
-          },
-          {
-            "path": "/http-save/http-save.lua",
-            "source": "http-save/http-save.lua"
-          },
-          {
-            "path": "/http-download/http-download.lua",
-            "source": "http-download/http-download.lua"
-          },
-          {
-            "path": "/http-json-post/http-json-post.lua",
-            "source": "http-json-post/http-json-post.lua"
-          },
-          {
-            "path": "/http-batch/http-batch.lua",
-            "source": "http-batch/http-batch.lua"
-          },
-          {
-            "path": "/websocket-chat/websocket-chat.lua",
-            "source": "websocket-chat/websocket-chat.lua"
-          },
-          {
-            "path": "/http-mirror/http-mirror.lua",
-            "source": "http-mirror/http-mirror.lua"
-          },
-          {
-            "path": "/http-json-get/http-json-get.lua",
-            "source": "http-json-get/http-json-get.lua"
-          },
-          {
-            "path": "/http-headers/http-headers.lua",
-            "source": "http-headers/http-headers.lua"
-          },
-          {
-            "path": "/websocket-monitor/websocket-monitor.lua",
-            "source": "websocket-monitor/websocket-monitor.lua"
-          }
-        ]
       }
     },
     "audio-tools": {
@@ -1005,60 +231,15 @@
       "description": "Consolidated CC:Tweaked tools for audio tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/audio-tools/"
+          "manifest": "packages/audio-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "audio-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for audio tools.",
-        "files": [
-          {
-            "path": "/speaker-test/speaker-test.lua",
-            "source": "speaker-test/speaker-test.lua"
-          },
-          {
-            "path": "/speaker-volume/speaker-volume.lua",
-            "source": "speaker-volume/speaker-volume.lua"
-          },
-          {
-            "path": "/speaker-note/speaker-note.lua",
-            "source": "speaker-note/speaker-note.lua"
-          },
-          {
-            "path": "/speaker-sound/speaker-sound.lua",
-            "source": "speaker-sound/speaker-sound.lua"
-          },
-          {
-            "path": "/dfpwm-info/dfpwm-info.lua",
-            "source": "dfpwm-info/dfpwm-info.lua"
-          },
-          {
-            "path": "/speaker-stop/speaker-stop.lua",
-            "source": "speaker-stop/speaker-stop.lua"
-          },
-          {
-            "path": "/speaker-bell/speaker-bell.lua",
-            "source": "speaker-bell/speaker-bell.lua"
-          },
-          {
-            "path": "/speaker-chime/speaker-chime.lua",
-            "source": "speaker-chime/speaker-chime.lua"
-          },
-          {
-            "path": "/speaker-bass/speaker-bass.lua",
-            "source": "speaker-bass/speaker-bass.lua"
-          },
-          {
-            "path": "/speaker-test-all/speaker-test-all.lua",
-            "source": "speaker-test-all/speaker-test-all.lua"
-          },
-          {
-            "path": "/speaker-tools/speaker-tools.lua",
-            "source": "speaker-tools/speaker-tools.lua"
-          }
-        ]
       }
     },
     "printer-tools": {
@@ -1066,40 +247,15 @@
       "description": "Consolidated CC:Tweaked tools for printer tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/printer-tools/"
+          "manifest": "packages/printer-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "printer-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for printer tools.",
-        "files": [
-          {
-            "path": "/printer-test/printer-test.lua",
-            "source": "printer-test/printer-test.lua"
-          },
-          {
-            "path": "/printer-info/printer-info.lua",
-            "source": "printer-info/printer-info.lua"
-          },
-          {
-            "path": "/printer-page/printer-page.lua",
-            "source": "printer-page/printer-page.lua"
-          },
-          {
-            "path": "/printer-end/printer-end.lua",
-            "source": "printer-end/printer-end.lua"
-          },
-          {
-            "path": "/printer-title/printer-title.lua",
-            "source": "printer-title/printer-title.lua"
-          },
-          {
-            "path": "/printer-status/printer-status.lua",
-            "source": "printer-status/printer-status.lua"
-          }
-        ]
       }
     },
     "storage-tools": {
@@ -1107,60 +263,15 @@
       "description": "Consolidated CC:Tweaked tools for storage tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/storage-tools/"
+          "manifest": "packages/storage-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "storage-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for storage tools.",
-        "files": [
-          {
-            "path": "/disk-label/disk-label.lua",
-            "source": "disk-label/disk-label.lua"
-          },
-          {
-            "path": "/disk-id/disk-id.lua",
-            "source": "disk-id/disk-id.lua"
-          },
-          {
-            "path": "/drive-info/drive-info.lua",
-            "source": "drive-info/drive-info.lua"
-          },
-          {
-            "path": "/drive-eject/drive-eject.lua",
-            "source": "drive-eject/drive-eject.lua"
-          },
-          {
-            "path": "/drive-status/drive-status.lua",
-            "source": "drive-status/drive-status.lua"
-          },
-          {
-            "path": "/drive-data/drive-data.lua",
-            "source": "drive-data/drive-data.lua"
-          },
-          {
-            "path": "/drive-mount/drive-mount.lua",
-            "source": "drive-mount/drive-mount.lua"
-          },
-          {
-            "path": "/disk-usage/disk-usage.lua",
-            "source": "disk-usage/disk-usage.lua"
-          },
-          {
-            "path": "/drive-report/drive-report.lua",
-            "source": "drive-report/drive-report.lua"
-          },
-          {
-            "path": "/disk-space/disk-space.lua",
-            "source": "disk-space/disk-space.lua"
-          },
-          {
-            "path": "/disk-info/disk-info.lua",
-            "source": "disk-info/disk-info.lua"
-          }
-        ]
       }
     },
     "inventory-tools": {
@@ -1168,88 +279,15 @@
       "description": "Consolidated CC:Tweaked tools for inventory tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/inventory-tools/"
+          "manifest": "packages/inventory-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "inventory-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for inventory tools.",
-        "files": [
-          {
-            "path": "/inventory-list/inventory-list.lua",
-            "source": "inventory-list/inventory-list.lua"
-          },
-          {
-            "path": "/inventory-find/inventory-find.lua",
-            "source": "inventory-find/inventory-find.lua"
-          },
-          {
-            "path": "/inventory-count/inventory-count.lua",
-            "source": "inventory-count/inventory-count.lua"
-          },
-          {
-            "path": "/inventory-slots/inventory-slots.lua",
-            "source": "inventory-slots/inventory-slots.lua"
-          },
-          {
-            "path": "/inventory-detail/inventory-detail.lua",
-            "source": "inventory-detail/inventory-detail.lua"
-          },
-          {
-            "path": "/inventory-watch/inventory-watch.lua",
-            "source": "inventory-watch/inventory-watch.lua"
-          },
-          {
-            "path": "/inventory-move/inventory-move.lua",
-            "source": "inventory-move/inventory-move.lua"
-          },
-          {
-            "path": "/inventory-pull/inventory-pull.lua",
-            "source": "inventory-pull/inventory-pull.lua"
-          },
-          {
-            "path": "/inventory-summary/inventory-summary.lua",
-            "source": "inventory-summary/inventory-summary.lua"
-          },
-          {
-            "path": "/inventory-capacity/inventory-capacity.lua",
-            "source": "inventory-capacity/inventory-capacity.lua"
-          },
-          {
-            "path": "/inventory-search/inventory-search.lua",
-            "source": "inventory-search/inventory-search.lua"
-          },
-          {
-            "path": "/inventory-report/inventory-report.lua",
-            "source": "inventory-report/inventory-report.lua"
-          },
-          {
-            "path": "/inventory-transfer/inventory-transfer.lua",
-            "source": "inventory-transfer/inventory-transfer.lua"
-          },
-          {
-            "path": "/inventory-sort/inventory-sort.lua",
-            "source": "inventory-sort/inventory-sort.lua"
-          },
-          {
-            "path": "/inventory-empty/inventory-empty.lua",
-            "source": "inventory-empty/inventory-empty.lua"
-          },
-          {
-            "path": "/inventory-balance/inventory-balance.lua",
-            "source": "inventory-balance/inventory-balance.lua"
-          },
-          {
-            "path": "/inventory-monitor/inventory-monitor.lua",
-            "source": "inventory-monitor/inventory-monitor.lua"
-          },
-          {
-            "path": "/inventory-duplicates/inventory-duplicates.lua",
-            "source": "inventory-duplicates/inventory-duplicates.lua"
-          }
-        ]
       }
     },
     "resource-tools": {
@@ -1257,56 +295,15 @@
       "description": "Consolidated CC:Tweaked tools for resource tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/resource-tools/"
+          "manifest": "packages/resource-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "resource-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for resource tools.",
-        "files": [
-          {
-            "path": "/energy-info/energy-info.lua",
-            "source": "energy-info/energy-info.lua"
-          },
-          {
-            "path": "/fluid-info/fluid-info.lua",
-            "source": "fluid-info/fluid-info.lua"
-          },
-          {
-            "path": "/energy-total/energy-total.lua",
-            "source": "energy-total/energy-total.lua"
-          },
-          {
-            "path": "/fluid-total/fluid-total.lua",
-            "source": "fluid-total/fluid-total.lua"
-          },
-          {
-            "path": "/energy-monitor/energy-monitor.lua",
-            "source": "energy-monitor/energy-monitor.lua"
-          },
-          {
-            "path": "/energy-dashboard/energy-dashboard.lua",
-            "source": "energy-dashboard/energy-dashboard.lua"
-          },
-          {
-            "path": "/fluid-dashboard/fluid-dashboard.lua",
-            "source": "fluid-dashboard/fluid-dashboard.lua"
-          },
-          {
-            "path": "/energy-alert/energy-alert.lua",
-            "source": "energy-alert/energy-alert.lua"
-          },
-          {
-            "path": "/energy-report/energy-report.lua",
-            "source": "energy-report/energy-report.lua"
-          },
-          {
-            "path": "/fluid-report/fluid-report.lua",
-            "source": "fluid-report/fluid-report.lua"
-          }
-        ]
       }
     },
     "peripheral-tools": {
@@ -1314,52 +311,15 @@
       "description": "Consolidated CC:Tweaked tools for peripheral tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/peripheral-tools/"
+          "manifest": "packages/peripheral-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "peripheral-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for peripheral tools.",
-        "files": [
-          {
-            "path": "/peripheral-watch/peripheral-watch.lua",
-            "source": "peripheral-watch/peripheral-watch.lua"
-          },
-          {
-            "path": "/peripheral-types/peripheral-types.lua",
-            "source": "peripheral-types/peripheral-types.lua"
-          },
-          {
-            "path": "/peripheral-count/peripheral-count.lua",
-            "source": "peripheral-count/peripheral-count.lua"
-          },
-          {
-            "path": "/peripheral-scan/peripheral-scan.lua",
-            "source": "peripheral-scan/peripheral-scan.lua"
-          },
-          {
-            "path": "/peripheral-info/peripheral-info.lua",
-            "source": "peripheral-info/peripheral-info.lua"
-          },
-          {
-            "path": "/peripheral-methods/peripheral-methods.lua",
-            "source": "peripheral-methods/peripheral-methods.lua"
-          },
-          {
-            "path": "/peripheral-find/peripheral-find.lua",
-            "source": "peripheral-find/peripheral-find.lua"
-          },
-          {
-            "path": "/peripheral-dashboard/peripheral-dashboard.lua",
-            "source": "peripheral-dashboard/peripheral-dashboard.lua"
-          },
-          {
-            "path": "/peripheral-call/peripheral-call.lua",
-            "source": "peripheral-call/peripheral-call.lua"
-          }
-        ]
       }
     },
     "event-tools": {
@@ -1367,28 +327,15 @@
       "description": "Consolidated CC:Tweaked tools for event tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/event-tools/"
+          "manifest": "packages/event-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "event-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for event tools.",
-        "files": [
-          {
-            "path": "/event-monitor/event-monitor.lua",
-            "source": "event-monitor/event-monitor.lua"
-          },
-          {
-            "path": "/event-trace/event-trace.lua",
-            "source": "event-trace/event-trace.lua"
-          },
-          {
-            "path": "/event-watch/event-watch.lua",
-            "source": "event-watch/event-watch.lua"
-          }
-        ]
       }
     },
     "input-tools": {
@@ -1396,28 +343,15 @@
       "description": "Consolidated CC:Tweaked tools for input tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/input-tools/"
+          "manifest": "packages/input-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "input-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for input tools.",
-        "files": [
-          {
-            "path": "/mouse-test/mouse-test.lua",
-            "source": "mouse-test/mouse-test.lua"
-          },
-          {
-            "path": "/keyboard-test/keyboard-test.lua",
-            "source": "keyboard-test/keyboard-test.lua"
-          },
-          {
-            "path": "/keyboard-layout/keyboard-layout.lua",
-            "source": "keyboard-layout/keyboard-layout.lua"
-          }
-        ]
       }
     },
     "data-tools": {
@@ -1425,68 +359,15 @@
       "description": "Consolidated CC:Tweaked tools for data tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/data-tools/"
+          "manifest": "packages/data-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "data-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for data tools.",
-        "files": [
-          {
-            "path": "/uuid/uuid.lua",
-            "source": "uuid/uuid.lua"
-          },
-          {
-            "path": "/json-format/json-format.lua",
-            "source": "json-format/json-format.lua"
-          },
-          {
-            "path": "/json-parse/json-parse.lua",
-            "source": "json-parse/json-parse.lua"
-          },
-          {
-            "path": "/pretty/pretty.lua",
-            "source": "pretty/pretty.lua"
-          },
-          {
-            "path": "/base64/base64.lua",
-            "source": "base64/base64.lua"
-          },
-          {
-            "path": "/serialize/serialize.lua",
-            "source": "serialize/serialize.lua"
-          },
-          {
-            "path": "/unserialize/unserialize.lua",
-            "source": "unserialize/unserialize.lua"
-          },
-          {
-            "path": "/table-sort/table-sort.lua",
-            "source": "table-sort/table-sort.lua"
-          },
-          {
-            "path": "/json-file/json-file.lua",
-            "source": "json-file/json-file.lua"
-          },
-          {
-            "path": "/json-pretty-file/json-pretty-file.lua",
-            "source": "json-pretty-file/json-pretty-file.lua"
-          },
-          {
-            "path": "/json-merge/json-merge.lua",
-            "source": "json-merge/json-merge.lua"
-          },
-          {
-            "path": "/json-query/json-query.lua",
-            "source": "json-query/json-query.lua"
-          },
-          {
-            "path": "/table-view/table-view.lua",
-            "source": "table-view/table-view.lua"
-          }
-        ]
       }
     },
     "help-tools": {
@@ -1494,24 +375,15 @@
       "description": "Consolidated CC:Tweaked tools for help tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/help-tools/"
+          "manifest": "packages/help-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "help-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for help tools.",
-        "files": [
-          {
-            "path": "/help-search/help-search.lua",
-            "source": "help-search/help-search.lua"
-          },
-          {
-            "path": "/help-view/help-view.lua",
-            "source": "help-view/help-view.lua"
-          }
-        ]
       }
     },
     "computer-tools": {
@@ -1519,48 +391,15 @@
       "description": "Consolidated CC:Tweaked tools for computer tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/computer-tools/"
+          "manifest": "packages/computer-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "computer-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for computer tools.",
-        "files": [
-          {
-            "path": "/computer-list/computer-list.lua",
-            "source": "computer-list/computer-list.lua"
-          },
-          {
-            "path": "/computer-status/computer-status.lua",
-            "source": "computer-status/computer-status.lua"
-          },
-          {
-            "path": "/computer-label/computer-label.lua",
-            "source": "computer-label/computer-label.lua"
-          },
-          {
-            "path": "/computer-reboot/computer-reboot.lua",
-            "source": "computer-reboot/computer-reboot.lua"
-          },
-          {
-            "path": "/computer-shutdown/computer-shutdown.lua",
-            "source": "computer-shutdown/computer-shutdown.lua"
-          },
-          {
-            "path": "/computer-label-get/computer-label-get.lua",
-            "source": "computer-label-get/computer-label-get.lua"
-          },
-          {
-            "path": "/computer-time/computer-time.lua",
-            "source": "computer-time/computer-time.lua"
-          },
-          {
-            "path": "/computer-report/computer-report.lua",
-            "source": "computer-report/computer-report.lua"
-          }
-        ]
       }
     },
     "ui-tools": {
@@ -1568,32 +407,15 @@
       "description": "Consolidated CC:Tweaked tools for ui tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/ui-tools/"
+          "manifest": "packages/ui-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "ui-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for ui tools.",
-        "files": [
-          {
-            "path": "/window-demo/window-demo.lua",
-            "source": "window-demo/window-demo.lua"
-          },
-          {
-            "path": "/progress/progress.lua",
-            "source": "progress/progress.lua"
-          },
-          {
-            "path": "/spinner/spinner.lua",
-            "source": "spinner/spinner.lua"
-          },
-          {
-            "path": "/menu-demo/menu-demo.lua",
-            "source": "menu-demo/menu-demo.lua"
-          }
-        ]
       }
     },
     "turtle-tools": {
@@ -1601,44 +423,15 @@
       "description": "Consolidated CC:Tweaked tools for turtle tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/turtle-tools/"
+          "manifest": "packages/turtle-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "turtle-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for turtle tools.",
-        "files": [
-          {
-            "path": "/turtle-tools.lua",
-            "source": "turtle-tools.lua"
-          },
-          {
-            "path": "/turtle-route/turtle-route.lua",
-            "source": "turtle-route/turtle-route.lua"
-          },
-          {
-            "path": "/turtle-refuel-manager/turtle-refuel-manager.lua",
-            "source": "turtle-refuel-manager/turtle-refuel-manager.lua"
-          },
-          {
-            "path": "/turtle-inventory-report/turtle-inventory-report.lua",
-            "source": "turtle-inventory-report/turtle-inventory-report.lua"
-          },
-          {
-            "path": "/turtle-trash/turtle-trash.lua",
-            "source": "turtle-trash/turtle-trash.lua"
-          },
-          {
-            "path": "/turtle-farm-row/turtle-farm-row.lua",
-            "source": "turtle-farm-row/turtle-farm-row.lua"
-          },
-          {
-            "path": "/turtle-tunnel/turtle-tunnel.lua",
-            "source": "turtle-tunnel/turtle-tunnel.lua"
-          }
-        ]
       }
     },
     "log-tools": {
@@ -1646,24 +439,15 @@
       "description": "Consolidated CC:Tweaked tools for log tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/log-tools/"
+          "manifest": "packages/log-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "log-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for log tools.",
-        "files": [
-          {
-            "path": "/log-follow/log-follow.lua",
-            "source": "log-follow/log-follow.lua"
-          },
-          {
-            "path": "/log-view/log-view.lua",
-            "source": "log-view/log-view.lua"
-          }
-        ]
       }
     },
     "utility-tools": {
@@ -1671,20 +455,15 @@
       "description": "Consolidated CC:Tweaked tools for utility tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/utility-tools/"
+          "manifest": "packages/utility-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "utility-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for utility tools.",
-        "files": [
-          {
-            "path": "/repeat-run/repeat-run.lua",
-            "source": "repeat-run/repeat-run.lua"
-          }
-        ]
       }
     },
     "package-tools": {
@@ -1692,28 +471,15 @@
       "description": "Consolidated CC:Tweaked tools for package tools.",
       "versions": {
         "1.0.0": {
-          "path": "packages/package-tools/"
+          "manifest": "packages/package-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
         }
-      },
-      "manifest": {
-        "name": "package-tools",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Consolidated CC:Tweaked tools for package tools.",
-        "files": [
-          {
-            "path": "/package-manifest-check/package-manifest-check.lua",
-            "source": "package-manifest-check/package-manifest-check.lua"
-          },
-          {
-            "path": "/package-file-check/package-file-check.lua",
-            "source": "package-file-check/package-file-check.lua"
-          },
-          {
-            "path": "/package-size/package-size.lua",
-            "source": "package-size/package-size.lua"
-          }
-        ]
       }
     }
   }
