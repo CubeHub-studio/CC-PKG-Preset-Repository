@@ -1,0 +1,1 @@
+local p=arg[1]; local modem=peripheral.find("modem"); if not modem then print("No modem.") return end; rednet.open(peripheral.getName(modem)); local id,msg,proto=rednet.receive(p); print("From: "..id); print("Protocol: "..tostring(proto)); print(textutils.serialize(msg))
