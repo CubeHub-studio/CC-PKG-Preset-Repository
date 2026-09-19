@@ -1,0 +1,1 @@
+local root=arg[1] or "/"; local function walk(p,pfx) for _,n in ipairs(fs.list(p)) do local q=fs.combine(p,n); print(pfx..n..(fs.isDir(q) and "/" or "")); if fs.isDir(q) then walk(q,pfx.."  ") end end end walk(root,"")
