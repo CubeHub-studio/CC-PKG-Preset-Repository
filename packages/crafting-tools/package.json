@@ -1,0 +1,13 @@
+{
+  "name": "crafting-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked crafting utilities.",
+  "files": [
+    {
+      "path": "/crafting-tools.lua",
+      "source": "packages/crafting-tools/crafting-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
