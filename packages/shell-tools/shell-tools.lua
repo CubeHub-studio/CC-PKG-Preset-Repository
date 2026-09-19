@@ -1,0 +1,1 @@
+local a={...}; if a[1]=="path" then print(shell.path()) elseif a[1]=="dir" then print(shell.dir()) elseif a[1]=="resolve" and a[2] then print(shell.resolveProgram(a[2]) or "Not found") else print("Shell path: "..shell.path()); print("Directory: "..shell.dir()) end
