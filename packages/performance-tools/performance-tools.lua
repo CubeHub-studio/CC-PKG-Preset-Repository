@@ -1,0 +1,1 @@
+local t=os.clock(); local n=0; for i=1,100000 do n=n+i end; print("100000 iterations: "..string.format("%.4f",os.clock()-t).."s")
