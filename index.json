@@ -1,5 +1,51 @@
 {
   "name": "CC-PKG Preset Repository",
   "version": 1,
-  "packages": {}
+  "packages": {
+    "system-info": {
+      "name": "system-info",
+      "description": "System and hardware information utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/system-info/versions/1.0.0/"
+        }
+      }
+    },
+    "clock": {
+      "name": "clock",
+      "description": "Simple clock and date utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/clock/versions/1.0.0/"
+        }
+      }
+    },
+    "motd": {
+      "name": "motd",
+      "description": "Displays a configurable message of the day.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/motd/versions/1.0.0/"
+        }
+      }
+    },
+    "net-tools": {
+      "name": "net-tools",
+      "description": "Basic modem, Rednet and HTTP diagnostics.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/net-tools/versions/1.0.0/"
+        }
+      }
+    },
+    "monitor-tools": {
+      "name": "monitor-tools",
+      "description": "Find and inspect connected monitors.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-tools/versions/1.0.0/"
+        }
+      }
+    }
+  }
 }
