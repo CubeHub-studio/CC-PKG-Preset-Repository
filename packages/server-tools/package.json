@@ -1,0 +1,13 @@
+{
+  "name": "server-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked server utilities.",
+  "files": [
+    {
+      "path": "/server-tools.lua",
+      "source": "packages/server-tools/server-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
