@@ -1,0 +1,1 @@
+print(tostring(os.getComputerLabel()))
