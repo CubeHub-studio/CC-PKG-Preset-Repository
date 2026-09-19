@@ -1,0 +1,1 @@
+local found=false for _,s in ipairs(peripheral.getNames()) do if peripheral.getType(s)=="speaker" then found=true print("Speaker: "..s) if arg[1]=="test" then peripheral.call(s,"playNote","block.note_block.pling",1,12) end end end if not found then print("No speakers found.") end
