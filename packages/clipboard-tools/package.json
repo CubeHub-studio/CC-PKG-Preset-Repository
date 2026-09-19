@@ -1,0 +1,13 @@
+{
+  "name": "clipboard-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked clipboard utilities.",
+  "files": [
+    {
+      "path": "/clipboard-tools.lua",
+      "source": "packages/clipboard-tools/clipboard-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
