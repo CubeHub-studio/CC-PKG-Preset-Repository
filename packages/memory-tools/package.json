@@ -1,0 +1,13 @@
+{
+  "name": "memory-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked memory utilities.",
+  "files": [
+    {
+      "path": "/memory-tools.lua",
+      "source": "packages/memory-tools/memory-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
