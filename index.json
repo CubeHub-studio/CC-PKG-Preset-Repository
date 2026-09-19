@@ -886,6 +886,174 @@
           }
         ]
       }
+    },
+    "reboot": {
+      "name": "reboot",
+      "description": "Reboots the computer after confirmation.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/reboot/"
+        }
+      },
+      "manifest": {
+        "name": "reboot",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Reboots the computer after confirmation.",
+        "files": [
+          {
+            "path": "/reboot.lua",
+            "source": "reboot.lua"
+          }
+        ]
+      }
+    },
+    "shutdown": {
+      "name": "shutdown",
+      "description": "Shuts down the computer after confirmation.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/shutdown/"
+        }
+      },
+      "manifest": {
+        "name": "shutdown",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shuts down the computer after confirmation.",
+        "files": [
+          {
+            "path": "/shutdown.lua",
+            "source": "shutdown.lua"
+          }
+        ]
+      }
+    },
+    "label": {
+      "name": "label",
+      "description": "Gets or sets the computer label.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/label/"
+        }
+      },
+      "manifest": {
+        "name": "label",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Gets or sets the computer label.",
+        "files": [
+          {
+            "path": "/label.lua",
+            "source": "label.lua"
+          }
+        ]
+      }
+    },
+    "id": {
+      "name": "id",
+      "description": "Prints the computer ID.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/id/"
+        }
+      },
+      "manifest": {
+        "name": "id",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Prints the computer ID.",
+        "files": [
+          {
+            "path": "/id.lua",
+            "source": "id.lua"
+          }
+        ]
+      }
+    },
+    "time": {
+      "name": "time",
+      "description": "Prints local CraftOS time and epoch.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/time/"
+        }
+      },
+      "manifest": {
+        "name": "time",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Prints local CraftOS time and epoch.",
+        "files": [
+          {
+            "path": "/time.lua",
+            "source": "time.lua"
+          }
+        ]
+      }
+    },
+    "date": {
+      "name": "date",
+      "description": "Prints the current date.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/date/"
+        }
+      },
+      "manifest": {
+        "name": "date",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Prints the current date.",
+        "files": [
+          {
+            "path": "/date.lua",
+            "source": "date.lua"
+          }
+        ]
+      }
+    },
+    "random": {
+      "name": "random",
+      "description": "Generates random numbers.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/random/"
+        }
+      },
+      "manifest": {
+        "name": "random",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Generates random numbers.",
+        "files": [
+          {
+            "path": "/random.lua",
+            "source": "random.lua"
+          }
+        ]
+      }
+    },
+    "uuid": {
+      "name": "uuid",
+      "description": "Generates a simple local identifier.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/uuid/"
+        }
+      },
+      "manifest": {
+        "name": "uuid",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Generates a simple local identifier.",
+        "files": [
+          {
+            "path": "/uuid.lua",
+            "source": "uuid.lua"
+          }
+        ]
+      }
     }
   }
 }
