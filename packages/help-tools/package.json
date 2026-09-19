@@ -6,11 +6,11 @@
   "files": [
     {
       "path": "/help-search/help-search.lua",
-      "source": "help-search/help-search.lua"
+      "source": "packages/help-tools/help-search/help-search.lua"
     },
     {
       "path": "/help-view/help-view.lua",
-      "source": "help-view/help-view.lua"
+      "source": "packages/help-tools/help-view/help-view.lua"
     }
   ]
 }
