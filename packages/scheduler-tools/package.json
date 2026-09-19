@@ -1,0 +1,13 @@
+{
+  "name": "scheduler-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked scheduler utilities.",
+  "files": [
+    {
+      "path": "/scheduler-tools.lua",
+      "source": "packages/scheduler-tools/scheduler-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
