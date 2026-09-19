@@ -4519,6 +4519,216 @@
           }
         ]
       }
+    },
+    "inventory-search": {
+      "name": "inventory-search",
+      "description": "Practical CC:Tweaked inventory search utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/inventory-search/"
+        }
+      },
+      "manifest": {
+        "name": "inventory-search",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked inventory search utility.",
+        "files": [
+          {
+            "path": "/inventory-search.lua",
+            "source": "inventory-search.lua"
+          }
+        ]
+      }
+    },
+    "inventory-report": {
+      "name": "inventory-report",
+      "description": "Practical CC:Tweaked inventory report utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/inventory-report/"
+        }
+      },
+      "manifest": {
+        "name": "inventory-report",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked inventory report utility.",
+        "files": [
+          {
+            "path": "/inventory-report.lua",
+            "source": "inventory-report.lua"
+          }
+        ]
+      }
+    },
+    "inventory-transfer": {
+      "name": "inventory-transfer",
+      "description": "Practical CC:Tweaked inventory transfer utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/inventory-transfer/"
+        }
+      },
+      "manifest": {
+        "name": "inventory-transfer",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked inventory transfer utility.",
+        "files": [
+          {
+            "path": "/inventory-transfer.lua",
+            "source": "inventory-transfer.lua"
+          }
+        ]
+      }
+    },
+    "inventory-sort": {
+      "name": "inventory-sort",
+      "description": "Practical CC:Tweaked inventory sort utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/inventory-sort/"
+        }
+      },
+      "manifest": {
+        "name": "inventory-sort",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked inventory sort utility.",
+        "files": [
+          {
+            "path": "/inventory-sort.lua",
+            "source": "inventory-sort.lua"
+          }
+        ]
+      }
+    },
+    "inventory-empty": {
+      "name": "inventory-empty",
+      "description": "Practical CC:Tweaked inventory empty utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/inventory-empty/"
+        }
+      },
+      "manifest": {
+        "name": "inventory-empty",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked inventory empty utility.",
+        "files": [
+          {
+            "path": "/inventory-empty.lua",
+            "source": "inventory-empty.lua"
+          }
+        ]
+      }
+    },
+    "energy-dashboard": {
+      "name": "energy-dashboard",
+      "description": "Practical CC:Tweaked energy dashboard utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/energy-dashboard/"
+        }
+      },
+      "manifest": {
+        "name": "energy-dashboard",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked energy dashboard utility.",
+        "files": [
+          {
+            "path": "/energy-dashboard.lua",
+            "source": "energy-dashboard.lua"
+          }
+        ]
+      }
+    },
+    "fluid-dashboard": {
+      "name": "fluid-dashboard",
+      "description": "Practical CC:Tweaked fluid dashboard utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/fluid-dashboard/"
+        }
+      },
+      "manifest": {
+        "name": "fluid-dashboard",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked fluid dashboard utility.",
+        "files": [
+          {
+            "path": "/fluid-dashboard.lua",
+            "source": "fluid-dashboard.lua"
+          }
+        ]
+      }
+    },
+    "peripheral-dashboard": {
+      "name": "peripheral-dashboard",
+      "description": "Practical CC:Tweaked peripheral dashboard utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/peripheral-dashboard/"
+        }
+      },
+      "manifest": {
+        "name": "peripheral-dashboard",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked peripheral dashboard utility.",
+        "files": [
+          {
+            "path": "/peripheral-dashboard.lua",
+            "source": "peripheral-dashboard.lua"
+          }
+        ]
+      }
+    },
+    "event-trace": {
+      "name": "event-trace",
+      "description": "Practical CC:Tweaked event trace utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/event-trace/"
+        }
+      },
+      "manifest": {
+        "name": "event-trace",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked event trace utility.",
+        "files": [
+          {
+            "path": "/event-trace.lua",
+            "source": "event-trace.lua"
+          }
+        ]
+      }
+    },
+    "settings-watch": {
+      "name": "settings-watch",
+      "description": "Practical CC:Tweaked settings watch utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/settings-watch/"
+        }
+      },
+      "manifest": {
+        "name": "settings-watch",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked settings watch utility.",
+        "files": [
+          {
+            "path": "/settings-watch.lua",
+            "source": "settings-watch.lua"
+          }
+        ]
+      }
     }
   }
 }
