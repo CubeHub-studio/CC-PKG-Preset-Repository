@@ -1,0 +1,13 @@
+{
+  "name": "multishell-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked multishell utilities.",
+  "files": [
+    {
+      "path": "/multishell-tools.lua",
+      "source": "packages/multishell-tools/multishell-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
