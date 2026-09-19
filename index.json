@@ -4309,6 +4309,216 @@
           }
         ]
       }
+    },
+    "rednet-server": {
+      "name": "rednet-server",
+      "description": "Practical CC:Tweaked rednet server utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-server/"
+        }
+      },
+      "manifest": {
+        "name": "rednet-server",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked rednet server utility.",
+        "files": [
+          {
+            "path": "/rednet-server.lua",
+            "source": "rednet-server.lua"
+          }
+        ]
+      }
+    },
+    "rednet-client": {
+      "name": "rednet-client",
+      "description": "Practical CC:Tweaked rednet client utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-client/"
+        }
+      },
+      "manifest": {
+        "name": "rednet-client",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked rednet client utility.",
+        "files": [
+          {
+            "path": "/rednet-client.lua",
+            "source": "rednet-client.lua"
+          }
+        ]
+      }
+    },
+    "rednet-rpc": {
+      "name": "rednet-rpc",
+      "description": "Practical CC:Tweaked rednet rpc utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-rpc/"
+        }
+      },
+      "manifest": {
+        "name": "rednet-rpc",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked rednet rpc utility.",
+        "files": [
+          {
+            "path": "/rednet-rpc.lua",
+            "source": "rednet-rpc.lua"
+          }
+        ]
+      }
+    },
+    "rednet-registry": {
+      "name": "rednet-registry",
+      "description": "Practical CC:Tweaked rednet registry utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-registry/"
+        }
+      },
+      "manifest": {
+        "name": "rednet-registry",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked rednet registry utility.",
+        "files": [
+          {
+            "path": "/rednet-registry.lua",
+            "source": "rednet-registry.lua"
+          }
+        ]
+      }
+    },
+    "modem-channels": {
+      "name": "modem-channels",
+      "description": "Practical CC:Tweaked modem channels utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/modem-channels/"
+        }
+      },
+      "manifest": {
+        "name": "modem-channels",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked modem channels utility.",
+        "files": [
+          {
+            "path": "/modem-channels.lua",
+            "source": "modem-channels.lua"
+          }
+        ]
+      }
+    },
+    "http-download": {
+      "name": "http-download",
+      "description": "Practical CC:Tweaked http download utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/http-download/"
+        }
+      },
+      "manifest": {
+        "name": "http-download",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked http download utility.",
+        "files": [
+          {
+            "path": "/http-download.lua",
+            "source": "http-download.lua"
+          }
+        ]
+      }
+    },
+    "http-json-post": {
+      "name": "http-json-post",
+      "description": "Practical CC:Tweaked http json post utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/http-json-post/"
+        }
+      },
+      "manifest": {
+        "name": "http-json-post",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked http json post utility.",
+        "files": [
+          {
+            "path": "/http-json-post.lua",
+            "source": "http-json-post.lua"
+          }
+        ]
+      }
+    },
+    "http-batch": {
+      "name": "http-batch",
+      "description": "Practical CC:Tweaked http batch utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/http-batch/"
+        }
+      },
+      "manifest": {
+        "name": "http-batch",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked http batch utility.",
+        "files": [
+          {
+            "path": "/http-batch.lua",
+            "source": "http-batch.lua"
+          }
+        ]
+      }
+    },
+    "websocket-chat": {
+      "name": "websocket-chat",
+      "description": "Practical CC:Tweaked websocket chat utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/websocket-chat/"
+        }
+      },
+      "manifest": {
+        "name": "websocket-chat",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked websocket chat utility.",
+        "files": [
+          {
+            "path": "/websocket-chat.lua",
+            "source": "websocket-chat.lua"
+          }
+        ]
+      }
+    },
+    "url-status": {
+      "name": "url-status",
+      "description": "Practical CC:Tweaked url status utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/url-status/"
+        }
+      },
+      "manifest": {
+        "name": "url-status",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked url status utility.",
+        "files": [
+          {
+            "path": "/url-status.lua",
+            "source": "url-status.lua"
+          }
+        ]
+      }
     }
   }
 }
