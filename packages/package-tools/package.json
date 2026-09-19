@@ -6,15 +6,15 @@
   "files": [
     {
       "path": "/package-manifest-check/package-manifest-check.lua",
-      "source": "package-manifest-check/package-manifest-check.lua"
+      "source": "packages/package-tools/package-manifest-check/package-manifest-check.lua"
     },
     {
       "path": "/package-file-check/package-file-check.lua",
-      "source": "package-file-check/package-file-check.lua"
+      "source": "packages/package-tools/package-file-check/package-file-check.lua"
     },
     {
       "path": "/package-size/package-size.lua",
-      "source": "package-size/package-size.lua"
+      "source": "packages/package-tools/package-size/package-size.lua"
     }
   ]
 }
