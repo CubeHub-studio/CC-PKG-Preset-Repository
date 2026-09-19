@@ -1,0 +1,1 @@
+local p=arg[1]; local n=tonumber(arg[2]) or 10; if not p then print("Usage: file-head <file> [lines]") return end; local h=fs.open(p,"r"); if not h then print("Cannot open file.") return end; for i=1,n do local l=h.readLine(); if not l then break end; print(l) end; h.close()
