@@ -2482,6 +2482,174 @@
           }
         ]
       }
+    },
+    "ram-info": {
+      "name": "ram-info",
+      "description": "Shows available computer memory.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/ram-info/"
+        }
+      },
+      "manifest": {
+        "name": "ram-info",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows available computer memory.",
+        "files": [
+          {
+            "path": "/ram-info.lua",
+            "source": "ram-info.lua"
+          }
+        ]
+      }
+    },
+    "gc": {
+      "name": "gc",
+      "description": "Runs Lua garbage collection.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/gc/"
+        }
+      },
+      "manifest": {
+        "name": "gc",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Runs Lua garbage collection.",
+        "files": [
+          {
+            "path": "/gc.lua",
+            "source": "gc.lua"
+          }
+        ]
+      }
+    },
+    "shell-dir": {
+      "name": "shell-dir",
+      "description": "Prints current shell directory.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/shell-dir/"
+        }
+      },
+      "manifest": {
+        "name": "shell-dir",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Prints current shell directory.",
+        "files": [
+          {
+            "path": "/shell-dir.lua",
+            "source": "shell-dir.lua"
+          }
+        ]
+      }
+    },
+    "shell-path": {
+      "name": "shell-path",
+      "description": "Prints shell executable path.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/shell-path/"
+        }
+      },
+      "manifest": {
+        "name": "shell-path",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Prints shell executable path.",
+        "files": [
+          {
+            "path": "/shell-path.lua",
+            "source": "shell-path.lua"
+          }
+        ]
+      }
+    },
+    "program-name": {
+      "name": "program-name",
+      "description": "Prints the running program.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/program-name/"
+        }
+      },
+      "manifest": {
+        "name": "program-name",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Prints the running program.",
+        "files": [
+          {
+            "path": "/program-name.lua",
+            "source": "program-name.lua"
+          }
+        ]
+      }
+    },
+    "program-args": {
+      "name": "program-args",
+      "description": "Prints program arguments.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/program-args/"
+        }
+      },
+      "manifest": {
+        "name": "program-args",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Prints program arguments.",
+        "files": [
+          {
+            "path": "/program-args.lua",
+            "source": "program-args.lua"
+          }
+        ]
+      }
+    },
+    "computer-label-get": {
+      "name": "computer-label-get",
+      "description": "Prints the computer label.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/computer-label-get/"
+        }
+      },
+      "manifest": {
+        "name": "computer-label-get",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Prints the computer label.",
+        "files": [
+          {
+            "path": "/computer-label-get.lua",
+            "source": "computer-label-get.lua"
+          }
+        ]
+      }
+    },
+    "computer-time": {
+      "name": "computer-time",
+      "description": "Prints computer local time.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/computer-time/"
+        }
+      },
+      "manifest": {
+        "name": "computer-time",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Prints computer local time.",
+        "files": [
+          {
+            "path": "/computer-time.lua",
+            "source": "computer-time.lua"
+          }
+        ]
+      }
     }
   }
 }
