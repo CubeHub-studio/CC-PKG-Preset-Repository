@@ -3932,27 +3932,6 @@
         ]
       }
     },
-    "clock-ticks": {
-      "name": "clock-ticks",
-      "description": "Shows os.clock value.",
-      "versions": {
-        "1.0.0": {
-          "path": "packages/clock-ticks/"
-        }
-      },
-      "manifest": {
-        "name": "clock-ticks",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Shows os.clock value.",
-        "files": [
-          {
-            "path": "/clock-ticks.lua",
-            "source": "clock-ticks.lua"
-          }
-        ]
-      }
-    },
     "epoch-ms": {
       "name": "epoch-ms",
       "description": "Shows UTC epoch milliseconds.",
@@ -4016,27 +3995,6 @@
         ]
       }
     },
-    "term-cursor-reset": {
-      "name": "term-cursor-reset",
-      "description": "Moves cursor to the top-left.",
-      "versions": {
-        "1.0.0": {
-          "path": "packages/term-cursor-reset/"
-        }
-      },
-      "manifest": {
-        "name": "term-cursor-reset",
-        "version": "1.0.0",
-        "author": "CC-PKG Preset Repository",
-        "description": "Moves cursor to the top-left.",
-        "files": [
-          {
-            "path": "/term-cursor-reset.lua",
-            "source": "term-cursor-reset.lua"
-          }
-        ]
-      }
-    },
     "text-wrap": {
       "name": "text-wrap",
       "description": "Wraps text to terminal width.",
@@ -4079,67 +4037,109 @@
         ]
       }
     },
-    "table-count": {
-      "name": "table-count",
-      "description": "Counts supplied arguments.",
-      "versions": {
-        "1.0.0": {
-          "path": "packages/table-count/"
-        }
-      },
+    "uptime": {
+      "name": "uptime",
+      "description": "Shows process uptime, computer ID, and label.",
       "manifest": {
-        "name": "table-count",
+        "name": "uptime",
         "version": "1.0.0",
         "author": "CC-PKG Preset Repository",
-        "description": "Counts supplied arguments.",
+        "description": "Shows process uptime, computer ID, and label.",
         "files": [
           {
-            "path": "/table-count.lua",
-            "source": "table-count.lua"
+            "path": "/uptime.lua",
+            "source": "uptime.lua"
           }
         ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/uptime/"
+        }
       }
     },
-    "math-pi": {
-      "name": "math-pi",
-      "description": "Prints pi and common constants.",
-      "versions": {
-        "1.0.0": {
-          "path": "packages/math-pi/"
-        }
-      },
+    "file-tail": {
+      "name": "file-tail",
+      "description": "Prints the last N lines of a text file.",
       "manifest": {
-        "name": "math-pi",
+        "name": "file-tail",
         "version": "1.0.0",
         "author": "CC-PKG Preset Repository",
-        "description": "Prints pi and common constants.",
+        "description": "Prints the last N lines of a text file.",
         "files": [
           {
-            "path": "/math-pi.lua",
-            "source": "math-pi.lua"
+            "path": "/file-tail.lua",
+            "source": "file-tail.lua"
           }
         ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/file-tail/"
+        }
       }
     },
-    "math-random": {
-      "name": "math-random",
-      "description": "Generates a random integer.",
-      "versions": {
-        "1.0.0": {
-          "path": "packages/math-random/"
-        }
-      },
+    "file-head": {
+      "name": "file-head",
+      "description": "Prints the first N lines of a text file.",
       "manifest": {
-        "name": "math-random",
+        "name": "file-head",
         "version": "1.0.0",
         "author": "CC-PKG Preset Repository",
-        "description": "Generates a random integer.",
+        "description": "Prints the first N lines of a text file.",
         "files": [
           {
-            "path": "/math-random.lua",
-            "source": "math-random.lua"
+            "path": "/file-head.lua",
+            "source": "file-head.lua"
           }
         ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/file-head/"
+        }
+      }
+    },
+    "file-grep": {
+      "name": "file-grep",
+      "description": "Searches a text file for a literal string and reports matching line numbers.",
+      "manifest": {
+        "name": "file-grep",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Searches a text file for a literal string and reports matching line numbers.",
+        "files": [
+          {
+            "path": "/file-grep.lua",
+            "source": "file-grep.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/file-grep/"
+        }
+      }
+    },
+    "rednet-ping": {
+      "name": "rednet-ping",
+      "description": "Rednet ping client/server for measuring computer-to-computer response time.",
+      "manifest": {
+        "name": "rednet-ping",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Rednet ping client/server for measuring computer-to-computer response time.",
+        "files": [
+          {
+            "path": "/rednet-ping.lua",
+            "source": "rednet-ping.lua"
+          }
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-ping/"
+        }
       }
     }
   }
