@@ -3469,6 +3469,174 @@
           }
         ]
       }
+    },
+    "speaker-stop": {
+      "name": "speaker-stop",
+      "description": "Stops speaker playback.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/speaker-stop/"
+        }
+      },
+      "manifest": {
+        "name": "speaker-stop",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Stops speaker playback.",
+        "files": [
+          {
+            "path": "/speaker-stop.lua",
+            "source": "speaker-stop.lua"
+          }
+        ]
+      }
+    },
+    "speaker-bell": {
+      "name": "speaker-bell",
+      "description": "Plays a short bell.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/speaker-bell/"
+        }
+      },
+      "manifest": {
+        "name": "speaker-bell",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Plays a short bell.",
+        "files": [
+          {
+            "path": "/speaker-bell.lua",
+            "source": "speaker-bell.lua"
+          }
+        ]
+      }
+    },
+    "speaker-chime": {
+      "name": "speaker-chime",
+      "description": "Plays a chime.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/speaker-chime/"
+        }
+      },
+      "manifest": {
+        "name": "speaker-chime",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Plays a chime.",
+        "files": [
+          {
+            "path": "/speaker-chime.lua",
+            "source": "speaker-chime.lua"
+          }
+        ]
+      }
+    },
+    "speaker-bass": {
+      "name": "speaker-bass",
+      "description": "Plays a bass note.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/speaker-bass/"
+        }
+      },
+      "manifest": {
+        "name": "speaker-bass",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Plays a bass note.",
+        "files": [
+          {
+            "path": "/speaker-bass.lua",
+            "source": "speaker-bass.lua"
+          }
+        ]
+      }
+    },
+    "redstone-all-off": {
+      "name": "redstone-all-off",
+      "description": "Turns all redstone outputs off.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/redstone-all-off/"
+        }
+      },
+      "manifest": {
+        "name": "redstone-all-off",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Turns all redstone outputs off.",
+        "files": [
+          {
+            "path": "/redstone-all-off.lua",
+            "source": "redstone-all-off.lua"
+          }
+        ]
+      }
+    },
+    "redstone-all-on": {
+      "name": "redstone-all-on",
+      "description": "Turns all redstone outputs on.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/redstone-all-on/"
+        }
+      },
+      "manifest": {
+        "name": "redstone-all-on",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Turns all redstone outputs on.",
+        "files": [
+          {
+            "path": "/redstone-all-on.lua",
+            "source": "redstone-all-on.lua"
+          }
+        ]
+      }
+    },
+    "redstone-input": {
+      "name": "redstone-input",
+      "description": "Reads one redstone input.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/redstone-input/"
+        }
+      },
+      "manifest": {
+        "name": "redstone-input",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Reads one redstone input.",
+        "files": [
+          {
+            "path": "/redstone-input.lua",
+            "source": "redstone-input.lua"
+          }
+        ]
+      }
+    },
+    "redstone-output-get": {
+      "name": "redstone-output-get",
+      "description": "Reads one redstone output.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/redstone-output-get/"
+        }
+      },
+      "manifest": {
+        "name": "redstone-output-get",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Reads one redstone output.",
+        "files": [
+          {
+            "path": "/redstone-output-get.lua",
+            "source": "redstone-output-get.lua"
+          }
+        ]
+      }
     }
   }
 }
