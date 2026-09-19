@@ -1222,6 +1222,174 @@
           }
         ]
       }
+    },
+    "monitor-clock": {
+      "name": "monitor-clock",
+      "description": "Displays a clock on all monitors.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-clock/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-clock",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Displays a clock on all monitors.",
+        "files": [
+          {
+            "path": "/monitor-clock.lua",
+            "source": "monitor-clock.lua"
+          }
+        ]
+      }
+    },
+    "monitor-motd": {
+      "name": "monitor-motd",
+      "description": "Shows a message on all monitors.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-motd/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-motd",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows a message on all monitors.",
+        "files": [
+          {
+            "path": "/monitor-motd.lua",
+            "source": "monitor-motd.lua"
+          }
+        ]
+      }
+    },
+    "monitor-color": {
+      "name": "monitor-color",
+      "description": "Tests monitor colors.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-color/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-color",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Tests monitor colors.",
+        "files": [
+          {
+            "path": "/monitor-color.lua",
+            "source": "monitor-color.lua"
+          }
+        ]
+      }
+    },
+    "monitor-touch": {
+      "name": "monitor-touch",
+      "description": "Reports monitor touch events.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-touch/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-touch",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Reports monitor touch events.",
+        "files": [
+          {
+            "path": "/monitor-touch.lua",
+            "source": "monitor-touch.lua"
+          }
+        ]
+      }
+    },
+    "monitor-size": {
+      "name": "monitor-size",
+      "description": "Shows all monitor dimensions.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-size/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-size",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows all monitor dimensions.",
+        "files": [
+          {
+            "path": "/monitor-size.lua",
+            "source": "monitor-size.lua"
+          }
+        ]
+      }
+    },
+    "speaker-volume": {
+      "name": "speaker-volume",
+      "description": "Sets volume on attached speakers.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/speaker-volume/"
+        }
+      },
+      "manifest": {
+        "name": "speaker-volume",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Sets volume on attached speakers.",
+        "files": [
+          {
+            "path": "/speaker-volume.lua",
+            "source": "speaker-volume.lua"
+          }
+        ]
+      }
+    },
+    "speaker-note": {
+      "name": "speaker-note",
+      "description": "Plays a configurable note.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/speaker-note/"
+        }
+      },
+      "manifest": {
+        "name": "speaker-note",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Plays a configurable note.",
+        "files": [
+          {
+            "path": "/speaker-note.lua",
+            "source": "speaker-note.lua"
+          }
+        ]
+      }
+    },
+    "speaker-sound": {
+      "name": "speaker-sound",
+      "description": "Plays a Minecraft sound.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/speaker-sound/"
+        }
+      },
+      "manifest": {
+        "name": "speaker-sound",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Plays a Minecraft sound.",
+        "files": [
+          {
+            "path": "/speaker-sound.lua",
+            "source": "speaker-sound.lua"
+          }
+        ]
+      }
     }
   }
 }
