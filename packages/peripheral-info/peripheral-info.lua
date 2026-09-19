@@ -1,0 +1,1 @@
+local n=arg[1]; if not n or not peripheral.isPresent(n) then print("Usage: peripheral-info <name>") return end; print("Name: "..n); print("Types: "..table.concat(peripheral.getType(n),", "))
