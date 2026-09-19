@@ -1,0 +1,1 @@
+for _,s in ipairs(peripheral.getNames()) do if peripheral.getType(s)=="monitor" then local m=peripheral.wrap(s); m.clear(); local y=1; for i=0,15 do m.setCursorPos(1,y); m.setBackgroundColor(2^i); m.write(string.rep(" ",m.getSize())) y=y+1 end end end
