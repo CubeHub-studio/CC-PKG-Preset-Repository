@@ -6,179 +6,179 @@
   "files": [
     {
       "path": "/file-info/file-info.lua",
-      "source": "file-info/file-info.lua"
+      "source": "packages/filesystem-tools/file-info/file-info.lua"
     },
     {
       "path": "/tree/tree.lua",
-      "source": "tree/tree.lua"
+      "source": "packages/filesystem-tools/tree/tree.lua"
     },
     {
       "path": "/find/find.lua",
-      "source": "find/find.lua"
+      "source": "packages/filesystem-tools/find/find.lua"
     },
     {
       "path": "/du/du.lua",
-      "source": "du/du.lua"
+      "source": "packages/filesystem-tools/du/du.lua"
     },
     {
       "path": "/path-list/path-list.lua",
-      "source": "path-list/path-list.lua"
+      "source": "packages/filesystem-tools/path-list/path-list.lua"
     },
     {
       "path": "/fs-copy/fs-copy.lua",
-      "source": "fs-copy/fs-copy.lua"
+      "source": "packages/filesystem-tools/fs-copy/fs-copy.lua"
     },
     {
       "path": "/fs-move/fs-move.lua",
-      "source": "fs-move/fs-move.lua"
+      "source": "packages/filesystem-tools/fs-move/fs-move.lua"
     },
     {
       "path": "/fs-delete/fs-delete.lua",
-      "source": "fs-delete/fs-delete.lua"
+      "source": "packages/filesystem-tools/fs-delete/fs-delete.lua"
     },
     {
       "path": "/fs-mkdir/fs-mkdir.lua",
-      "source": "fs-mkdir/fs-mkdir.lua"
+      "source": "packages/filesystem-tools/fs-mkdir/fs-mkdir.lua"
     },
     {
       "path": "/fs-exists/fs-exists.lua",
-      "source": "fs-exists/fs-exists.lua"
+      "source": "packages/filesystem-tools/fs-exists/fs-exists.lua"
     },
     {
       "path": "/fs-isdir/fs-isdir.lua",
-      "source": "fs-isdir/fs-isdir.lua"
+      "source": "packages/filesystem-tools/fs-isdir/fs-isdir.lua"
     },
     {
       "path": "/fs-size/fs-size.lua",
-      "source": "fs-size/fs-size.lua"
+      "source": "packages/filesystem-tools/fs-size/fs-size.lua"
     },
     {
       "path": "/fs-readonly/fs-readonly.lua",
-      "source": "fs-readonly/fs-readonly.lua"
+      "source": "packages/filesystem-tools/fs-readonly/fs-readonly.lua"
     },
     {
       "path": "/file-tail/file-tail.lua",
-      "source": "file-tail/file-tail.lua"
+      "source": "packages/filesystem-tools/file-tail/file-tail.lua"
     },
     {
       "path": "/file-head/file-head.lua",
-      "source": "file-head/file-head.lua"
+      "source": "packages/filesystem-tools/file-head/file-head.lua"
     },
     {
       "path": "/file-grep/file-grep.lua",
-      "source": "file-grep/file-grep.lua"
+      "source": "packages/filesystem-tools/file-grep/file-grep.lua"
     },
     {
       "path": "/file-copy-safe/file-copy-safe.lua",
-      "source": "file-copy-safe/file-copy-safe.lua"
+      "source": "packages/filesystem-tools/file-copy-safe/file-copy-safe.lua"
     },
     {
       "path": "/file-append/file-append.lua",
-      "source": "file-append/file-append.lua"
+      "source": "packages/filesystem-tools/file-append/file-append.lua"
     },
     {
       "path": "/file-rename/file-rename.lua",
-      "source": "file-rename/file-rename.lua"
+      "source": "packages/filesystem-tools/file-rename/file-rename.lua"
     },
     {
       "path": "/path-info/path-info.lua",
-      "source": "path-info/path-info.lua"
+      "source": "packages/filesystem-tools/path-info/path-info.lua"
     },
     {
       "path": "/dir-size/dir-size.lua",
-      "source": "dir-size/dir-size.lua"
+      "source": "packages/filesystem-tools/dir-size/dir-size.lua"
     },
     {
       "path": "/backup-file/backup-file.lua",
-      "source": "backup-file/backup-file.lua"
+      "source": "packages/filesystem-tools/backup-file/backup-file.lua"
     },
     {
       "path": "/fs-search/fs-search.lua",
-      "source": "fs-search/fs-search.lua"
+      "source": "packages/filesystem-tools/fs-search/fs-search.lua"
     },
     {
       "path": "/fs-copy-tree/fs-copy-tree.lua",
-      "source": "fs-copy-tree/fs-copy-tree.lua"
+      "source": "packages/filesystem-tools/fs-copy-tree/fs-copy-tree.lua"
     },
     {
       "path": "/fs-sync/fs-sync.lua",
-      "source": "fs-sync/fs-sync.lua"
+      "source": "packages/filesystem-tools/fs-sync/fs-sync.lua"
     },
     {
       "path": "/empty-dirs/empty-dirs.lua",
-      "source": "empty-dirs/empty-dirs.lua"
+      "source": "packages/filesystem-tools/empty-dirs/empty-dirs.lua"
     },
     {
       "path": "/file-stats/file-stats.lua",
-      "source": "file-stats/file-stats.lua"
+      "source": "packages/filesystem-tools/file-stats/file-stats.lua"
     },
     {
       "path": "/dir-report/dir-report.lua",
-      "source": "dir-report/dir-report.lua"
+      "source": "packages/filesystem-tools/dir-report/dir-report.lua"
     },
     {
       "path": "/fs-watch/fs-watch.lua",
-      "source": "fs-watch/fs-watch.lua"
+      "source": "packages/filesystem-tools/fs-watch/fs-watch.lua"
     },
     {
       "path": "/file-replace/file-replace.lua",
-      "source": "file-replace/file-replace.lua"
+      "source": "packages/filesystem-tools/file-replace/file-replace.lua"
     },
     {
       "path": "/file-split/file-split.lua",
-      "source": "file-split/file-split.lua"
+      "source": "packages/filesystem-tools/file-split/file-split.lua"
     },
     {
       "path": "/file-join/file-join.lua",
-      "source": "file-join/file-join.lua"
+      "source": "packages/filesystem-tools/file-join/file-join.lua"
     },
     {
       "path": "/checksum/checksum.lua",
-      "source": "checksum/checksum.lua"
+      "source": "packages/filesystem-tools/checksum/checksum.lua"
     },
     {
       "path": "/file-number/file-number.lua",
-      "source": "file-number/file-number.lua"
+      "source": "packages/filesystem-tools/file-number/file-number.lua"
     },
     {
       "path": "/file-diff/file-diff.lua",
-      "source": "file-diff/file-diff.lua"
+      "source": "packages/filesystem-tools/file-diff/file-diff.lua"
     },
     {
       "path": "/dir-count/dir-count.lua",
-      "source": "dir-count/dir-count.lua"
+      "source": "packages/filesystem-tools/dir-count/dir-count.lua"
     },
     {
       "path": "/fs-protect/fs-protect.lua",
-      "source": "fs-protect/fs-protect.lua"
+      "source": "packages/filesystem-tools/fs-protect/fs-protect.lua"
     },
     {
       "path": "/backup-tree/backup-tree.lua",
-      "source": "backup-tree/backup-tree.lua"
+      "source": "packages/filesystem-tools/backup-tree/backup-tree.lua"
     },
     {
       "path": "/backup-list/backup-list.lua",
-      "source": "backup-list/backup-list.lua"
+      "source": "packages/filesystem-tools/backup-list/backup-list.lua"
     },
     {
       "path": "/backup-create/backup-create.lua",
-      "source": "backup-create/backup-create.lua"
+      "source": "packages/filesystem-tools/backup-create/backup-create.lua"
     },
     {
       "path": "/backup-restore/backup-restore.lua",
-      "source": "backup-restore/backup-restore.lua"
+      "source": "packages/filesystem-tools/backup-restore/backup-restore.lua"
     },
     {
       "path": "/file-cat/file-cat.lua",
-      "source": "file-cat/file-cat.lua"
+      "source": "packages/filesystem-tools/file-cat/file-cat.lua"
     },
     {
       "path": "/file-lines/file-lines.lua",
-      "source": "file-lines/file-lines.lua"
+      "source": "packages/filesystem-tools/file-lines/file-lines.lua"
     },
     {
       "path": "/file-touch/file-touch.lua",
-      "source": "file-touch/file-touch.lua"
+      "source": "packages/filesystem-tools/file-touch/file-touch.lua"
     }
   ]
 }
