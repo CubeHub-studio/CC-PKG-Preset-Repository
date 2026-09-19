@@ -2650,6 +2650,174 @@
           }
         ]
       }
+    },
+    "rednet-id": {
+      "name": "rednet-id",
+      "description": "Prints the local Rednet computer ID.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-id/"
+        }
+      },
+      "manifest": {
+        "name": "rednet-id",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Prints the local Rednet computer ID.",
+        "files": [
+          {
+            "path": "/rednet-id.lua",
+            "source": "rednet-id.lua"
+          }
+        ]
+      }
+    },
+    "rednet-open": {
+      "name": "rednet-open",
+      "description": "Opens a modem for Rednet.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-open/"
+        }
+      },
+      "manifest": {
+        "name": "rednet-open",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Opens a modem for Rednet.",
+        "files": [
+          {
+            "path": "/rednet-open.lua",
+            "source": "rednet-open.lua"
+          }
+        ]
+      }
+    },
+    "rednet-close": {
+      "name": "rednet-close",
+      "description": "Closes a Rednet modem.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-close/"
+        }
+      },
+      "manifest": {
+        "name": "rednet-close",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Closes a Rednet modem.",
+        "files": [
+          {
+            "path": "/rednet-close.lua",
+            "source": "rednet-close.lua"
+          }
+        ]
+      }
+    },
+    "rednet-host": {
+      "name": "rednet-host",
+      "description": "Hosts a Rednet protocol.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-host/"
+        }
+      },
+      "manifest": {
+        "name": "rednet-host",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Hosts a Rednet protocol.",
+        "files": [
+          {
+            "path": "/rednet-host.lua",
+            "source": "rednet-host.lua"
+          }
+        ]
+      }
+    },
+    "rednet-unhost": {
+      "name": "rednet-unhost",
+      "description": "Stops hosting a Rednet protocol.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-unhost/"
+        }
+      },
+      "manifest": {
+        "name": "rednet-unhost",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Stops hosting a Rednet protocol.",
+        "files": [
+          {
+            "path": "/rednet-unhost.lua",
+            "source": "rednet-unhost.lua"
+          }
+        ]
+      }
+    },
+    "rednet-receive": {
+      "name": "rednet-receive",
+      "description": "Waits for one Rednet message.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-receive/"
+        }
+      },
+      "manifest": {
+        "name": "rednet-receive",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Waits for one Rednet message.",
+        "files": [
+          {
+            "path": "/rednet-receive.lua",
+            "source": "rednet-receive.lua"
+          }
+        ]
+      }
+    },
+    "rednet-lookup": {
+      "name": "rednet-lookup",
+      "description": "Looks up a Rednet hostname.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-lookup/"
+        }
+      },
+      "manifest": {
+        "name": "rednet-lookup",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Looks up a Rednet hostname.",
+        "files": [
+          {
+            "path": "/rednet-lookup.lua",
+            "source": "rednet-lookup.lua"
+          }
+        ]
+      }
+    },
+    "modem-info": {
+      "name": "modem-info",
+      "description": "Shows modem wireless capability.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/modem-info/"
+        }
+      },
+      "manifest": {
+        "name": "modem-info",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows modem wireless capability.",
+        "files": [
+          {
+            "path": "/modem-info.lua",
+            "source": "modem-info.lua"
+          }
+        ]
+      }
     }
   }
 }
