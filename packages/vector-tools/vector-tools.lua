@@ -1,0 +1,1 @@
+local a={...}; local x,y,z=tonumber(a[1]) or 0,tonumber(a[2]) or 0,tonumber(a[3]) or 0; local v=vector.new(x,y,z); print("Vector: "..v.x..", "..v.y..", "..v.z); print("Length: "..v:length())
