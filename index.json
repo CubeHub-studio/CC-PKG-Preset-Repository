@@ -481,6 +481,486 @@
           ]
         }
       }
+    },
+    "backup-tools": {
+      "name": "backup-tools",
+      "description": "Useful CC:Tweaked backup utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/backup-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "archive-tools": {
+      "name": "archive-tools",
+      "description": "Useful CC:Tweaked archive utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/archive-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "json-tools": {
+      "name": "json-tools",
+      "description": "Useful CC:Tweaked json utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/json-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "csv-tools": {
+      "name": "csv-tools",
+      "description": "Useful CC:Tweaked csv utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/csv-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "gps-tools": {
+      "name": "gps-tools",
+      "description": "Useful CC:Tweaked gps utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/gps-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "disk-tools": {
+      "name": "disk-tools",
+      "description": "Useful CC:Tweaked disk utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/disk-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "drive-tools": {
+      "name": "drive-tools",
+      "description": "Useful CC:Tweaked drive utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/drive-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "command-tools": {
+      "name": "command-tools",
+      "description": "Useful CC:Tweaked command utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/command-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "keyboard-tools": {
+      "name": "keyboard-tools",
+      "description": "Useful CC:Tweaked keyboard utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/keyboard-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "color-tools": {
+      "name": "color-tools",
+      "description": "Useful CC:Tweaked color utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/color-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "vector-tools": {
+      "name": "vector-tools",
+      "description": "Useful CC:Tweaked vector utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/vector-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "parallel-tools": {
+      "name": "parallel-tools",
+      "description": "Useful CC:Tweaked parallel utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/parallel-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "window-tools": {
+      "name": "window-tools",
+      "description": "Useful CC:Tweaked window utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/window-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "multishell-tools": {
+      "name": "multishell-tools",
+      "description": "Useful CC:Tweaked multishell utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/multishell-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "shell-tools": {
+      "name": "shell-tools",
+      "description": "Useful CC:Tweaked shell utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/shell-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "program-tools": {
+      "name": "program-tools",
+      "description": "Useful CC:Tweaked program utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/program-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "memory-tools": {
+      "name": "memory-tools",
+      "description": "Useful CC:Tweaked memory utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/memory-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "performance-tools": {
+      "name": "performance-tools",
+      "description": "Useful CC:Tweaked performance utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/performance-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "diagnostic-tools": {
+      "name": "diagnostic-tools",
+      "description": "Useful CC:Tweaked diagnostic utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/diagnostic-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "chat-tools": {
+      "name": "chat-tools",
+      "description": "Useful CC:Tweaked chat utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/chat-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "clipboard-tools": {
+      "name": "clipboard-tools",
+      "description": "Useful CC:Tweaked clipboard utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/clipboard-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "map-tools": {
+      "name": "map-tools",
+      "description": "Useful CC:Tweaked map utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/map-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "world-tools": {
+      "name": "world-tools",
+      "description": "Useful CC:Tweaked world utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/world-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "crafting-tools": {
+      "name": "crafting-tools",
+      "description": "Useful CC:Tweaked crafting utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/crafting-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "fuel-tools": {
+      "name": "fuel-tools",
+      "description": "Useful CC:Tweaked fuel utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/fuel-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "farming-tools": {
+      "name": "farming-tools",
+      "description": "Useful CC:Tweaked farming utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/farming-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "building-tools": {
+      "name": "building-tools",
+      "description": "Useful CC:Tweaked building utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/building-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "navigation-tools": {
+      "name": "navigation-tools",
+      "description": "Useful CC:Tweaked navigation utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/navigation-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "server-tools": {
+      "name": "server-tools",
+      "description": "Useful CC:Tweaked server utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/server-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
+    },
+    "scheduler-tools": {
+      "name": "scheduler-tools",
+      "description": "Useful CC:Tweaked scheduler utilities.",
+      "versions": {
+        "1.0.0": {
+          "manifest": "packages/scheduler-tools/package.json",
+          "devices": [
+            "computer",
+            "advanced_computer",
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
     }
   }
 }
