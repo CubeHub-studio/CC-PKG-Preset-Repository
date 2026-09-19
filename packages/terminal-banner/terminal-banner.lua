@@ -1,0 +1,1 @@
+local s=table.concat(arg," "); if s=="" then s="CC:Tweaked" end; local w,h=term.getSize(); term.clear(); term.setCursorPos(math.max(1,math.floor((w-#s)/2)+1),math.max(1,math.floor(h/2))); print(s)
