@@ -1,0 +1,13 @@
+{
+  "name": "navigation-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked navigation utilities.",
+  "files": [
+    {
+      "path": "/navigation-tools.lua",
+      "source": "packages/navigation-tools/navigation-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
