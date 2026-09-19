@@ -1,0 +1,1 @@
+local m=peripheral.find("modem"); if not m then print("No modem.") return end; local s=peripheral.getName(m); rednet.open(s); local msg=table.concat(arg," "); if msg=="" then print("Usage: broadcast <message>") else rednet.broadcast(msg); print("Sent.") end
