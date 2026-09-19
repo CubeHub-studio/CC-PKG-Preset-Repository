@@ -1,0 +1,1 @@
+if not turtle then print("Farming tools require a turtle.") return end; local n=tonumber(({...})[1]) or 1; for i=1,n do turtle.dig(); if turtle.forward() then turtle.digDown(); turtle.back() else break end end; print("Farm pass complete.")
