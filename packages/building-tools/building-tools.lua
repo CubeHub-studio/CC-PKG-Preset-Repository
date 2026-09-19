@@ -1,0 +1,1 @@
+if not turtle then print("Building tools require a turtle.") return end; local n=tonumber(({...})[1]) or 1; for i=1,n do if turtle.place() then if not turtle.forward() then break end else print("Place failed at "..i); break end end; print("Build pass complete.")
