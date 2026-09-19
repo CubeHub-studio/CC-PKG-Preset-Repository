@@ -1,0 +1,13 @@
+{
+  "name": "monitor-tools",
+  "version": "1.0.0",
+  "description": "Find and inspect connected monitors.",
+  "author": "CubeHub Studio",
+  "license": "MIT",
+  "files": [
+    {
+      "path": "programs/monitor-tools",
+      "source": "monitor-tools.lua"
+    }
+  ]
+}
