@@ -1,0 +1,13 @@
+{
+  "name": "chat-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked chat utilities.",
+  "files": [
+    {
+      "path": "/chat-tools.lua",
+      "source": "packages/chat-tools/chat-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
