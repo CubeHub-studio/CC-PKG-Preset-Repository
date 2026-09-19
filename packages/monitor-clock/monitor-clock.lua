@@ -1,0 +1,1 @@
+while true do for _,s in ipairs(peripheral.getNames()) do if peripheral.getType(s)=="monitor" then local m=peripheral.wrap(s); m.clear(); m.setCursorPos(1,1); m.write(textutils.formatTime(os.time(),true)); m.setCursorPos(1,2); m.write(os.date("%Y-%m-%d")) end end sleep(1) end
