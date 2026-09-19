@@ -1,0 +1,13 @@
+{
+  "name": "json-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked json utilities.",
+  "files": [
+    {
+      "path": "/json-tools.lua",
+      "source": "packages/json-tools/json-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
