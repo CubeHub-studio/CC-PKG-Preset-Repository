@@ -2062,6 +2062,90 @@
           }
         ]
       }
+    },
+    "fuel-estimator": {
+      "name": "fuel-estimator",
+      "description": "Estimates turtle fuel needed.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/fuel-estimator/"
+        }
+      },
+      "manifest": {
+        "name": "fuel-estimator",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Estimates turtle fuel needed.",
+        "files": [
+          {
+            "path": "/fuel-estimator.lua",
+            "source": "fuel-estimator.lua"
+          }
+        ]
+      }
+    },
+    "turtle-dig": {
+      "name": "turtle-dig",
+      "description": "Digs forward.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-dig/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-dig",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Digs forward.",
+        "files": [
+          {
+            "path": "/turtle-dig.lua",
+            "source": "turtle-dig.lua"
+          }
+        ]
+      }
+    },
+    "turtle-dig-up": {
+      "name": "turtle-dig-up",
+      "description": "Digs upward.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-dig-up/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-dig-up",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Digs upward.",
+        "files": [
+          {
+            "path": "/turtle-dig-up.lua",
+            "source": "turtle-dig-up.lua"
+          }
+        ]
+      }
+    },
+    "turtle-dig-down": {
+      "name": "turtle-dig-down",
+      "description": "Digs downward.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-dig-down/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-dig-down",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Digs downward.",
+        "files": [
+          {
+            "path": "/turtle-dig-down.lua",
+            "source": "turtle-dig-down.lua"
+          }
+        ]
+      }
     }
   }
 }
