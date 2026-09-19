@@ -1,0 +1,1 @@
+local a={...}; local c=a[1] or "colors"; for n,v in pairs(colors) do if type(v)=="number" and (c=="colors" or n:find(c,1,true)) then print(n.."="..v) end end
