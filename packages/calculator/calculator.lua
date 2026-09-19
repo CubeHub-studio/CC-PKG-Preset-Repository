@@ -1,0 +1,1 @@
+local e=table.concat(arg," ") if e=="" then io.write("Expression: ") e=read() end local f=load("return "..e) if not f then print("Invalid expression") return end local ok,r=pcall(f) if ok then print(r) else print(r) end
