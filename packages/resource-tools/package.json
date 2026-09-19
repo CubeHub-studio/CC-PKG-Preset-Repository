@@ -6,43 +6,43 @@
   "files": [
     {
       "path": "/energy-info/energy-info.lua",
-      "source": "energy-info/energy-info.lua"
+      "source": "packages/resource-tools/energy-info/energy-info.lua"
     },
     {
       "path": "/fluid-info/fluid-info.lua",
-      "source": "fluid-info/fluid-info.lua"
+      "source": "packages/resource-tools/fluid-info/fluid-info.lua"
     },
     {
       "path": "/energy-total/energy-total.lua",
-      "source": "energy-total/energy-total.lua"
+      "source": "packages/resource-tools/energy-total/energy-total.lua"
     },
     {
       "path": "/fluid-total/fluid-total.lua",
-      "source": "fluid-total/fluid-total.lua"
+      "source": "packages/resource-tools/fluid-total/fluid-total.lua"
     },
     {
       "path": "/energy-monitor/energy-monitor.lua",
-      "source": "energy-monitor/energy-monitor.lua"
+      "source": "packages/resource-tools/energy-monitor/energy-monitor.lua"
     },
     {
       "path": "/energy-dashboard/energy-dashboard.lua",
-      "source": "energy-dashboard/energy-dashboard.lua"
+      "source": "packages/resource-tools/energy-dashboard/energy-dashboard.lua"
     },
     {
       "path": "/fluid-dashboard/fluid-dashboard.lua",
-      "source": "fluid-dashboard/fluid-dashboard.lua"
+      "source": "packages/resource-tools/fluid-dashboard/fluid-dashboard.lua"
     },
     {
       "path": "/energy-alert/energy-alert.lua",
-      "source": "energy-alert/energy-alert.lua"
+      "source": "packages/resource-tools/energy-alert/energy-alert.lua"
     },
     {
       "path": "/energy-report/energy-report.lua",
-      "source": "energy-report/energy-report.lua"
+      "source": "packages/resource-tools/energy-report/energy-report.lua"
     },
     {
       "path": "/fluid-report/fluid-report.lua",
-      "source": "fluid-report/fluid-report.lua"
+      "source": "packages/resource-tools/fluid-report/fluid-report.lua"
     }
   ]
 }
