@@ -1,0 +1,1 @@
+local a,b,s=arg[1],arg[2],tonumber(arg[3]); if not a or not b or not s then print("Usage: inventory-move <from> <to> <slot> [limit]") return end; if not peripheral.hasType(a,"inventory") or not peripheral.hasType(b,"inventory") then print("Both must be inventories.") return end; print("Moved "..peripheral.call(a,"pushItems",b,s,tonumber(arg[4])).." items.")
