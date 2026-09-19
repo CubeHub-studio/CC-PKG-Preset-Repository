@@ -1,0 +1,12 @@
+{
+  "name": "disk-info",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Reports filesystem capacity and free space.",
+  "files": [
+    {
+      "path": "/disk-info.lua",
+      "source": "disk-info.lua"
+    }
+  ]
+}
