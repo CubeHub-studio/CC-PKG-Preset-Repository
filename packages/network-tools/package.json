@@ -6,43 +6,43 @@
   "files": [
     {
       "path": "/net-tools/net-tools.lua",
-      "source": "net-tools/net-tools.lua"
+      "source": "packages/network-tools/net-tools/net-tools.lua"
     },
     {
       "path": "/net-scan/net-scan.lua",
-      "source": "net-scan/net-scan.lua"
+      "source": "packages/network-tools/net-scan/net-scan.lua"
     },
     {
       "path": "/gps-locate/gps-locate.lua",
-      "source": "gps-locate/gps-locate.lua"
+      "source": "packages/network-tools/gps-locate/gps-locate.lua"
     },
     {
       "path": "/modem-info/modem-info.lua",
-      "source": "modem-info/modem-info.lua"
+      "source": "packages/network-tools/modem-info/modem-info.lua"
     },
     {
       "path": "/gps-distance/gps-distance.lua",
-      "source": "gps-distance/gps-distance.lua"
+      "source": "packages/network-tools/gps-distance/gps-distance.lua"
     },
     {
       "path": "/gps-distance-3d/gps-distance-3d.lua",
-      "source": "gps-distance-3d/gps-distance-3d.lua"
+      "source": "packages/network-tools/gps-distance-3d/gps-distance-3d.lua"
     },
     {
       "path": "/modem-channels/modem-channels.lua",
-      "source": "modem-channels/modem-channels.lua"
+      "source": "packages/network-tools/modem-channels/modem-channels.lua"
     },
     {
       "path": "/modem-scan/modem-scan.lua",
-      "source": "modem-scan/modem-scan.lua"
+      "source": "packages/network-tools/modem-scan/modem-scan.lua"
     },
     {
       "path": "/gps-watch/gps-watch.lua",
-      "source": "gps-watch/gps-watch.lua"
+      "source": "packages/network-tools/gps-watch/gps-watch.lua"
     },
     {
       "path": "/gps-log/gps-log.lua",
-      "source": "gps-log/gps-log.lua"
+      "source": "packages/network-tools/gps-log/gps-log.lua"
     }
   ]
 }
