@@ -1,0 +1,1 @@
+local root=arg[1] or "/"; local total=0; local function walk(p) for _,n in ipairs(fs.list(p)) do local q=fs.combine(p,n); if fs.isDir(q) then walk(q) else total=total+fs.getSize(q) end end end walk(root); print(total.." bytes")
