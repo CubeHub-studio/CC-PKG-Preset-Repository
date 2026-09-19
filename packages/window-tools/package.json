@@ -1,0 +1,13 @@
+{
+  "name": "window-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked window utilities.",
+  "files": [
+    {
+      "path": "/window-tools.lua",
+      "source": "packages/window-tools/window-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
