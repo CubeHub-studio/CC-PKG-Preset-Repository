@@ -6,47 +6,47 @@
   "files": [
     {
       "path": "/speaker-test/speaker-test.lua",
-      "source": "speaker-test/speaker-test.lua"
+      "source": "packages/audio-tools/speaker-test/speaker-test.lua"
     },
     {
       "path": "/speaker-volume/speaker-volume.lua",
-      "source": "speaker-volume/speaker-volume.lua"
+      "source": "packages/audio-tools/speaker-volume/speaker-volume.lua"
     },
     {
       "path": "/speaker-note/speaker-note.lua",
-      "source": "speaker-note/speaker-note.lua"
+      "source": "packages/audio-tools/speaker-note/speaker-note.lua"
     },
     {
       "path": "/speaker-sound/speaker-sound.lua",
-      "source": "speaker-sound/speaker-sound.lua"
+      "source": "packages/audio-tools/speaker-sound/speaker-sound.lua"
     },
     {
       "path": "/dfpwm-info/dfpwm-info.lua",
-      "source": "dfpwm-info/dfpwm-info.lua"
+      "source": "packages/audio-tools/dfpwm-info/dfpwm-info.lua"
     },
     {
       "path": "/speaker-stop/speaker-stop.lua",
-      "source": "speaker-stop/speaker-stop.lua"
+      "source": "packages/audio-tools/speaker-stop/speaker-stop.lua"
     },
     {
       "path": "/speaker-bell/speaker-bell.lua",
-      "source": "speaker-bell/speaker-bell.lua"
+      "source": "packages/audio-tools/speaker-bell/speaker-bell.lua"
     },
     {
       "path": "/speaker-chime/speaker-chime.lua",
-      "source": "speaker-chime/speaker-chime.lua"
+      "source": "packages/audio-tools/speaker-chime/speaker-chime.lua"
     },
     {
       "path": "/speaker-bass/speaker-bass.lua",
-      "source": "speaker-bass/speaker-bass.lua"
+      "source": "packages/audio-tools/speaker-bass/speaker-bass.lua"
     },
     {
       "path": "/speaker-test-all/speaker-test-all.lua",
-      "source": "speaker-test-all/speaker-test-all.lua"
+      "source": "packages/audio-tools/speaker-test-all/speaker-test-all.lua"
     },
     {
       "path": "/speaker-tools/speaker-tools.lua",
-      "source": "speaker-tools/speaker-tools.lua"
+      "source": "packages/audio-tools/speaker-tools/speaker-tools.lua"
     }
   ]
 }
