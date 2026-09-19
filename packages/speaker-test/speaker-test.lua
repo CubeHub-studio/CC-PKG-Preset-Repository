@@ -1,0 +1,1 @@
+local n=0; for _,s in ipairs(peripheral.getNames()) do if peripheral.getType(s)=="speaker" then peripheral.call(s,"playNote","block.note_block.pling",1,12); n=n+1 end end; print("Tested "..n.." speaker(s).")
