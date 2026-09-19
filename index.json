@@ -1558,6 +1558,174 @@
           }
         ]
       }
+    },
+    "turtle-info": {
+      "name": "turtle-info",
+      "description": "Reports turtle inventory and fuel status.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-info/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-info",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Reports turtle inventory and fuel status.",
+        "files": [
+          {
+            "path": "/turtle-info.lua",
+            "source": "turtle-info.lua"
+          }
+        ]
+      }
+    },
+    "turtle-fuel": {
+      "name": "turtle-fuel",
+      "description": "Reports turtle fuel.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-fuel/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-fuel",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Reports turtle fuel.",
+        "files": [
+          {
+            "path": "/turtle-fuel.lua",
+            "source": "turtle-fuel.lua"
+          }
+        ]
+      }
+    },
+    "turtle-inventory": {
+      "name": "turtle-inventory",
+      "description": "Lists turtle inventory.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-inventory/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-inventory",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Lists turtle inventory.",
+        "files": [
+          {
+            "path": "/turtle-inventory.lua",
+            "source": "turtle-inventory.lua"
+          }
+        ]
+      }
+    },
+    "turtle-slots": {
+      "name": "turtle-slots",
+      "description": "Shows occupied turtle slots.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-slots/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-slots",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows occupied turtle slots.",
+        "files": [
+          {
+            "path": "/turtle-slots.lua",
+            "source": "turtle-slots.lua"
+          }
+        ]
+      }
+    },
+    "turtle-inspect": {
+      "name": "turtle-inspect",
+      "description": "Inspects the block in front.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-inspect/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-inspect",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Inspects the block in front.",
+        "files": [
+          {
+            "path": "/turtle-inspect.lua",
+            "source": "turtle-inspect.lua"
+          }
+        ]
+      }
+    },
+    "turtle-inspect-up": {
+      "name": "turtle-inspect-up",
+      "description": "Inspects the block above.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-inspect-up/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-inspect-up",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Inspects the block above.",
+        "files": [
+          {
+            "path": "/turtle-inspect-up.lua",
+            "source": "turtle-inspect-up.lua"
+          }
+        ]
+      }
+    },
+    "turtle-inspect-down": {
+      "name": "turtle-inspect-down",
+      "description": "Inspects the block below.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-inspect-down/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-inspect-down",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Inspects the block below.",
+        "files": [
+          {
+            "path": "/turtle-inspect-down.lua",
+            "source": "turtle-inspect-down.lua"
+          }
+        ]
+      }
+    },
+    "turtle-select": {
+      "name": "turtle-select",
+      "description": "Selects a turtle inventory slot.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-select/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-select",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Selects a turtle inventory slot.",
+        "files": [
+          {
+            "path": "/turtle-select.lua",
+            "source": "turtle-select.lua"
+          }
+        ]
+      }
     }
   }
 }
