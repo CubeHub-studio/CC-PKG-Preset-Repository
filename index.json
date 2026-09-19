@@ -382,6 +382,174 @@
           }
         ]
       }
+    },
+    "rednet-chat": {
+      "name": "rednet-chat",
+      "description": "Simple Rednet chat receiver/sender.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-chat/"
+        }
+      },
+      "manifest": {
+        "name": "rednet-chat",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Simple Rednet chat receiver/sender.",
+        "files": [
+          {
+            "path": "/rednet-chat.lua",
+            "source": "rednet-chat.lua"
+          }
+        ]
+      }
+    },
+    "broadcast": {
+      "name": "broadcast",
+      "description": "Broadcasts a Rednet message.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/broadcast/"
+        }
+      },
+      "manifest": {
+        "name": "broadcast",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Broadcasts a Rednet message.",
+        "files": [
+          {
+            "path": "/broadcast.lua",
+            "source": "broadcast.lua"
+          }
+        ]
+      }
+    },
+    "net-scan": {
+      "name": "net-scan",
+      "description": "Lists modem peripherals and open channels.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/net-scan/"
+        }
+      },
+      "manifest": {
+        "name": "net-scan",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Lists modem peripherals and open channels.",
+        "files": [
+          {
+            "path": "/net-scan.lua",
+            "source": "net-scan.lua"
+          }
+        ]
+      }
+    },
+    "gps-locate": {
+      "name": "gps-locate",
+      "description": "Looks up the computer's GPS position.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/gps-locate/"
+        }
+      },
+      "manifest": {
+        "name": "gps-locate",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Looks up the computer's GPS position.",
+        "files": [
+          {
+            "path": "/gps-locate.lua",
+            "source": "gps-locate.lua"
+          }
+        ]
+      }
+    },
+    "http-check": {
+      "name": "http-check",
+      "description": "Checks a URL.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/http-check/"
+        }
+      },
+      "manifest": {
+        "name": "http-check",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Checks a URL.",
+        "files": [
+          {
+            "path": "/http-check.lua",
+            "source": "http-check.lua"
+          }
+        ]
+      }
+    },
+    "monitor-info": {
+      "name": "monitor-info",
+      "description": "Reports monitor sizes and text scales.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-info/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-info",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Reports monitor sizes and text scales.",
+        "files": [
+          {
+            "path": "/monitor-info.lua",
+            "source": "monitor-info.lua"
+          }
+        ]
+      }
+    },
+    "monitor-clear": {
+      "name": "monitor-clear",
+      "description": "Clears every attached monitor.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/monitor-clear/"
+        }
+      },
+      "manifest": {
+        "name": "monitor-clear",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Clears every attached monitor.",
+        "files": [
+          {
+            "path": "/monitor-clear.lua",
+            "source": "monitor-clear.lua"
+          }
+        ]
+      }
+    },
+    "speaker-test": {
+      "name": "speaker-test",
+      "description": "Plays a speaker test note.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/speaker-test/"
+        }
+      },
+      "manifest": {
+        "name": "speaker-test",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Plays a speaker test note.",
+        "files": [
+          {
+            "path": "/speaker-test.lua",
+            "source": "speaker-test.lua"
+          }
+        ]
+      }
     }
   }
 }
