@@ -1,0 +1,1 @@
+print(tostring(term.isColor()))
