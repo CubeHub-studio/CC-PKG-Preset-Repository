@@ -1,0 +1,1 @@
+local s=arg[1]; local slot=tonumber(arg[2]); if not s or not slot then print("Usage: inventory-detail <peripheral> <slot>") return end; print(textutils.serialize(peripheral.call(s,"getItemDetail",slot)))
