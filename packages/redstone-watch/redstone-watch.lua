@@ -1,0 +1,1 @@
+print("Watching redstone. Q exits."); while true do local e=os.pullEvent(); if e=="redstone" then print("Redstone changed.") elseif e=="key" then local _,k=os.pullEvent("key"); if k==keys.q then break end end end
