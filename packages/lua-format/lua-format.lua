@@ -1,0 +1,2 @@
+local path=arg[1]; if not path then print("Usage: lua-format <file>"); return end
+local h=fs.open(path,"r"); if not h then print("File not found."); return end; local n=0; while h.readLine() do n=n+1 end; h.close(); print(path.." has "..n.." lines and "..fs.getSize(path).." bytes.")

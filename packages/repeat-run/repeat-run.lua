@@ -1,0 +1,2 @@
+local count=tonumber(arg[1]); local delay=tonumber(arg[2]) or 1; local command=table.concat(arg," ",3); if not count or command=="" then print("Usage: repeat-run <count> <delay> <command>"); return end
+for i=1,count do print(("Run %d/%d"):format(i,count)); shell.run(command); if i<count then os.sleep(delay) end end

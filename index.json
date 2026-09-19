@@ -5779,6 +5779,195 @@
           }
         ]
       }
+    },
+    "lua-format": {
+      "name": "lua-format",
+      "description": "Practical CC:Tweaked lua format utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/lua-format/"
+        }
+      },
+      "manifest": {
+        "name": "lua-format",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked lua format utility.",
+        "files": [
+          {
+            "path": "/lua-format.lua",
+            "source": "lua-format.lua"
+          }
+        ]
+      }
+    },
+    "json-pretty-file": {
+      "name": "json-pretty-file",
+      "description": "Practical CC:Tweaked json pretty file utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/json-pretty-file/"
+        }
+      },
+      "manifest": {
+        "name": "json-pretty-file",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked json pretty file utility.",
+        "files": [
+          {
+            "path": "/json-pretty-file.lua",
+            "source": "json-pretty-file.lua"
+          }
+        ]
+      }
+    },
+    "json-merge": {
+      "name": "json-merge",
+      "description": "Practical CC:Tweaked json merge utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/json-merge/"
+        }
+      },
+      "manifest": {
+        "name": "json-merge",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked json merge utility.",
+        "files": [
+          {
+            "path": "/json-merge.lua",
+            "source": "json-merge.lua"
+          }
+        ]
+      }
+    },
+    "json-query": {
+      "name": "json-query",
+      "description": "Practical CC:Tweaked json query utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/json-query/"
+        }
+      },
+      "manifest": {
+        "name": "json-query",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked json query utility.",
+        "files": [
+          {
+            "path": "/json-query.lua",
+            "source": "json-query.lua"
+          }
+        ]
+      }
+    },
+    "table-view": {
+      "name": "table-view",
+      "description": "Practical CC:Tweaked table view utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/table-view/"
+        }
+      },
+      "manifest": {
+        "name": "table-view",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked table view utility.",
+        "files": [
+          {
+            "path": "/table-view.lua",
+            "source": "table-view.lua"
+          }
+        ]
+      }
+    },
+    "vector-distance": {
+      "name": "vector-distance",
+      "description": "Practical CC:Tweaked vector distance utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/vector-distance/"
+        }
+      },
+      "manifest": {
+        "name": "vector-distance",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked vector distance utility.",
+        "files": [
+          {
+            "path": "/vector-distance.lua",
+            "source": "vector-distance.lua"
+          }
+        ]
+      }
+    },
+    "vector-direction": {
+      "name": "vector-direction",
+      "description": "Practical CC:Tweaked vector direction utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/vector-direction/"
+        }
+      },
+      "manifest": {
+        "name": "vector-direction",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked vector direction utility.",
+        "files": [
+          {
+            "path": "/vector-direction.lua",
+            "source": "vector-direction.lua"
+          }
+        ]
+      }
+    },
+    "timer-run": {
+      "name": "timer-run",
+      "description": "Practical CC:Tweaked timer run utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/timer-run/"
+        }
+      },
+      "manifest": {
+        "name": "timer-run",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked timer run utility.",
+        "files": [
+          {
+            "path": "/timer-run.lua",
+            "source": "timer-run.lua"
+          }
+        ]
+      }
+    },
+    "repeat-run": {
+      "name": "repeat-run",
+      "description": "Practical CC:Tweaked repeat run utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/repeat-run/"
+        }
+      },
+      "manifest": {
+        "name": "repeat-run",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked repeat run utility.",
+        "files": [
+          {
+            "path": "/repeat-run.lua",
+            "source": "repeat-run.lua"
+          }
+        ]
+      }
     }
   }
 }

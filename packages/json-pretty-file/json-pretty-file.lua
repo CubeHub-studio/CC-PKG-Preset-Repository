@@ -1,0 +1,3 @@
+local src,dst=arg[1],arg[2] or arg[1]; if not src then print("Usage: json-pretty-file <input> [output]"); return end
+local h=fs.open(src,"r"); if not h then print("File not found."); return end; local raw=h.readAll() or ""; h.close(); local ok,data=pcall(textutils.unserialiseJSON,raw); if not ok or data==nil then print("Invalid JSON."); return end
+local o=fs.open(dst,"w"); o.write(textutils.serializeJSON(data)); o.close(); print("Wrote "..dst)

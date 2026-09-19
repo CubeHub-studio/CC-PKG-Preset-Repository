@@ -1,0 +1,2 @@
+local a,b,c,d,e,f=tonumber(arg[1]),tonumber(arg[2]),tonumber(arg[3]),tonumber(arg[4]),tonumber(arg[5]),tonumber(arg[6]); if not a or not f then print("Usage: vector-distance x1 y1 z1 x2 y2 z2"); return end
+print(vector.new(a,b,c):sub(vector.new(d,e,f)):length())

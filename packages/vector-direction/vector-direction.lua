@@ -1,0 +1,2 @@
+local a,b,c,d,e,f=tonumber(arg[1]),tonumber(arg[2]),tonumber(arg[3]),tonumber(arg[4]),tonumber(arg[5]),tonumber(arg[6]); if not a or not f then print("Usage: vector-direction x1 y1 z1 x2 y2 z2"); return end
+local v=vector.new(d-a,e-b,f-c); print(textutils.serialize({x=v.x,y=v.y,z=v.z})); print("Length: "..v:length())

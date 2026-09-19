@@ -1,0 +1,2 @@
+local seconds=tonumber(arg[1]); local command=table.concat(arg," ",2); if not seconds or command=="" then print("Usage: timer-run <seconds> <command>"); return end
+local id=os.startTimer(seconds); print("Timer "..id.." started."); while true do local e={os.pullEvent("timer")}; if e[2]==id then break end end; shell.run(command)

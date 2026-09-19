@@ -1,0 +1,3 @@
+local out=arg[1]; if not out or #arg<3 then print("Usage: json-merge <output> <file1> <file2> ..."); return end
+local merged={}; for i=2,#arg do local h=fs.open(arg[i],"r"); if not h then print("Missing "..arg[i]); return end; local raw=h.readAll(); h.close(); local ok,t=pcall(textutils.unserialiseJSON,raw); if not ok or type(t)~="table" then print("Invalid JSON: "..arg[i]); return end; for k,v in pairs(t) do merged[k]=v end end
+local h=fs.open(out,"w"); h.write(textutils.serializeJSON(merged)); h.close(); print("Merged "..(#arg-1).." JSON files.")
