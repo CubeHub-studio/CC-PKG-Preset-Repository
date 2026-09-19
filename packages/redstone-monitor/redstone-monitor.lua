@@ -1,0 +1,1 @@
+while true do term.clear() term.setCursorPos(1,1) print("Redstone Monitor") for _,s in ipairs({"top","bottom","left","right","front","back"}) do print(("%-6s %3d"):format(s,redstone.getAnalogInput(s))) end sleep(0.5) end
