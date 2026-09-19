@@ -1,0 +1,1 @@
+local a={...}; local timeout=tonumber(a[1]) or 5; if not gps then print("GPS API unavailable.") return end; local x,y,z=gps.locate(timeout); if x then print("X: "..x); print("Y: "..y); print("Z: "..z) else print("GPS location unavailable.") end
