@@ -1,0 +1,9 @@
+{
+  "name": "printer-tools",
+  "description": "Lists attached printers and reports their status.",
+  "versions": {
+    "1.0.0": {
+      "path": "packages/printer-tools/versions/1.0.0/"
+    }
+  }
+}
