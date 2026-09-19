@@ -1,0 +1,1 @@
+local s=arg[1]; if not s or not peripheral.hasType(s,"inventory") then print("Usage: inventory-slots <peripheral>") return end; local n=0; for _ in pairs(peripheral.call(s,"list")) do n=n+1 end; print(n)
