@@ -43,6 +43,10 @@
     {
       "path": "/disk-space/disk-space.lua",
       "source": "disk-space/disk-space.lua"
+    },
+    {
+      "path": "/disk-info/disk-info.lua",
+      "source": "disk-info/disk-info.lua"
     }
   ]
 }

@@ -43,6 +43,10 @@
     {
       "path": "/speaker-test-all/speaker-test-all.lua",
       "source": "speaker-test-all/speaker-test-all.lua"
+    },
+    {
+      "path": "/speaker-tools/speaker-tools.lua",
+      "source": "speaker-tools/speaker-tools.lua"
     }
   ]
 }

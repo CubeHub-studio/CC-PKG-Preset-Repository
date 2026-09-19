@@ -1,9 +1,0 @@
-{
-  "name": "speaker-tools",
-  "description": "Lists speaker peripherals and optionally plays a test tone.",
-  "versions": {
-    "1.0.0": {
-      "path": "packages/speaker-tools/versions/1.0.0/"
-    }
-  }
-}

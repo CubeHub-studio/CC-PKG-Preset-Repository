@@ -1,9 +1,0 @@
-{
-  "name": "disk-info",
-  "description": "Reports filesystem capacity and free space.",
-  "versions": {
-    "1.0.0": {
-      "path": "packages/disk-info/versions/1.0.0/"
-    }
-  }
-}

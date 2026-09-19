@@ -672,6 +672,26 @@
           {
             "path": "/backup-list/backup-list.lua",
             "source": "backup-list/backup-list.lua"
+          },
+          {
+            "path": "/backup-create/backup-create.lua",
+            "source": "backup-create/backup-create.lua"
+          },
+          {
+            "path": "/backup-restore/backup-restore.lua",
+            "source": "backup-restore/backup-restore.lua"
+          },
+          {
+            "path": "/file-cat/file-cat.lua",
+            "source": "file-cat/file-cat.lua"
+          },
+          {
+            "path": "/file-lines/file-lines.lua",
+            "source": "file-lines/file-lines.lua"
+          },
+          {
+            "path": "/file-touch/file-touch.lua",
+            "source": "file-touch/file-touch.lua"
           }
         ]
       }
@@ -1033,6 +1053,10 @@
           {
             "path": "/speaker-test-all/speaker-test-all.lua",
             "source": "speaker-test-all/speaker-test-all.lua"
+          },
+          {
+            "path": "/speaker-tools/speaker-tools.lua",
+            "source": "speaker-tools/speaker-tools.lua"
           }
         ]
       }
@@ -1131,6 +1155,10 @@
           {
             "path": "/disk-space/disk-space.lua",
             "source": "disk-space/disk-space.lua"
+          },
+          {
+            "path": "/disk-info/disk-info.lua",
+            "source": "disk-info/disk-info.lua"
           }
         ]
       }

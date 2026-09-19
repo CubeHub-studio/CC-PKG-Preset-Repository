@@ -159,6 +159,26 @@
     {
       "path": "/backup-list/backup-list.lua",
       "source": "backup-list/backup-list.lua"
+    },
+    {
+      "path": "/backup-create/backup-create.lua",
+      "source": "backup-create/backup-create.lua"
+    },
+    {
+      "path": "/backup-restore/backup-restore.lua",
+      "source": "backup-restore/backup-restore.lua"
+    },
+    {
+      "path": "/file-cat/file-cat.lua",
+      "source": "file-cat/file-cat.lua"
+    },
+    {
+      "path": "/file-lines/file-lines.lua",
+      "source": "file-lines/file-lines.lua"
+    },
+    {
+      "path": "/file-touch/file-touch.lua",
+      "source": "file-touch/file-touch.lua"
     }
   ]
 }
