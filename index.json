@@ -46,6 +46,174 @@
           "path": "packages/monitor-tools/versions/1.0.0/"
         }
       }
+    },
+    "redstone-monitor": {
+      "name": "redstone-monitor",
+      "description": "Live redstone input monitor.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/redstone-monitor/"
+        }
+      },
+      "manifest": {
+        "name": "redstone-monitor",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Live redstone input monitor.",
+        "files": [
+          {
+            "path": "/redstone-monitor.lua",
+            "source": "redstone-monitor.lua"
+          }
+        ]
+      }
+    },
+    "calculator": {
+      "name": "calculator",
+      "description": "Small arithmetic calculator.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/calculator/"
+        }
+      },
+      "manifest": {
+        "name": "calculator",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Small arithmetic calculator.",
+        "files": [
+          {
+            "path": "/calculator.lua",
+            "source": "calculator.lua"
+          }
+        ]
+      }
+    },
+    "timer": {
+      "name": "timer",
+      "description": "Countdown timer.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/timer/"
+        }
+      },
+      "manifest": {
+        "name": "timer",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Countdown timer.",
+        "files": [
+          {
+            "path": "/timer.lua",
+            "source": "timer.lua"
+          }
+        ]
+      }
+    },
+    "stopwatch": {
+      "name": "stopwatch",
+      "description": "Stopwatch controlled with Q.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/stopwatch/"
+        }
+      },
+      "manifest": {
+        "name": "stopwatch",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Stopwatch controlled with Q.",
+        "files": [
+          {
+            "path": "/stopwatch.lua",
+            "source": "stopwatch.lua"
+          }
+        ]
+      }
+    },
+    "color-test": {
+      "name": "color-test",
+      "description": "Terminal color test.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/color-test/"
+        }
+      },
+      "manifest": {
+        "name": "color-test",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Terminal color test.",
+        "files": [
+          {
+            "path": "/color-test.lua",
+            "source": "color-test.lua"
+          }
+        ]
+      }
+    },
+    "lua-info": {
+      "name": "lua-info",
+      "description": "Shows Lua and computer runtime details.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/lua-info/"
+        }
+      },
+      "manifest": {
+        "name": "lua-info",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows Lua and computer runtime details.",
+        "files": [
+          {
+            "path": "/lua-info.lua",
+            "source": "lua-info.lua"
+          }
+        ]
+      }
+    },
+    "api-list": {
+      "name": "api-list",
+      "description": "Lists global APIs.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/api-list/"
+        }
+      },
+      "manifest": {
+        "name": "api-list",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Lists global APIs.",
+        "files": [
+          {
+            "path": "/api-list.lua",
+            "source": "api-list.lua"
+          }
+        ]
+      }
+    },
+    "text-tools": {
+      "name": "text-tools",
+      "description": "Displays text transformations.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/text-tools/"
+        }
+      },
+      "manifest": {
+        "name": "text-tools",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Displays text transformations.",
+        "files": [
+          {
+            "path": "/text-tools.lua",
+            "source": "text-tools.lua"
+          }
+        ]
+      }
     }
   }
 }
