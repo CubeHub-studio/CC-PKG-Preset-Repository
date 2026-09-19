@@ -1,0 +1,3 @@
+local protocol=arg[1]; local seconds=tonumber(arg[2]) or 30; local m=peripheral.find("modem"); if not m then print("No modem."); return end
+rednet.open(peripheral.getName(m)); print("Logging Rednet"..(protocol and " ["..protocol.."]" or "").." for "..seconds.."s"); local untilTime=os.clock()+seconds
+while os.clock()<untilTime do local id,msg,p=rednet.receive(protocol,.5); if id then print(("[%d] [%s] %s"):format(id,tostring(p),textutils.serialize(msg))) end end

@@ -1,0 +1,2 @@
+local seconds=tonumber(arg[1]) or 30; local interval=tonumber(arg[2]) or 2; local untilTime=os.clock()+seconds
+while os.clock()<untilTime do local x,y,z=gps.locate(2); if x then print(("%d, %d, %d"):format(x,y,z)) else print("GPS unavailable.") end; os.sleep(interval) end

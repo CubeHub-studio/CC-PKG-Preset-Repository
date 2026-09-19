@@ -1,0 +1,2 @@
+local path=arg[1] or "/gps.log"; local seconds=tonumber(arg[2]) or 60; local interval=tonumber(arg[3]) or 2; local h=fs.open(path,"a"); if not h then print("Cannot open log."); return end
+local untilTime=os.clock()+seconds; while os.clock()<untilTime do local x,y,z=gps.locate(2); h.writeLine(("%d %d %d %d"):format(os.epoch("utc"),x or 0,y or 0,z or 0)); h.flush(); os.sleep(interval) end; h.close(); print("GPS log saved to "..path)

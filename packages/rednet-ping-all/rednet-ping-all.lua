@@ -1,0 +1,3 @@
+local protocol=arg[1] or "ccpkg-ping"; local seconds=tonumber(arg[2]) or 3; local m=peripheral.find("modem"); if not m then print("No modem."); return end
+rednet.open(peripheral.getName(m)); rednet.broadcast({request="ping",time=os.epoch("utc")},protocol); local seen={}; local untilTime=os.clock()+seconds
+while os.clock()<untilTime do local id,msg=rednet.receive(protocol,.5); if id and not seen[id] then seen[id]=true; print("Reply "..id..": "..textutils.serialize(msg)) end end

@@ -5359,6 +5359,216 @@
           }
         ]
       }
+    },
+    "rednet-discover": {
+      "name": "rednet-discover",
+      "description": "Practical CC:Tweaked rednet discover utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-discover/"
+        }
+      },
+      "manifest": {
+        "name": "rednet-discover",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked rednet discover utility.",
+        "files": [
+          {
+            "path": "/rednet-discover.lua",
+            "source": "rednet-discover.lua"
+          }
+        ]
+      }
+    },
+    "rednet-ping-all": {
+      "name": "rednet-ping-all",
+      "description": "Practical CC:Tweaked rednet ping all utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-ping-all/"
+        }
+      },
+      "manifest": {
+        "name": "rednet-ping-all",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked rednet ping all utility.",
+        "files": [
+          {
+            "path": "/rednet-ping-all.lua",
+            "source": "rednet-ping-all.lua"
+          }
+        ]
+      }
+    },
+    "rednet-log": {
+      "name": "rednet-log",
+      "description": "Practical CC:Tweaked rednet log utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rednet-log/"
+        }
+      },
+      "manifest": {
+        "name": "rednet-log",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked rednet log utility.",
+        "files": [
+          {
+            "path": "/rednet-log.lua",
+            "source": "rednet-log.lua"
+          }
+        ]
+      }
+    },
+    "modem-scan": {
+      "name": "modem-scan",
+      "description": "Practical CC:Tweaked modem scan utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/modem-scan/"
+        }
+      },
+      "manifest": {
+        "name": "modem-scan",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked modem scan utility.",
+        "files": [
+          {
+            "path": "/modem-scan.lua",
+            "source": "modem-scan.lua"
+          }
+        ]
+      }
+    },
+    "http-mirror": {
+      "name": "http-mirror",
+      "description": "Practical CC:Tweaked http mirror utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/http-mirror/"
+        }
+      },
+      "manifest": {
+        "name": "http-mirror",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked http mirror utility.",
+        "files": [
+          {
+            "path": "/http-mirror.lua",
+            "source": "http-mirror.lua"
+          }
+        ]
+      }
+    },
+    "http-json-get": {
+      "name": "http-json-get",
+      "description": "Practical CC:Tweaked http json get utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/http-json-get/"
+        }
+      },
+      "manifest": {
+        "name": "http-json-get",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked http json get utility.",
+        "files": [
+          {
+            "path": "/http-json-get.lua",
+            "source": "http-json-get.lua"
+          }
+        ]
+      }
+    },
+    "http-headers": {
+      "name": "http-headers",
+      "description": "Practical CC:Tweaked http headers utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/http-headers/"
+        }
+      },
+      "manifest": {
+        "name": "http-headers",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked http headers utility.",
+        "files": [
+          {
+            "path": "/http-headers.lua",
+            "source": "http-headers.lua"
+          }
+        ]
+      }
+    },
+    "websocket-monitor": {
+      "name": "websocket-monitor",
+      "description": "Practical CC:Tweaked websocket monitor utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/websocket-monitor/"
+        }
+      },
+      "manifest": {
+        "name": "websocket-monitor",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked websocket monitor utility.",
+        "files": [
+          {
+            "path": "/websocket-monitor.lua",
+            "source": "websocket-monitor.lua"
+          }
+        ]
+      }
+    },
+    "gps-watch": {
+      "name": "gps-watch",
+      "description": "Practical CC:Tweaked gps watch utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/gps-watch/"
+        }
+      },
+      "manifest": {
+        "name": "gps-watch",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked gps watch utility.",
+        "files": [
+          {
+            "path": "/gps-watch.lua",
+            "source": "gps-watch.lua"
+          }
+        ]
+      }
+    },
+    "gps-log": {
+      "name": "gps-log",
+      "description": "Practical CC:Tweaked gps log utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/gps-log/"
+        }
+      },
+      "manifest": {
+        "name": "gps-log",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked gps log utility.",
+        "files": [
+          {
+            "path": "/gps-log.lua",
+            "source": "gps-log.lua"
+          }
+        ]
+      }
     }
   }
 }
