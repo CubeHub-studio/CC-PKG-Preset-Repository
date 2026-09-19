@@ -1894,6 +1894,174 @@
           }
         ]
       }
+    },
+    "json-format": {
+      "name": "json-format",
+      "description": "Serializes a Lua value as JSON.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/json-format/"
+        }
+      },
+      "manifest": {
+        "name": "json-format",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Serializes a Lua value as JSON.",
+        "files": [
+          {
+            "path": "/json-format.lua",
+            "source": "json-format.lua"
+          }
+        ]
+      }
+    },
+    "json-parse": {
+      "name": "json-parse",
+      "description": "Parses JSON from a file.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/json-parse/"
+        }
+      },
+      "manifest": {
+        "name": "json-parse",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Parses JSON from a file.",
+        "files": [
+          {
+            "path": "/json-parse.lua",
+            "source": "json-parse.lua"
+          }
+        ]
+      }
+    },
+    "pretty": {
+      "name": "pretty",
+      "description": "Pretty-prints a Lua table.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/pretty/"
+        }
+      },
+      "manifest": {
+        "name": "pretty",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Pretty-prints a Lua table.",
+        "files": [
+          {
+            "path": "/pretty.lua",
+            "source": "pretty.lua"
+          }
+        ]
+      }
+    },
+    "base64": {
+      "name": "base64",
+      "description": "Encodes or decodes Base64.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/base64/"
+        }
+      },
+      "manifest": {
+        "name": "base64",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Encodes or decodes Base64.",
+        "files": [
+          {
+            "path": "/base64.lua",
+            "source": "base64.lua"
+          }
+        ]
+      }
+    },
+    "dfpwm-info": {
+      "name": "dfpwm-info",
+      "description": "Checks DFPWM audio module availability.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/dfpwm-info/"
+        }
+      },
+      "manifest": {
+        "name": "dfpwm-info",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Checks DFPWM audio module availability.",
+        "files": [
+          {
+            "path": "/dfpwm-info.lua",
+            "source": "dfpwm-info.lua"
+          }
+        ]
+      }
+    },
+    "vector-demo": {
+      "name": "vector-demo",
+      "description": "Demonstrates vector arithmetic.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/vector-demo/"
+        }
+      },
+      "manifest": {
+        "name": "vector-demo",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Demonstrates vector arithmetic.",
+        "files": [
+          {
+            "path": "/vector-demo.lua",
+            "source": "vector-demo.lua"
+          }
+        ]
+      }
+    },
+    "parallel-demo": {
+      "name": "parallel-demo",
+      "description": "Runs two timed tasks in parallel.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/parallel-demo/"
+        }
+      },
+      "manifest": {
+        "name": "parallel-demo",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Runs two timed tasks in parallel.",
+        "files": [
+          {
+            "path": "/parallel-demo.lua",
+            "source": "parallel-demo.lua"
+          }
+        ]
+      }
+    },
+    "window-demo": {
+      "name": "window-demo",
+      "description": "Demonstrates a terminal window.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/window-demo/"
+        }
+      },
+      "manifest": {
+        "name": "window-demo",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Demonstrates a terminal window.",
+        "files": [
+          {
+            "path": "/window-demo.lua",
+            "source": "window-demo.lua"
+          }
+        ]
+      }
     }
   }
 }
