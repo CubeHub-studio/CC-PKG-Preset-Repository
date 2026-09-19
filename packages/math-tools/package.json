@@ -6,23 +6,23 @@
   "files": [
     {
       "path": "/calculator/calculator.lua",
-      "source": "calculator/calculator.lua"
+      "source": "packages/math-tools/calculator/calculator.lua"
     },
     {
       "path": "/random/random.lua",
-      "source": "random/random.lua"
+      "source": "packages/math-tools/random/random.lua"
     },
     {
       "path": "/vector-demo/vector-demo.lua",
-      "source": "vector-demo/vector-demo.lua"
+      "source": "packages/math-tools/vector-demo/vector-demo.lua"
     },
     {
       "path": "/vector-distance/vector-distance.lua",
-      "source": "vector-distance/vector-distance.lua"
+      "source": "packages/math-tools/vector-distance/vector-distance.lua"
     },
     {
       "path": "/vector-direction/vector-direction.lua",
-      "source": "vector-direction/vector-direction.lua"
+      "source": "packages/math-tools/vector-direction/vector-direction.lua"
     }
   ]
 }
