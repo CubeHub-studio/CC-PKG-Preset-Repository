@@ -1,0 +1,1 @@
+print("Keyboard test. Press Q."); while true do local e,k=os.pullEvent(); if e=="char" then print("char: "..k) elseif e=="key" then print("key: "..keys.getName(k) or tostring(k)); if k==keys.q then break end end end
