@@ -1,0 +1,1 @@
+local t=arg[1]; if not t then print("Usage: peripheral-find <type>") return end; for _,n in ipairs(peripheral.getNames()) do if peripheral.hasType(n,t) then print(n) end end
