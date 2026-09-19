@@ -6,63 +6,63 @@
   "files": [
     {
       "path": "/http-check/http-check.lua",
-      "source": "http-check/http-check.lua"
+      "source": "packages/web-tools/http-check/http-check.lua"
     },
     {
       "path": "/http-get/http-get.lua",
-      "source": "http-get/http-get.lua"
+      "source": "packages/web-tools/http-get/http-get.lua"
     },
     {
       "path": "/http-head/http-head.lua",
-      "source": "http-head/http-head.lua"
+      "source": "packages/web-tools/http-head/http-head.lua"
     },
     {
       "path": "/http-enabled/http-enabled.lua",
-      "source": "http-enabled/http-enabled.lua"
+      "source": "packages/web-tools/http-enabled/http-enabled.lua"
     },
     {
       "path": "/websocket-check/websocket-check.lua",
-      "source": "websocket-check/websocket-check.lua"
+      "source": "packages/web-tools/websocket-check/websocket-check.lua"
     },
     {
       "path": "/http-json/http-json.lua",
-      "source": "http-json/http-json.lua"
+      "source": "packages/web-tools/http-json/http-json.lua"
     },
     {
       "path": "/http-save/http-save.lua",
-      "source": "http-save/http-save.lua"
+      "source": "packages/web-tools/http-save/http-save.lua"
     },
     {
       "path": "/http-download/http-download.lua",
-      "source": "http-download/http-download.lua"
+      "source": "packages/web-tools/http-download/http-download.lua"
     },
     {
       "path": "/http-json-post/http-json-post.lua",
-      "source": "http-json-post/http-json-post.lua"
+      "source": "packages/web-tools/http-json-post/http-json-post.lua"
     },
     {
       "path": "/http-batch/http-batch.lua",
-      "source": "http-batch/http-batch.lua"
+      "source": "packages/web-tools/http-batch/http-batch.lua"
     },
     {
       "path": "/websocket-chat/websocket-chat.lua",
-      "source": "websocket-chat/websocket-chat.lua"
+      "source": "packages/web-tools/websocket-chat/websocket-chat.lua"
     },
     {
       "path": "/http-mirror/http-mirror.lua",
-      "source": "http-mirror/http-mirror.lua"
+      "source": "packages/web-tools/http-mirror/http-mirror.lua"
     },
     {
       "path": "/http-json-get/http-json-get.lua",
-      "source": "http-json-get/http-json-get.lua"
+      "source": "packages/web-tools/http-json-get/http-json-get.lua"
     },
     {
       "path": "/http-headers/http-headers.lua",
-      "source": "http-headers/http-headers.lua"
+      "source": "packages/web-tools/http-headers/http-headers.lua"
     },
     {
       "path": "/websocket-monitor/websocket-monitor.lua",
-      "source": "websocket-monitor/websocket-monitor.lua"
+      "source": "packages/web-tools/websocket-monitor/websocket-monitor.lua"
     }
   ]
 }
