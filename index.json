@@ -1054,6 +1054,174 @@
           }
         ]
       }
+    },
+    "startup-info": {
+      "name": "startup-info",
+      "description": "Shows whether common startup files exist.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/startup-info/"
+        }
+      },
+      "manifest": {
+        "name": "startup-info",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows whether common startup files exist.",
+        "files": [
+          {
+            "path": "/startup-info.lua",
+            "source": "startup-info.lua"
+          }
+        ]
+      }
+    },
+    "path-list": {
+      "name": "path-list",
+      "description": "Lists shell PATH entries.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/path-list/"
+        }
+      },
+      "manifest": {
+        "name": "path-list",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Lists shell PATH entries.",
+        "files": [
+          {
+            "path": "/path-list.lua",
+            "source": "path-list.lua"
+          }
+        ]
+      }
+    },
+    "program-list": {
+      "name": "program-list",
+      "description": "Lists programs in the current directory.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/program-list/"
+        }
+      },
+      "manifest": {
+        "name": "program-list",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Lists programs in the current directory.",
+        "files": [
+          {
+            "path": "/program-list.lua",
+            "source": "program-list.lua"
+          }
+        ]
+      }
+    },
+    "help-search": {
+      "name": "help-search",
+      "description": "Searches local help topics.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/help-search/"
+        }
+      },
+      "manifest": {
+        "name": "help-search",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Searches local help topics.",
+        "files": [
+          {
+            "path": "/help-search.lua",
+            "source": "help-search.lua"
+          }
+        ]
+      }
+    },
+    "help-view": {
+      "name": "help-view",
+      "description": "Displays a local help topic.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/help-view/"
+        }
+      },
+      "manifest": {
+        "name": "help-view",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Displays a local help topic.",
+        "files": [
+          {
+            "path": "/help-view.lua",
+            "source": "help-view.lua"
+          }
+        ]
+      }
+    },
+    "settings-get": {
+      "name": "settings-get",
+      "description": "Reads one setting.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/settings-get/"
+        }
+      },
+      "manifest": {
+        "name": "settings-get",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Reads one setting.",
+        "files": [
+          {
+            "path": "/settings-get.lua",
+            "source": "settings-get.lua"
+          }
+        ]
+      }
+    },
+    "settings-set": {
+      "name": "settings-set",
+      "description": "Sets a local setting.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/settings-set/"
+        }
+      },
+      "manifest": {
+        "name": "settings-set",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Sets a local setting.",
+        "files": [
+          {
+            "path": "/settings-set.lua",
+            "source": "settings-set.lua"
+          }
+        ]
+      }
+    },
+    "settings-reset": {
+      "name": "settings-reset",
+      "description": "Unsets a local setting.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/settings-reset/"
+        }
+      },
+      "manifest": {
+        "name": "settings-reset",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Unsets a local setting.",
+        "files": [
+          {
+            "path": "/settings-reset.lua",
+            "source": "settings-reset.lua"
+          }
+        ]
+      }
     }
   }
 }
