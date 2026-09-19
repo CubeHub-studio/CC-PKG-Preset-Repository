@@ -1,0 +1,1 @@
+local x,y,z=gps.locate(5); if not x then print("GPS unavailable.") return end; print("Current position: "..x..", "..y..", "..z); print("Run this on multiple GPS-enabled computers to build a coordinate map.")
