@@ -1,0 +1,1 @@
+local s=table.concat(arg," "); if s=="" then print("Usage: term-box <text>") return end; local w=select(1,term.getSize()); s=s:sub(1,math.max(1,w-4)); local l="+"..string.rep("-",#s+2).."+"; print(l); print("| "..s.." |"); print(l)
