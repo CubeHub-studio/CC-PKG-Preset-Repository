@@ -2986,6 +2986,174 @@
           }
         ]
       }
+    },
+    "fs-copy": {
+      "name": "fs-copy",
+      "description": "Copies a file.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/fs-copy/"
+        }
+      },
+      "manifest": {
+        "name": "fs-copy",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Copies a file.",
+        "files": [
+          {
+            "path": "/fs-copy.lua",
+            "source": "fs-copy.lua"
+          }
+        ]
+      }
+    },
+    "fs-move": {
+      "name": "fs-move",
+      "description": "Moves a file.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/fs-move/"
+        }
+      },
+      "manifest": {
+        "name": "fs-move",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Moves a file.",
+        "files": [
+          {
+            "path": "/fs-move.lua",
+            "source": "fs-move.lua"
+          }
+        ]
+      }
+    },
+    "fs-delete": {
+      "name": "fs-delete",
+      "description": "Deletes a path after confirmation.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/fs-delete/"
+        }
+      },
+      "manifest": {
+        "name": "fs-delete",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Deletes a path after confirmation.",
+        "files": [
+          {
+            "path": "/fs-delete.lua",
+            "source": "fs-delete.lua"
+          }
+        ]
+      }
+    },
+    "fs-mkdir": {
+      "name": "fs-mkdir",
+      "description": "Creates a directory.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/fs-mkdir/"
+        }
+      },
+      "manifest": {
+        "name": "fs-mkdir",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Creates a directory.",
+        "files": [
+          {
+            "path": "/fs-mkdir.lua",
+            "source": "fs-mkdir.lua"
+          }
+        ]
+      }
+    },
+    "fs-exists": {
+      "name": "fs-exists",
+      "description": "Checks whether a path exists.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/fs-exists/"
+        }
+      },
+      "manifest": {
+        "name": "fs-exists",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Checks whether a path exists.",
+        "files": [
+          {
+            "path": "/fs-exists.lua",
+            "source": "fs-exists.lua"
+          }
+        ]
+      }
+    },
+    "fs-isdir": {
+      "name": "fs-isdir",
+      "description": "Checks whether a path is a directory.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/fs-isdir/"
+        }
+      },
+      "manifest": {
+        "name": "fs-isdir",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Checks whether a path is a directory.",
+        "files": [
+          {
+            "path": "/fs-isdir.lua",
+            "source": "fs-isdir.lua"
+          }
+        ]
+      }
+    },
+    "fs-size": {
+      "name": "fs-size",
+      "description": "Shows file size.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/fs-size/"
+        }
+      },
+      "manifest": {
+        "name": "fs-size",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows file size.",
+        "files": [
+          {
+            "path": "/fs-size.lua",
+            "source": "fs-size.lua"
+          }
+        ]
+      }
+    },
+    "fs-readonly": {
+      "name": "fs-readonly",
+      "description": "Checks read-only status.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/fs-readonly/"
+        }
+      },
+      "manifest": {
+        "name": "fs-readonly",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Checks read-only status.",
+        "files": [
+          {
+            "path": "/fs-readonly.lua",
+            "source": "fs-readonly.lua"
+          }
+        ]
+      }
     }
   }
 }
