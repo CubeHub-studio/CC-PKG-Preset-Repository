@@ -1,0 +1,1 @@
+local w,h=term.getSize(); local x,y=term.getCursorPos(); print(("Size: %dx%d"):format(w,h)); print(("Cursor: %d,%d"):format(x,y)); print("Color: "..tostring(term.isColor())); print("Computer: "..os.getComputerID())

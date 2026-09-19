@@ -5968,6 +5968,174 @@
           }
         ]
       }
+    },
+    "parallel-run": {
+      "name": "parallel-run",
+      "description": "Practical CC:Tweaked parallel run utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/parallel-run/"
+        }
+      },
+      "manifest": {
+        "name": "parallel-run",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked parallel run utility.",
+        "files": [
+          {
+            "path": "/parallel-run.lua",
+            "source": "parallel-run.lua"
+          }
+        ]
+      }
+    },
+    "multishell-list": {
+      "name": "multishell-list",
+      "description": "Practical CC:Tweaked multishell list utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/multishell-list/"
+        }
+      },
+      "manifest": {
+        "name": "multishell-list",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked multishell list utility.",
+        "files": [
+          {
+            "path": "/multishell-list.lua",
+            "source": "multishell-list.lua"
+          }
+        ]
+      }
+    },
+    "term-info": {
+      "name": "term-info",
+      "description": "Practical CC:Tweaked term info utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/term-info/"
+        }
+      },
+      "manifest": {
+        "name": "term-info",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked term info utility.",
+        "files": [
+          {
+            "path": "/term-info.lua",
+            "source": "term-info.lua"
+          }
+        ]
+      }
+    },
+    "keyboard-layout": {
+      "name": "keyboard-layout",
+      "description": "Practical CC:Tweaked keyboard layout utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/keyboard-layout/"
+        }
+      },
+      "manifest": {
+        "name": "keyboard-layout",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked keyboard layout utility.",
+        "files": [
+          {
+            "path": "/keyboard-layout.lua",
+            "source": "keyboard-layout.lua"
+          }
+        ]
+      }
+    },
+    "event-watch": {
+      "name": "event-watch",
+      "description": "Practical CC:Tweaked event watch utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/event-watch/"
+        }
+      },
+      "manifest": {
+        "name": "event-watch",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked event watch utility.",
+        "files": [
+          {
+            "path": "/event-watch.lua",
+            "source": "event-watch.lua"
+          }
+        ]
+      }
+    },
+    "startup-report": {
+      "name": "startup-report",
+      "description": "Practical CC:Tweaked startup report utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/startup-report/"
+        }
+      },
+      "manifest": {
+        "name": "startup-report",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked startup report utility.",
+        "files": [
+          {
+            "path": "/startup-report.lua",
+            "source": "startup-report.lua"
+          }
+        ]
+      }
+    },
+    "rom-list": {
+      "name": "rom-list",
+      "description": "Practical CC:Tweaked rom list utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/rom-list/"
+        }
+      },
+      "manifest": {
+        "name": "rom-list",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked rom list utility.",
+        "files": [
+          {
+            "path": "/rom-list.lua",
+            "source": "rom-list.lua"
+          }
+        ]
+      }
+    },
+    "disk-space": {
+      "name": "disk-space",
+      "description": "Practical CC:Tweaked disk space utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/disk-space/"
+        }
+      },
+      "manifest": {
+        "name": "disk-space",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked disk space utility.",
+        "files": [
+          {
+            "path": "/disk-space.lua",
+            "source": "disk-space.lua"
+          }
+        ]
+      }
     }
   }
 }

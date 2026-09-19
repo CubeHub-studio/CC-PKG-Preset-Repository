@@ -1,0 +1,1 @@
+local path=arg[1] or "/"; if not fs.exists(path) then print("Path not found."); return end; print("Size: "..fs.getSize(path)); print("Read-only: "..tostring(fs.isReadOnly(path))); print("Directory: "..tostring(fs.isDir(path)))

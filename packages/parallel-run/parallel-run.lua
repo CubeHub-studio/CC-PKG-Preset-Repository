@@ -1,0 +1,2 @@
+local command=table.concat(arg," "); if command=="" then print("Usage: parallel-run <command>"); return end
+print("Launching: "..command); parallel.waitForAll(function() shell.run(command) end,function() end); print("Parallel run finished.")

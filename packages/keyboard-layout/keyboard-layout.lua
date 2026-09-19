@@ -1,0 +1,1 @@
+print("Common key codes:"); for _,k in ipairs({"a","b","c","enter","space","left","right","up","down","backspace","delete","home","end","tab","escape"}) do print(k.." = "..tostring(keys[k])) end

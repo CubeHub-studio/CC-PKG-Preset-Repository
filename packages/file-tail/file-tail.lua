@@ -1,1 +1,2 @@
-local p=arg[1]; local n=tonumber(arg[2]) or 10; if not p then print("Usage: file-tail <file> [lines]") return end; local h=fs.open(p,"r"); if not h then print("Cannot open file.") return end; local a={}; for l in h.readLine do a[#a+1]=l end; h.close(); for i=math.max(1,#a-n+1),#a do print(a[i]) end
+local path=arg[1]; local n=tonumber(arg[2]) or 20; if not path then print("Usage: file-tail <file> [lines]"); return end
+local h=fs.open(path,"r"); if not h then print("File not found."); return end; local lines={}; while true do local l=h.readLine(); if not l then break end; lines[#lines+1]=l end; h.close(); for i=math.max(1,#lines-n+1),#lines do print(lines[i]) end

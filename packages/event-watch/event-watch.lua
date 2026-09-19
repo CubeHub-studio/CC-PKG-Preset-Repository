@@ -1,0 +1,2 @@
+local name=arg[1]; local seconds=tonumber(arg[2]) or 20; if not name then print("Usage: event-watch <event> [seconds]"); return end
+local untilTime=os.clock()+seconds; print("Watching "..name); while os.clock()<untilTime do local e={os.pullEvent(name)}; print(textutils.serialize(e)) end

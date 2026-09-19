@@ -1,0 +1,1 @@
+print("Startup programs:"); for _,p in ipairs(shell.getStartup()) do print(" - "..p) end; print("Shell path: "..shell.path()); print("Working directory: "..shell.dir())

@@ -1,0 +1,1 @@
+local root="/rom"; local function walk(p) for _,n in ipairs(fs.list(p)) do local q=fs.combine(p,n); if fs.isDir(q) then walk(q) else print(q) end end end; if fs.exists(root) then walk(root) else print("ROM unavailable.") end
