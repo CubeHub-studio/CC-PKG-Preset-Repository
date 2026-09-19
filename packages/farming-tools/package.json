@@ -1,0 +1,13 @@
+{
+  "name": "farming-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked farming utilities.",
+  "files": [
+    {
+      "path": "/farming-tools.lua",
+      "source": "packages/farming-tools/farming-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
