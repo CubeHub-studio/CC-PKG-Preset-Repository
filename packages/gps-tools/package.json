@@ -1,0 +1,13 @@
+{
+  "name": "gps-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked gps utilities.",
+  "files": [
+    {
+      "path": "/gps-tools.lua",
+      "source": "packages/gps-tools/gps-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
