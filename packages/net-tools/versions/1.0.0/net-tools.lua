@@ -1,0 +1,1 @@
+print("CC Network Tools");for _,s in ipairs({"top","bottom","left","right","front","back"}) do if peripheral.getType(s)=="modem" then print("Modem: "..s) end end;print("Rednet API: "..tostring(rednet~=nil));print("HTTP API: "..tostring(http~=nil))
