@@ -1,0 +1,13 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Interactive basic arithmetic calculator.",
+  "author": "CubeHub Studio",
+  "license": "MIT",
+  "files": [
+    {
+      "path": "programs/calculator",
+      "source": "calculator.lua"
+    }
+  ]
+}
