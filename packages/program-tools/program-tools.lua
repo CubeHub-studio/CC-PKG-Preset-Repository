@@ -1,0 +1,1 @@
+local a={...}; local p=a[1]; if not p then print("Usage: program-tools <program>"); return end; local path=shell.resolveProgram(p); if path then print("Found: "..path) else print("Program not found.") end
