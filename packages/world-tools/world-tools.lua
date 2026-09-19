@@ -1,0 +1,1 @@
+local a={...}; if commands and commands.getBlockInfo and a[1] and a[2] and a[3] then local d,e=commands.getBlockInfo(tonumber(a[1]),tonumber(a[2]),tonumber(a[3])); if d then print(textutils.serializeJSON(d)) else print("Failed: "..tostring(e)) end else print("Requires a command computer and X Y Z coordinates.") end
