@@ -1,0 +1,1 @@
+local modem=peripheral.find("modem"); if not modem then print("No modem.") return end; rednet.open(peripheral.getName(modem)); print("Rednet chat. Press Q to quit."); while true do local e,a,b,c=os.pullEvent(); if e=="rednet_message" then print("["..a.."] "..tostring(b)) elseif e=="key" and b==keys.q then break end end
