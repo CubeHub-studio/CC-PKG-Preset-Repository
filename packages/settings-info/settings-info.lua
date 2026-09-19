@@ -1,0 +1,1 @@
+local k=arg[1]; if not k then print("Usage: settings-info <name>") return end; print(textutils.serialize(settings.getDetails(k)))
