@@ -1726,6 +1726,174 @@
           }
         ]
       }
+    },
+    "turtle-forward": {
+      "name": "turtle-forward",
+      "description": "Moves a turtle forward.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-forward/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-forward",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Moves a turtle forward.",
+        "files": [
+          {
+            "path": "/turtle-forward.lua",
+            "source": "turtle-forward.lua"
+          }
+        ]
+      }
+    },
+    "turtle-back": {
+      "name": "turtle-back",
+      "description": "Moves a turtle backward.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-back/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-back",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Moves a turtle backward.",
+        "files": [
+          {
+            "path": "/turtle-back.lua",
+            "source": "turtle-back.lua"
+          }
+        ]
+      }
+    },
+    "turtle-up": {
+      "name": "turtle-up",
+      "description": "Moves a turtle up.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-up/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-up",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Moves a turtle up.",
+        "files": [
+          {
+            "path": "/turtle-up.lua",
+            "source": "turtle-up.lua"
+          }
+        ]
+      }
+    },
+    "turtle-down": {
+      "name": "turtle-down",
+      "description": "Moves a turtle down.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-down/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-down",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Moves a turtle down.",
+        "files": [
+          {
+            "path": "/turtle-down.lua",
+            "source": "turtle-down.lua"
+          }
+        ]
+      }
+    },
+    "turtle-turn-left": {
+      "name": "turtle-turn-left",
+      "description": "Turns turtle left.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-turn-left/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-turn-left",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Turns turtle left.",
+        "files": [
+          {
+            "path": "/turtle-turn-left.lua",
+            "source": "turtle-turn-left.lua"
+          }
+        ]
+      }
+    },
+    "turtle-turn-right": {
+      "name": "turtle-turn-right",
+      "description": "Turns turtle right.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-turn-right/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-turn-right",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Turns turtle right.",
+        "files": [
+          {
+            "path": "/turtle-turn-right.lua",
+            "source": "turtle-turn-right.lua"
+          }
+        ]
+      }
+    },
+    "turtle-refuel": {
+      "name": "turtle-refuel",
+      "description": "Refuels a turtle from selected slot.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-refuel/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-refuel",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Refuels a turtle from selected slot.",
+        "files": [
+          {
+            "path": "/turtle-refuel.lua",
+            "source": "turtle-refuel.lua"
+          }
+        ]
+      }
+    },
+    "turtle-equip": {
+      "name": "turtle-equip",
+      "description": "Equips a turtle item.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/turtle-equip/"
+        }
+      },
+      "manifest": {
+        "name": "turtle-equip",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Equips a turtle item.",
+        "files": [
+          {
+            "path": "/turtle-equip.lua",
+            "source": "turtle-equip.lua"
+          }
+        ]
+      }
     }
   }
 }
