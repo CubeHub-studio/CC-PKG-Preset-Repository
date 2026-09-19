@@ -550,6 +550,174 @@
           }
         ]
       }
+    },
+    "printer-test": {
+      "name": "printer-test",
+      "description": "Prints a test page.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/printer-test/"
+        }
+      },
+      "manifest": {
+        "name": "printer-test",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Prints a test page.",
+        "files": [
+          {
+            "path": "/printer-test.lua",
+            "source": "printer-test.lua"
+          }
+        ]
+      }
+    },
+    "disk-label": {
+      "name": "disk-label",
+      "description": "Shows labels of inserted disks.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/disk-label/"
+        }
+      },
+      "manifest": {
+        "name": "disk-label",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows labels of inserted disks.",
+        "files": [
+          {
+            "path": "/disk-label.lua",
+            "source": "disk-label.lua"
+          }
+        ]
+      }
+    },
+    "disk-id": {
+      "name": "disk-id",
+      "description": "Shows disk IDs.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/disk-id/"
+        }
+      },
+      "manifest": {
+        "name": "disk-id",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows disk IDs.",
+        "files": [
+          {
+            "path": "/disk-id.lua",
+            "source": "disk-id.lua"
+          }
+        ]
+      }
+    },
+    "inventory-list": {
+      "name": "inventory-list",
+      "description": "Lists items in attached inventories.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/inventory-list/"
+        }
+      },
+      "manifest": {
+        "name": "inventory-list",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Lists items in attached inventories.",
+        "files": [
+          {
+            "path": "/inventory-list.lua",
+            "source": "inventory-list.lua"
+          }
+        ]
+      }
+    },
+    "inventory-find": {
+      "name": "inventory-find",
+      "description": "Finds an item name across inventories.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/inventory-find/"
+        }
+      },
+      "manifest": {
+        "name": "inventory-find",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Finds an item name across inventories.",
+        "files": [
+          {
+            "path": "/inventory-find.lua",
+            "source": "inventory-find.lua"
+          }
+        ]
+      }
+    },
+    "energy-info": {
+      "name": "energy-info",
+      "description": "Shows energy storage peripherals.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/energy-info/"
+        }
+      },
+      "manifest": {
+        "name": "energy-info",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows energy storage peripherals.",
+        "files": [
+          {
+            "path": "/energy-info.lua",
+            "source": "energy-info.lua"
+          }
+        ]
+      }
+    },
+    "fluid-info": {
+      "name": "fluid-info",
+      "description": "Shows fluid tank summaries.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/fluid-info/"
+        }
+      },
+      "manifest": {
+        "name": "fluid-info",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Shows fluid tank summaries.",
+        "files": [
+          {
+            "path": "/fluid-info.lua",
+            "source": "fluid-info.lua"
+          }
+        ]
+      }
+    },
+    "peripheral-watch": {
+      "name": "peripheral-watch",
+      "description": "Reports peripheral attach/detach events.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/peripheral-watch/"
+        }
+      },
+      "manifest": {
+        "name": "peripheral-watch",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Reports peripheral attach/detach events.",
+        "files": [
+          {
+            "path": "/peripheral-watch.lua",
+            "source": "peripheral-watch.lua"
+          }
+        ]
+      }
     }
   }
 }
