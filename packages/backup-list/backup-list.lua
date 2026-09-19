@@ -1,0 +1,2 @@
+local root=arg[1] or "/backups"; if not fs.isDir(root) then print("No backup directory."); return end
+for _,n in ipairs(fs.list(root)) do local p=fs.combine(root,n); print((fs.isDir(p) and "[DIR] " or "[FILE] ")..n.." "..fs.getSize(p).." bytes") end

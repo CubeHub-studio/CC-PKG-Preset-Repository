@@ -5149,6 +5149,216 @@
           }
         ]
       }
+    },
+    "file-number": {
+      "name": "file-number",
+      "description": "Practical CC:Tweaked file number utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/file-number/"
+        }
+      },
+      "manifest": {
+        "name": "file-number",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked file number utility.",
+        "files": [
+          {
+            "path": "/file-number.lua",
+            "source": "file-number.lua"
+          }
+        ]
+      }
+    },
+    "file-diff": {
+      "name": "file-diff",
+      "description": "Practical CC:Tweaked file diff utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/file-diff/"
+        }
+      },
+      "manifest": {
+        "name": "file-diff",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked file diff utility.",
+        "files": [
+          {
+            "path": "/file-diff.lua",
+            "source": "file-diff.lua"
+          }
+        ]
+      }
+    },
+    "dir-count": {
+      "name": "dir-count",
+      "description": "Practical CC:Tweaked dir count utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/dir-count/"
+        }
+      },
+      "manifest": {
+        "name": "dir-count",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked dir count utility.",
+        "files": [
+          {
+            "path": "/dir-count.lua",
+            "source": "dir-count.lua"
+          }
+        ]
+      }
+    },
+    "fs-protect": {
+      "name": "fs-protect",
+      "description": "Practical CC:Tweaked fs protect utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/fs-protect/"
+        }
+      },
+      "manifest": {
+        "name": "fs-protect",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked fs protect utility.",
+        "files": [
+          {
+            "path": "/fs-protect.lua",
+            "source": "fs-protect.lua"
+          }
+        ]
+      }
+    },
+    "backup-tree": {
+      "name": "backup-tree",
+      "description": "Practical CC:Tweaked backup tree utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/backup-tree/"
+        }
+      },
+      "manifest": {
+        "name": "backup-tree",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked backup tree utility.",
+        "files": [
+          {
+            "path": "/backup-tree.lua",
+            "source": "backup-tree.lua"
+          }
+        ]
+      }
+    },
+    "backup-list": {
+      "name": "backup-list",
+      "description": "Practical CC:Tweaked backup list utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/backup-list/"
+        }
+      },
+      "manifest": {
+        "name": "backup-list",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked backup list utility.",
+        "files": [
+          {
+            "path": "/backup-list.lua",
+            "source": "backup-list.lua"
+          }
+        ]
+      }
+    },
+    "settings-report": {
+      "name": "settings-report",
+      "description": "Practical CC:Tweaked settings report utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/settings-report/"
+        }
+      },
+      "manifest": {
+        "name": "settings-report",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked settings report utility.",
+        "files": [
+          {
+            "path": "/settings-report.lua",
+            "source": "settings-report.lua"
+          }
+        ]
+      }
+    },
+    "settings-reset-all": {
+      "name": "settings-reset-all",
+      "description": "Practical CC:Tweaked settings reset all utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/settings-reset-all/"
+        }
+      },
+      "manifest": {
+        "name": "settings-reset-all",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked settings reset all utility.",
+        "files": [
+          {
+            "path": "/settings-reset-all.lua",
+            "source": "settings-reset-all.lua"
+          }
+        ]
+      }
+    },
+    "env-report": {
+      "name": "env-report",
+      "description": "Practical CC:Tweaked env report utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/env-report/"
+        }
+      },
+      "manifest": {
+        "name": "env-report",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked env report utility.",
+        "files": [
+          {
+            "path": "/env-report.lua",
+            "source": "env-report.lua"
+          }
+        ]
+      }
+    },
+    "program-check": {
+      "name": "program-check",
+      "description": "Practical CC:Tweaked program check utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/program-check/"
+        }
+      },
+      "manifest": {
+        "name": "program-check",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked program check utility.",
+        "files": [
+          {
+            "path": "/program-check.lua",
+            "source": "program-check.lua"
+          }
+        ]
+      }
     }
   }
 }

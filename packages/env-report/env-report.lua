@@ -1,0 +1,1 @@
+print("Computer ID: "..os.getComputerID()); print("Label: "..tostring(os.getComputerLabel() or "(none)")); print("Time: "..os.time()); print("Day: "..os.day()); print("Clock: "..os.clock()); print("Term size: "..table.concat({term.getSize()},"x")); print("OS: "..tostring(_HOST or "CraftOS"))

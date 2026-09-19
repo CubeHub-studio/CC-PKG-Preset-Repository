@@ -1,0 +1,1 @@
+local names=settings.getNames(); table.sort(names); for _,n in ipairs(names) do local d=settings.getDetails(n) or {}; print(n.." = "..textutils.serialize(settings.get(n))); if d.description then print("  "..d.description) end end; print("Settings: "..#names)
