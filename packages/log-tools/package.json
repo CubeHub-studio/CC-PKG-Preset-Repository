@@ -6,11 +6,11 @@
   "files": [
     {
       "path": "/log-follow/log-follow.lua",
-      "source": "log-follow/log-follow.lua"
+      "source": "packages/log-tools/log-follow/log-follow.lua"
     },
     {
       "path": "/log-view/log-view.lua",
-      "source": "log-view/log-view.lua"
+      "source": "packages/log-tools/log-view/log-view.lua"
     }
   ]
 }
