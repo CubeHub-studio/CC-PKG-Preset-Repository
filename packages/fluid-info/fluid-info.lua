@@ -1,0 +1,1 @@
+for _,s in ipairs(peripheral.getNames()) do if peripheral.hasType(s,"fluid_storage") then local t=peripheral.call(s,"tanks"); print("["..s.."]"); for i,v in ipairs(t) do print(i..": "..tostring(v.name).." "..v.amount.."/"..v.capacity) end end end
