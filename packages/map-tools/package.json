@@ -1,0 +1,13 @@
+{
+  "name": "map-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked map utilities.",
+  "files": [
+    {
+      "path": "/map-tools.lua",
+      "source": "packages/map-tools/map-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
