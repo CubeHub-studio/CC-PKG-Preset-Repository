@@ -6,35 +6,35 @@
   "files": [
     {
       "path": "/computer-list/computer-list.lua",
-      "source": "computer-list/computer-list.lua"
+      "source": "packages/computer-tools/computer-list/computer-list.lua"
     },
     {
       "path": "/computer-status/computer-status.lua",
-      "source": "computer-status/computer-status.lua"
+      "source": "packages/computer-tools/computer-status/computer-status.lua"
     },
     {
       "path": "/computer-label/computer-label.lua",
-      "source": "computer-label/computer-label.lua"
+      "source": "packages/computer-tools/computer-label/computer-label.lua"
     },
     {
       "path": "/computer-reboot/computer-reboot.lua",
-      "source": "computer-reboot/computer-reboot.lua"
+      "source": "packages/computer-tools/computer-reboot/computer-reboot.lua"
     },
     {
       "path": "/computer-shutdown/computer-shutdown.lua",
-      "source": "computer-shutdown/computer-shutdown.lua"
+      "source": "packages/computer-tools/computer-shutdown/computer-shutdown.lua"
     },
     {
       "path": "/computer-label-get/computer-label-get.lua",
-      "source": "computer-label-get/computer-label-get.lua"
+      "source": "packages/computer-tools/computer-label-get/computer-label-get.lua"
     },
     {
       "path": "/computer-time/computer-time.lua",
-      "source": "computer-time/computer-time.lua"
+      "source": "packages/computer-tools/computer-time/computer-time.lua"
     },
     {
       "path": "/computer-report/computer-report.lua",
-      "source": "computer-report/computer-report.lua"
+      "source": "packages/computer-tools/computer-report/computer-report.lua"
     }
   ]
 }
