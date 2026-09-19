@@ -6,51 +6,51 @@
   "files": [
     {
       "path": "/redstone-monitor/redstone-monitor.lua",
-      "source": "redstone-monitor/redstone-monitor.lua"
+      "source": "packages/redstone-tools/redstone-monitor/redstone-monitor.lua"
     },
     {
       "path": "/redstone-output/redstone-output.lua",
-      "source": "redstone-output/redstone-output.lua"
+      "source": "packages/redstone-tools/redstone-output/redstone-output.lua"
     },
     {
       "path": "/redstone-pulse/redstone-pulse.lua",
-      "source": "redstone-pulse/redstone-pulse.lua"
+      "source": "packages/redstone-tools/redstone-pulse/redstone-pulse.lua"
     },
     {
       "path": "/redstone-level/redstone-level.lua",
-      "source": "redstone-level/redstone-level.lua"
+      "source": "packages/redstone-tools/redstone-level/redstone-level.lua"
     },
     {
       "path": "/redstone-watch/redstone-watch.lua",
-      "source": "redstone-watch/redstone-watch.lua"
+      "source": "packages/redstone-tools/redstone-watch/redstone-watch.lua"
     },
     {
       "path": "/redstone-all-off/redstone-all-off.lua",
-      "source": "redstone-all-off/redstone-all-off.lua"
+      "source": "packages/redstone-tools/redstone-all-off/redstone-all-off.lua"
     },
     {
       "path": "/redstone-all-on/redstone-all-on.lua",
-      "source": "redstone-all-on/redstone-all-on.lua"
+      "source": "packages/redstone-tools/redstone-all-on/redstone-all-on.lua"
     },
     {
       "path": "/redstone-input/redstone-input.lua",
-      "source": "redstone-input/redstone-input.lua"
+      "source": "packages/redstone-tools/redstone-input/redstone-input.lua"
     },
     {
       "path": "/redstone-output-get/redstone-output-get.lua",
-      "source": "redstone-output-get/redstone-output-get.lua"
+      "source": "packages/redstone-tools/redstone-output-get/redstone-output-get.lua"
     },
     {
       "path": "/redstone-dashboard/redstone-dashboard.lua",
-      "source": "redstone-dashboard/redstone-dashboard.lua"
+      "source": "packages/redstone-tools/redstone-dashboard/redstone-dashboard.lua"
     },
     {
       "path": "/redstone-watch-all/redstone-watch-all.lua",
-      "source": "redstone-watch-all/redstone-watch-all.lua"
+      "source": "packages/redstone-tools/redstone-watch-all/redstone-watch-all.lua"
     },
     {
       "path": "/redstone-test/redstone-test.lua",
-      "source": "redstone-test/redstone-test.lua"
+      "source": "packages/redstone-tools/redstone-test/redstone-test.lua"
     }
   ]
 }
