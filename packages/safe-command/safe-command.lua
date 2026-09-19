@@ -1,0 +1,2 @@
+local command=table.concat(arg," "); if command=="" then print("Usage: safe-command <command>"); return end
+print("About to run: "..command); print("Press Enter to continue, Ctrl-T to cancel."); read(); local ok,err=pcall(shell.run,command); print(ok and "Command finished." or ("Command error: "..tostring(err)))

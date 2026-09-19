@@ -6136,6 +6136,111 @@
           }
         ]
       }
+    },
+    "package-manifest-check": {
+      "name": "package-manifest-check",
+      "description": "Practical CC:Tweaked package manifest check utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/package-manifest-check/"
+        }
+      },
+      "manifest": {
+        "name": "package-manifest-check",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked package manifest check utility.",
+        "files": [
+          {
+            "path": "/package-manifest-check.lua",
+            "source": "package-manifest-check.lua"
+          }
+        ]
+      }
+    },
+    "package-file-check": {
+      "name": "package-file-check",
+      "description": "Practical CC:Tweaked package file check utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/package-file-check/"
+        }
+      },
+      "manifest": {
+        "name": "package-file-check",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked package file check utility.",
+        "files": [
+          {
+            "path": "/package-file-check.lua",
+            "source": "package-file-check.lua"
+          }
+        ]
+      }
+    },
+    "package-size": {
+      "name": "package-size",
+      "description": "Practical CC:Tweaked package size utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/package-size/"
+        }
+      },
+      "manifest": {
+        "name": "package-size",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked package size utility.",
+        "files": [
+          {
+            "path": "/package-size.lua",
+            "source": "package-size.lua"
+          }
+        ]
+      }
+    },
+    "health-check": {
+      "name": "health-check",
+      "description": "Practical CC:Tweaked health check utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/health-check/"
+        }
+      },
+      "manifest": {
+        "name": "health-check",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked health check utility.",
+        "files": [
+          {
+            "path": "/health-check.lua",
+            "source": "health-check.lua"
+          }
+        ]
+      }
+    },
+    "safe-command": {
+      "name": "safe-command",
+      "description": "Practical CC:Tweaked safe command utility.",
+      "versions": {
+        "1.0.0": {
+          "path": "packages/safe-command/"
+        }
+      },
+      "manifest": {
+        "name": "safe-command",
+        "version": "1.0.0",
+        "author": "CC-PKG Preset Repository",
+        "description": "Practical CC:Tweaked safe command utility.",
+        "files": [
+          {
+            "path": "/safe-command.lua",
+            "source": "safe-command.lua"
+          }
+        ]
+      }
     }
   }
 }
