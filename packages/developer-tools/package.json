@@ -6,11 +6,11 @@
   "files": [
     {
       "path": "/api-list/api-list.lua",
-      "source": "api-list/api-list.lua"
+      "source": "packages/developer-tools/api-list/api-list.lua"
     },
     {
       "path": "/lua-format/lua-format.lua",
-      "source": "lua-format/lua-format.lua"
+      "source": "packages/developer-tools/lua-format/lua-format.lua"
     }
   ]
 }
