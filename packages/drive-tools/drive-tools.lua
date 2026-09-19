@@ -1,0 +1,1 @@
+local a={...}; local cmd=a[1] or "list"; for _,n in ipairs(peripheral.getNames()) do if peripheral.hasType(n,"drive") then local d=peripheral.wrap(n); if cmd=="eject" then d.ejectDisk() elseif cmd=="play" then d.playAudio() end; print(n.." "..cmd) end end
