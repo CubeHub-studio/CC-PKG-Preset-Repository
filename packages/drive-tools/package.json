@@ -1,0 +1,13 @@
+{
+  "name": "drive-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked drive utilities.",
+  "files": [
+    {
+      "path": "/drive-tools.lua",
+      "source": "packages/drive-tools/drive-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
