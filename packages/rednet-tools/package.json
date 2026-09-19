@@ -6,95 +6,95 @@
   "files": [
     {
       "path": "/rednet-chat/rednet-chat.lua",
-      "source": "rednet-chat/rednet-chat.lua"
+      "source": "packages/rednet-tools/rednet-chat/rednet-chat.lua"
     },
     {
       "path": "/broadcast/broadcast.lua",
-      "source": "broadcast/broadcast.lua"
+      "source": "packages/rednet-tools/broadcast/broadcast.lua"
     },
     {
       "path": "/rednet-id/rednet-id.lua",
-      "source": "rednet-id/rednet-id.lua"
+      "source": "packages/rednet-tools/rednet-id/rednet-id.lua"
     },
     {
       "path": "/rednet-open/rednet-open.lua",
-      "source": "rednet-open/rednet-open.lua"
+      "source": "packages/rednet-tools/rednet-open/rednet-open.lua"
     },
     {
       "path": "/rednet-close/rednet-close.lua",
-      "source": "rednet-close/rednet-close.lua"
+      "source": "packages/rednet-tools/rednet-close/rednet-close.lua"
     },
     {
       "path": "/rednet-host/rednet-host.lua",
-      "source": "rednet-host/rednet-host.lua"
+      "source": "packages/rednet-tools/rednet-host/rednet-host.lua"
     },
     {
       "path": "/rednet-unhost/rednet-unhost.lua",
-      "source": "rednet-unhost/rednet-unhost.lua"
+      "source": "packages/rednet-tools/rednet-unhost/rednet-unhost.lua"
     },
     {
       "path": "/rednet-receive/rednet-receive.lua",
-      "source": "rednet-receive/rednet-receive.lua"
+      "source": "packages/rednet-tools/rednet-receive/rednet-receive.lua"
     },
     {
       "path": "/rednet-lookup/rednet-lookup.lua",
-      "source": "rednet-lookup/rednet-lookup.lua"
+      "source": "packages/rednet-tools/rednet-lookup/rednet-lookup.lua"
     },
     {
       "path": "/rednet-ping/rednet-ping.lua",
-      "source": "rednet-ping/rednet-ping.lua"
+      "source": "packages/rednet-tools/rednet-ping/rednet-ping.lua"
     },
     {
       "path": "/rednet-discovery/rednet-discovery.lua",
-      "source": "rednet-discovery/rednet-discovery.lua"
+      "source": "packages/rednet-tools/rednet-discovery/rednet-discovery.lua"
     },
     {
       "path": "/rednet-listen/rednet-listen.lua",
-      "source": "rednet-listen/rednet-listen.lua"
+      "source": "packages/rednet-tools/rednet-listen/rednet-listen.lua"
     },
     {
       "path": "/rednet-broadcast-json/rednet-broadcast-json.lua",
-      "source": "rednet-broadcast-json/rednet-broadcast-json.lua"
+      "source": "packages/rednet-tools/rednet-broadcast-json/rednet-broadcast-json.lua"
     },
     {
       "path": "/rednet-broadcast/rednet-broadcast.lua",
-      "source": "rednet-broadcast/rednet-broadcast.lua"
+      "source": "packages/rednet-tools/rednet-broadcast/rednet-broadcast.lua"
     },
     {
       "path": "/rednet-receive-once/rednet-receive-once.lua",
-      "source": "rednet-receive-once/rednet-receive-once.lua"
+      "source": "packages/rednet-tools/rednet-receive-once/rednet-receive-once.lua"
     },
     {
       "path": "/rednet-host-list/rednet-host-list.lua",
-      "source": "rednet-host-list/rednet-host-list.lua"
+      "source": "packages/rednet-tools/rednet-host-list/rednet-host-list.lua"
     },
     {
       "path": "/rednet-server/rednet-server.lua",
-      "source": "rednet-server/rednet-server.lua"
+      "source": "packages/rednet-tools/rednet-server/rednet-server.lua"
     },
     {
       "path": "/rednet-client/rednet-client.lua",
-      "source": "rednet-client/rednet-client.lua"
+      "source": "packages/rednet-tools/rednet-client/rednet-client.lua"
     },
     {
       "path": "/rednet-rpc/rednet-rpc.lua",
-      "source": "rednet-rpc/rednet-rpc.lua"
+      "source": "packages/rednet-tools/rednet-rpc/rednet-rpc.lua"
     },
     {
       "path": "/rednet-registry/rednet-registry.lua",
-      "source": "rednet-registry/rednet-registry.lua"
+      "source": "packages/rednet-tools/rednet-registry/rednet-registry.lua"
     },
     {
       "path": "/rednet-discover/rednet-discover.lua",
-      "source": "rednet-discover/rednet-discover.lua"
+      "source": "packages/rednet-tools/rednet-discover/rednet-discover.lua"
     },
     {
       "path": "/rednet-ping-all/rednet-ping-all.lua",
-      "source": "rednet-ping-all/rednet-ping-all.lua"
+      "source": "packages/rednet-tools/rednet-ping-all/rednet-ping-all.lua"
     },
     {
       "path": "/rednet-log/rednet-log.lua",
-      "source": "rednet-log/rednet-log.lua"
+      "source": "packages/rednet-tools/rednet-log/rednet-log.lua"
     }
   ]
 }
