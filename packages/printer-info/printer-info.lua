@@ -1,0 +1,1 @@
+for _,s in ipairs(peripheral.getNames()) do if peripheral.getType(s)=="printer" then local p=peripheral.wrap(s); print(s.." ink="..p.getInkLevel().." paper="..p.getPaperLevel().." page="..tostring(p.getPage())) end end
