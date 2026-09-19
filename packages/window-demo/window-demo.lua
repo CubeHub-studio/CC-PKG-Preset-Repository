@@ -1,0 +1,1 @@
+local w,h=term.getSize(); local win=window.create(term.current(),2,2,math.max(1,w-2),math.max(1,h-2),true); term.redirect(win); term.clear(); term.setCursorPos(1,1); print("CC-PKG Window Demo"); term.restore()
