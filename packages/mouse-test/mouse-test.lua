@@ -1,0 +1,1 @@
+print("Mouse test. Press Q."); while true do local e,b,x,y=os.pullEvent(); if e=="mouse_click" then print(("Click %d at %d,%d"):format(b,x,y)) elseif e=="mouse_scroll" then print(("Scroll %d at %d,%d"):format(b,x,y)) elseif e=="key" and b==keys.q then break end end
