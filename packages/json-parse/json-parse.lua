@@ -1,0 +1,1 @@
+local p=arg[1]; if not p or not fs.exists(p) then print("Usage: json-parse <file>") return end; local h=fs.open(p,"r"); local s=h.readAll(); h.close(); local ok,v=pcall(textutils.unserialiseJSON,s); if ok then print(textutils.serialize(v)) else print("Invalid JSON") end
