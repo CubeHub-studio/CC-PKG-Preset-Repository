@@ -1,0 +1,1 @@
+local n=arg[1]; if not n or not peripheral.hasType(n,"inventory") then print("Usage: inventory-capacity <inventory>") return end; local p=peripheral.wrap(n); local used=0; for _ in pairs(p.list()) do used=used+1 end; print(("Used: %d/%d, Free: %d"):format(used,p.size(),p.size()-used))
