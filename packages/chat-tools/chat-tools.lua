@@ -1,0 +1,1 @@
+local a={...}; local msg=table.concat(a," "); local modem=peripheral.find("modem"); if not modem then print("No modem found.") return end; local name=peripheral.getName(modem); rednet.open(name); if msg=="" then print("Listening..."); local id,text=rednet.receive(); print("["..id.."] "..tostring(text)) else rednet.broadcast(msg,"ccpkg-chat"); print("Sent: "..msg) end
