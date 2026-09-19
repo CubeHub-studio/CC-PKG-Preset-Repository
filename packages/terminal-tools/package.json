@@ -6,51 +6,51 @@
   "files": [
     {
       "path": "/motd/motd.lua",
-      "source": "motd/motd.lua"
+      "source": "packages/terminal-tools/motd/motd.lua"
     },
     {
       "path": "/color-test/color-test.lua",
-      "source": "color-test/color-test.lua"
+      "source": "packages/terminal-tools/color-test/color-test.lua"
     },
     {
       "path": "/term-size/term-size.lua",
-      "source": "term-size/term-size.lua"
+      "source": "packages/terminal-tools/term-size/term-size.lua"
     },
     {
       "path": "/term-clear/term-clear.lua",
-      "source": "term-clear/term-clear.lua"
+      "source": "packages/terminal-tools/term-clear/term-clear.lua"
     },
     {
       "path": "/term-reset/term-reset.lua",
-      "source": "term-reset/term-reset.lua"
+      "source": "packages/terminal-tools/term-reset/term-reset.lua"
     },
     {
       "path": "/term-color/term-color.lua",
-      "source": "term-color/term-color.lua"
+      "source": "packages/terminal-tools/term-color/term-color.lua"
     },
     {
       "path": "/term-size-set/term-size-set.lua",
-      "source": "term-size-set/term-size-set.lua"
+      "source": "packages/terminal-tools/term-size-set/term-size-set.lua"
     },
     {
       "path": "/term-center/term-center.lua",
-      "source": "term-center/term-center.lua"
+      "source": "packages/terminal-tools/term-center/term-center.lua"
     },
     {
       "path": "/term-cursor/term-cursor.lua",
-      "source": "term-cursor/term-cursor.lua"
+      "source": "packages/terminal-tools/term-cursor/term-cursor.lua"
     },
     {
       "path": "/term-box/term-box.lua",
-      "source": "term-box/term-box.lua"
+      "source": "packages/terminal-tools/term-box/term-box.lua"
     },
     {
       "path": "/terminal-banner/terminal-banner.lua",
-      "source": "terminal-banner/terminal-banner.lua"
+      "source": "packages/terminal-tools/terminal-banner/terminal-banner.lua"
     },
     {
       "path": "/term-info/term-info.lua",
-      "source": "term-info/term-info.lua"
+      "source": "packages/terminal-tools/term-info/term-info.lua"
     }
   ]
 }
