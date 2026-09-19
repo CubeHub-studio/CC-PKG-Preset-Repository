@@ -1,0 +1,13 @@
+{
+  "name": "parallel-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked parallel utilities.",
+  "files": [
+    {
+      "path": "/parallel-tools.lua",
+      "source": "packages/parallel-tools/parallel-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
