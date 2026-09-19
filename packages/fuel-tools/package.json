@@ -1,0 +1,13 @@
+{
+  "name": "fuel-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked fuel utilities.",
+  "files": [
+    {
+      "path": "/fuel-tools.lua",
+      "source": "packages/fuel-tools/fuel-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
