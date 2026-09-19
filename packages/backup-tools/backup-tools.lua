@@ -1,0 +1,1 @@
+local a={...}; local src=a[1] or "."; local dst=a[2] or (src..".bak"); if not fs.exists(src) then print("Backup source not found: "..src); return end; if fs.exists(dst) then fs.delete(dst) end; fs.copy(src,dst); print("Backup created: "..dst)
