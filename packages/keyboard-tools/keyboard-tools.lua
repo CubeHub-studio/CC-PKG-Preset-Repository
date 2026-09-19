@@ -1,0 +1,1 @@
+print("Press keys; Ctrl+T exits."); while true do local e,k=os.pullEvent("key"); print("key="..tostring(k).." name="..tostring(keys.getName(k))) end
