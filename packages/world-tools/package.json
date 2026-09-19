@@ -1,0 +1,13 @@
+{
+  "name": "world-tools",
+  "version": "1.0.0",
+  "author": "CC-PKG Preset Repository",
+  "description": "Useful CC:Tweaked world utilities.",
+  "files": [
+    {
+      "path": "/world-tools.lua",
+      "source": "packages/world-tools/world-tools.lua"
+    }
+  ],
+  "dependencies": []
+}
