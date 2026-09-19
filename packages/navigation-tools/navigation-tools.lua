@@ -1,0 +1,1 @@
+if not turtle then print("Navigation tools require a turtle.") return end; local n=tonumber(({...})[1]) or 1; for i=1,n do local ok,e=turtle.forward(); if not ok then print("Blocked: "..tostring(e)); break end end; print("Navigation complete.")
