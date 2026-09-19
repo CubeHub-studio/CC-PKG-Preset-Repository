@@ -6,39 +6,39 @@
   "files": [
     {
       "path": "/peripheral-watch/peripheral-watch.lua",
-      "source": "peripheral-watch/peripheral-watch.lua"
+      "source": "packages/peripheral-tools/peripheral-watch/peripheral-watch.lua"
     },
     {
       "path": "/peripheral-types/peripheral-types.lua",
-      "source": "peripheral-types/peripheral-types.lua"
+      "source": "packages/peripheral-tools/peripheral-types/peripheral-types.lua"
     },
     {
       "path": "/peripheral-count/peripheral-count.lua",
-      "source": "peripheral-count/peripheral-count.lua"
+      "source": "packages/peripheral-tools/peripheral-count/peripheral-count.lua"
     },
     {
       "path": "/peripheral-scan/peripheral-scan.lua",
-      "source": "peripheral-scan/peripheral-scan.lua"
+      "source": "packages/peripheral-tools/peripheral-scan/peripheral-scan.lua"
     },
     {
       "path": "/peripheral-info/peripheral-info.lua",
-      "source": "peripheral-info/peripheral-info.lua"
+      "source": "packages/peripheral-tools/peripheral-info/peripheral-info.lua"
     },
     {
       "path": "/peripheral-methods/peripheral-methods.lua",
-      "source": "peripheral-methods/peripheral-methods.lua"
+      "source": "packages/peripheral-tools/peripheral-methods/peripheral-methods.lua"
     },
     {
       "path": "/peripheral-find/peripheral-find.lua",
-      "source": "peripheral-find/peripheral-find.lua"
+      "source": "packages/peripheral-tools/peripheral-find/peripheral-find.lua"
     },
     {
       "path": "/peripheral-dashboard/peripheral-dashboard.lua",
-      "source": "peripheral-dashboard/peripheral-dashboard.lua"
+      "source": "packages/peripheral-tools/peripheral-dashboard/peripheral-dashboard.lua"
     },
     {
       "path": "/peripheral-call/peripheral-call.lua",
-      "source": "peripheral-call/peripheral-call.lua"
+      "source": "packages/peripheral-tools/peripheral-call/peripheral-call.lua"
     }
   ]
 }
