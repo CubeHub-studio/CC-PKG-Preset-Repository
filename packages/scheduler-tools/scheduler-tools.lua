@@ -1,0 +1,1 @@
+local a={...}; local seconds=tonumber(a[1]); local p=a[2]; if not seconds or not p then print("Usage: scheduler-tools <seconds> <program>"); return end; print("Waiting "..seconds.." seconds..."); sleep(seconds); shell.run(p); print("Scheduled task complete.")
