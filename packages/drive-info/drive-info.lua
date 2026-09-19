@@ -1,0 +1,1 @@
+for _,s in ipairs(peripheral.getNames()) do if peripheral.getType(s)=="drive" then local p=peripheral.wrap(s); print(s.." disk="..tostring(p.isDiskPresent()).." side="..tostring(p.getDiskLabel())) end end
