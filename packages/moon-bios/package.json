@@ -1,0 +1,8 @@
+{
+  "name": "moon-bios",
+  "description": "Moon BIOS for CC:Tweaked, maintained in the standalone CC-Moon-BIOS repository.",
+  "author": "CubeHub Studio",
+  "homepage": "https://github.com/CubeHub-studio/CC-Moon-BIOS",
+  "repository": "https://github.com/CubeHub-studio/CC-Moon-BIOS",
+  "license": "See CC-Moon-BIOS LICENSE"
+}
