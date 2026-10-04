@@ -961,6 +961,40 @@
           ]
         }
       }
+    },
+    "moon-bios": {
+      "name": "moon-bios",
+      "description": "Moon BIOS for CC:Tweaked, sourced from the standalone CC-Moon-BIOS repository.",
+      "homepage": "https://github.com/CubeHub-studio/CC-Moon-BIOS",
+      "repository": "https://github.com/CubeHub-studio/CC-Moon-BIOS",
+      "versions": {
+        "1.2.0-mini": {
+          "manifest": "packages/moon-bios/1.2.0-mini/package.json",
+          "devices": [
+            "computer"
+          ]
+        },
+        "1.2.0-advance": {
+          "manifest": "packages/moon-bios/1.2.0-advance/package.json",
+          "devices": [
+            "computer"
+          ]
+        },
+        "1.3.0": {
+          "manifest": "packages/moon-bios/1.3.0/package.json",
+          "devices": [
+            "computer"
+          ]
+        },
+        "1.3.0-pocket": {
+          "manifest": "packages/moon-bios/1.3.0-pocket/package.json",
+          "devices": [
+            "pocket_computer",
+            "advanced_pocket_computer",
+            "noisy_pocket_computer"
+          ]
+        }
+      }
     }
   }
 }
